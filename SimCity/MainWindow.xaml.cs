@@ -26,5 +26,13 @@ namespace SimCity
             InitializeComponent();
             DataContext = new MainViewModel();
         }
+
+        private void Tile_Click(object sender, RoutedEventArgs e)
+        {
+            if(sender is Button btn && btn.DataContext is TileViewModel tile)
+            {
+                tile.OnClick();
+            }
+        }
     }
 }

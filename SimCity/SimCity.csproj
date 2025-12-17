@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Game\GameController.cs" />
     <Compile Include="UI\MainViewModel.cs" />
     <Compile Include="UI\TileViewModel.cs" />
     <Page Include="MainWindow.xaml">

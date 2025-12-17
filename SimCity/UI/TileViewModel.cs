@@ -1,29 +1,36 @@
-﻿using SimCity.Map;
+﻿using SimCity.Game;
+using SimCity.Map;
 using System.ComponentModel;
 
 namespace SimCity.UI
 {
     public class TileViewModel : INotifyPropertyChanged
     {
-        public int X {  get; }
-        public int Y { get; }
+        private readonly Tile m_tile;
+        private readonly GameController m_controller;   
+        public int X => m_tile.X;
+        public int Y => m_tile.Y;
 
-        private TileType m_type;
         public TileType Type
         {
-            get => m_type;
+            get => m_tile.Type;
             set
             {
-                m_type = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(m_type)));
+                m_tile.Type = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Type)));
             }
         }
 
-        public TileViewModel(Tile tile)
+        public TileViewModel(Tile tile, GameController gc)
         {
-            X = tile.X;
-            Y = tile.Y;
-            m_type = tile.Type;
+            m_tile = tile;
+            m_controller = gc;
+        }
+
+        public void OnClick()
+        {
+            m_controller.ToggleResidential(X, Y);
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Type)));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

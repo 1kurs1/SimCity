@@ -17,9 +17,18 @@
 
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="0.5"
-Width="32" Height="32"
-Background="LightGreen" />
+                    <Button Width="32" Height="32" BorderThickness="0.5" Command="{x:Null}" Click="Tile_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="LightGreen" />
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Type}" Value="Residential">
+                                        <Setter Property="Background" Value="LightBlue" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
