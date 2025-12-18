@@ -1,0 +1,30 @@
+[
+  {
+    "id":"$shipyacht00",
+    "type":"ship",
+    "frames":[
+      {"x":283,"y":411,"w":17,"h":15,"count":4,"handle x":8,"handle y":12},
+      {"x":283,"y":426,"w":17,"h":15,"count":4,"handle x":8,"handle y":12}
+    ]
+  },
+
+  {
+    "id":"$shipcontainer00",
+    "type":"ship",
+    "length":2,
+    "frames":[
+      {"x":351,"y":441,"w":45,"h":29,"handle x":14,"handle y":16},
+      {"x":396,"y":441,"w":42,"h":29,"handle x":13,"handle y":24},
+      {"x":438,"y":441,"w":44,"h":29,"handle x":30,"handle y":24},
+      {"x":351,"y":412,"w":43,"h":29,"handle x":28,"handle y":17},
+      {"x":850,"y":793,"w":45,"h":29,"handle x":14,"handle y":16},
+      {"x":895,"y":793,"w":42,"h":29,"handle x":13,"handle y":24},
+      {"x":937,"y":793,"w":44,"h":29,"handle x":30,"handle y":24},
+      {"x":981,"y":793,"w":43,"h":29,"handle x":28,"handle y":17},
+      {"x":850,"y":764,"w":45,"h":29,"handle x":14,"handle y":16},
+      {"x":895,"y":764,"w":42,"h":29,"handle x":13,"handle y":24},
+      {"x":937,"y":764,"w":44,"h":29,"handle x":30,"handle y":24},
+      {"x":981,"y":764,"w":43,"h":29,"handle x":28,"handle y":17}
+    ]
+  }
+]

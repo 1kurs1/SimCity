@@ -1,0 +1,106 @@
+[
+  {
+    "id":"$medic00",
+	  "type":"medic",
+	  "width":1,
+	  "height":1,
+	  "frames":[{"x":1600,"y":1024,"w":32,"h":32,"count":1}],
+	  "frames winter":[{"x":192,"y":48,"w":32,"h":32,"offset x":1024,"offset y":2048}],
+    "animation":[
+      {"id":"1x2l", "x":6, "y":-15},
+      {"id":"1x2l", "x":11, "y":-2},
+      {"id":"1x2l", "x":20, "y":-8},
+      {"id":"1x2l", "x":26, "y":-5}
+    ],
+	  "price":4000,
+	  "monthly price":15,
+	  "influence health":80,
+	  "provide aspect health care":3000,
+	  "requirements":[{"type":"RANK", "lvl":1}],
+    "performance":true,
+    "pedestrian": "$pedestrian_medic00",
+    "pedestrian count": 1
+  },
+
+  {
+    "id":"$medic02",
+    "type":"medic",
+    "width":2,
+    "height":2,
+    "frames":[{"x":177,"y":762,"w":64,"h":66,"offset x":1024,"offset y":1024}],
+    "animation":[
+      {"id":"2x3l", "x":15, "y":-8},
+      {"id":"2x3l", "x":21, "y":-14},
+      {"id":"2x3l", "x":15, "y":-25},
+      {"id":"2x3l", "x":27, "y":-20},
+      {"id":"2x3l", "x":33, "y":-8},
+      {"id":"2x3l", "x":47, "y":0},
+      {"id":"2x3l", "x":59, "y":-24},
+      {"id":"$animationblinkingredlight3x3","x":31,"y":-51}
+    ],
+    "price":12000,
+    "monthly price":40,
+    "influence health":60,
+    "requirements":[{"type":"RANK", "lvl":6}],
+    "provide aspect health care":12000,
+    "performance":true,
+    "pedestrian": "$pedestrian_medic00",
+    "pedestrian count": 1
+  },
+
+  {
+    "id":"$medic01",
+    "type":"medic",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1536,"y":1168,"w":128,"h":96}],
+    "frames winter":[{"x":896,"y":522,"w":128,"h":96,"offset x":1024,"offset y":2048}],
+    "animation":[
+      {"id":"1x2l", "x":32, "y":0},
+      {"id":"1x2l", "x":43, "y":-4},
+      {"id":"1x2l", "x":48, "y":8},
+      {"id":"1x2l", "x":63, "y":6},
+      {"id":"1x2l", "x":77, "y":-10},
+      {"id":"1x2l", "x":92, "y":-8},
+      {"id":"1x2l", "x":104, "y":-14},
+      {"id":"2x3l", "x":32, "y":-21},
+      {"id":"2x3l", "x":46, "y":-23},
+      {"id":"2x3l", "x":89, "y":-38},
+      {"id":"$animationblinkingredlight3x3","x":54,"y":-45},
+      {"id":"$animationblinkingredlight3x3","x":56,"y":-39},
+      {"id":"$animationblinkingredlight3x3","x":92,"y":-54},
+      {"id":"$animationblinkingredlight3x3","x":94,"y":-57}
+    ],
+    "price":30000,
+    "monthly price":80,
+    "influence health":60,
+    "requirements":[{"type":"RANK", "lvl":8}],
+    "provide aspect health care":32000,
+    "performance":true,
+    "pedestrian": "$pedestrian_medic00",
+    "pedestrian count": 1
+  },
+
+
+  {
+    "id": "$medic03",
+    "type": "medic",
+    "width": 3,
+    "height": 3,
+    "frames": [{"x":672,"y":260,"w":96,"h":82,"offset x":1024,"offset y":1024}],
+    "animation":[
+      {"id":"$animationblinkingredlight3x3","x":52,"y":-58},
+      {"id":"$animationblinkingredlight3x3","x":69,"y":-55},
+      {"id":"$animationblinkingredlight3x3","x":71,"y":-53}
+    ],
+    "template":"$template_diamondbuilding00","diamond price":75,
+    "price": 80000,
+    "monthly price": 140,
+    "influence health": 120,
+    "requirements": [{"type": "RANK","lvl": 10}],
+    "provide aspect health care": 80000,
+    "performance":true,
+    "pedestrian": "$pedestrian_medic00",
+    "pedestrian count": 1
+  }
+]

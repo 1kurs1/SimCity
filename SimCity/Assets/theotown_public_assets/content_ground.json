@@ -1,0 +1,392 @@
+[
+
+  {
+    "id":"$ground00",
+    "type":"ground",
+    "water":false,
+    "frames":[{"x":0,"y":0,"w":32,"h":16,"count":6, "handle y": 7}],
+    "border frames":[{"x":0,"y":32,"w":32,"h":20,"handle y":8,"count":16}],
+    "template":"$template_ground_blended",
+    "title id":"draft_terrainland_title",
+    "text id":"draft_terrainland_text",
+    "texture":[{"x":960,"y":914,"w":32,"h":32,"count":2}],
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":6,"offset x":1024,"offset y":2048}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id":"$dirt00",
+    "type":"ground",
+    "water":false,
+    "frames":[{"x":512,"y":480,"w":32,"h":16,"count":6, "handle y": 7}],
+    "frames winter":[{"x":0,"y":16,"w":32,"h":16,"count":6,"offset x":1024,"offset y":2048}],
+    "border frames":[{"x":0,"y":964,"w":32,"h":20,"handle y":8,"count":16,"offset x":3072,"offset y":1024}],
+    "template":"$template_ground_blended",
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "hidden":true,
+    "texture":[{"x":960,"y":914,"w":32,"h":32,"count":2}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id":"$sand00",
+    "type":"ground",
+    "water":false,
+    "frames":[{"x":512,"y":496,"w":32,"h":16,"count":6, "handle y": 7}],
+    "frames winter":[{"x":0,"y":32,"w":32,"h":16,"count":6,"offset x":1024,"offset y":2048}],
+    "border frames":[{"x":0,"y":984,"w":32,"h":20,"handle y":8,"count":16,"offset x":3072,"offset y":1024}],
+    "template":"$template_ground_blended",
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "hidden":true,
+    "texture":[{"x":961,"y":979,"w":30,"h":30,"count":2}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+
+  {
+    "id":"$beach_gnd00",
+    "type":"ground",
+    "template":"$template_ground_blended",
+    "frames":[
+      {"x":1408,"y":1156,"w":32,"h":16,"count":4, "handle y": 7},
+      {"x":1408,"y":1172,"w":32,"h":16,"count":2, "handle y": 7}
+    ],
+    "border frames":[{"x":0,"y":1004,"w":32,"h":20,"handle y":8,"count":16,"offset x":3072,"offset y":1024}],
+    "map color":{"r":220,"g":210,"b":180},
+    "map color winter":{"r":220,"g":210,"b":180},
+    "shading factor":8,
+    "slope shading factor": 15
+  },
+
+  {
+    "id":"$water00",
+    "type":"ground",
+    "water":true,
+    //"frames":[{"x":0,"y":16,"w":32,"h":16,"handle y":4}],
+    //"frames":[{"x":64,"y":16,"w":32,"h":16,"handle y":4,"count": 8}],
+    "frames":[
+      {"x":0,"y":0,"w":32,"h":16,"handle y":4,"count": 32,"offset x": 1024, "offset y": 3072},
+      {"x":0,"y":16,"w":32,"h":16,"handle y":4,"count": 32,"offset x": 1024, "offset y": 3072}
+    ],
+    "sparkle frames":[
+      {"x":0,"y":32,"w":32,"h":16,"handle y":4,"count": 32,"offset x": 1024, "offset y": 3072},
+      {"x":0,"y":48,"w":32,"h":16,"handle y":4,"count": 32,"offset x": 1024, "offset y": 3072}
+    ],
+    "edge frames":[{"x":192,"y":96,"w":16,"h":48,"count":2}],
+    "color":{"r":39,"g":68,"b":93},
+    "hidden":true,
+    "title id":"draft_terrainwater_title",
+    "text id":"draft_terrainwater_text"
+  },
+
+
+  {
+    "id":"$permanent_snow00",
+    "type":"ground",
+    "hidden": false,
+    "water":false,
+    "frames":[{"x":0,"y":0,"w":32,"h":16,"count":6,"offset x":1024,"offset y":2048}],
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":6,"offset x":1024,"offset y":2048}],
+    "border frames":[{"x":0,"y":32,"w":32,"h":20,"handle y":8,"count":16}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "template":"$template_ground_blended",
+    "texture":[{"x":960,"y":946,"w":32,"h":32,"count":2}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}],
+    "winter": true,
+    "slope shading factor": 15
+  },
+
+  // More ground types introduced with biome update
+  {
+    "id": "$ground_dirt00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "frames": [
+      {"x": 707, "y": 532, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 534, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 634, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 872, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 76, "g": 53, "b": 30},
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":4,"offset x":1024,"offset y":2048}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id": "$ground_wildgrass00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "frames": [
+      {"x": 707, "y": 551, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 554, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 654, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 896, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 124, "g": 120, "b": 67},
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":4,"offset x":1024,"offset y":2048}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id": "$ground_darkgrass00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "frames": [
+      {"x": 707, "y": 570, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 574, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 674, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 920, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 51, "g": 72, "b": 35},
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":4,"offset x":1024,"offset y":2048}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id": "$ground_rockysand00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "frames": [
+      {"x": 707, "y": 589, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 594, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 694, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 944, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 210, "g": 192, "b": 160},
+    "map color winter": {"r": 210, "g": 192, "b": 160}
+  },
+  {
+    "id": "$ground_forestgrass00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "frames": [
+      {"x": 707, "y": 608, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 614, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 714, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 968, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 75, "g": 75, "b": 40},
+    "frames winter":[{"x":0,"y":0,"w":32,"h":16,"count":4,"offset x":1024,"offset y":2048}],
+    "border frames winter":[{"x":0,"y":972,"w":32,"h":20,"handle y":8,"count":16,"offset x":1024,"offset y":2048}],
+    "texture winter":[{"x":960,"y":946,"w":32,"h":32,"count":2}]
+  },
+  {
+    "id": "$ground_cursedland00",
+    "type": "ground",
+    "template": "$template_ground_blended",
+    "hidden": true,
+    "frames": [
+      {"x": 707, "y": 627, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 64, "y": 614, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048},
+      {"x": 64, "y": 714, "w": 32, "h": 20, "count": 8, "handle y": 8, "offset x": 1024, "offset y": 2048}
+    ],
+    "texture": [
+      {"x":  655, "y": 776, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 44, "g": 44, "b": 44},
+    "map color winter": {"r": 44, "g": 44, "b": 44}
+  },
+
+
+
+
+  // More decoration related
+  {
+    "id":"$groundborder",
+    "type":"animation",
+    "frames":[
+      {"x":0,"y":320,"w":32,"h":16,"handle x":0,"handle y":3},
+      {"x": 160,"y": 274,"w": 32,"h": 28,"handle y": 20}
+    ]
+  },
+
+  {
+    "id": "$template_grounddeco00",
+    "type": "template",
+    "template":"$template_ground",
+    "water":false,
+    "category":"$cat_asphalt00",
+    "pollution": false,
+    "blending": false,
+    "snow overlay": true
+  },
+  {
+    "id":"$asphalt00",
+    "type":"ground",
+    "frames":[{"x":416,"y":96,"w":32,"h":20,"handle y":8}],
+    "border frames":[{"x":416,"y":96,"w":32,"h":20,"handle y":8,"copies":15}],
+    "template": "$template_grounddeco00"
+  },
+  {
+    "id":"$asphalt01",
+    "type":"ground",
+    "text id":"draft_asphalt00_text",
+    "frames":[{"x":448,"y":96,"w":32,"h":20,"handle y":8}],
+    "border frames":[{"x":448,"y":96,"w":32,"h":20,"handle y":8,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$asphalt02",
+    "type":"ground",
+    "text id":"draft_asphalt00_text",
+    "frames":[{"x":480,"y":96,"w":32,"h":20,"handle y":8}],
+    "border frames":[{"x":480,"y":96,"w":32,"h":20,"handle y":8,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$asphalt03",
+    "type":"ground",
+    "text id":"draft_asphalt00_text",
+    "frames":[{"x":768,"y":1004,"w":32,"h":20,"handle y":8}],
+    "border frames":[{"x":768,"y":1004,"w":32,"h":20,"handle y":8,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$asphalt04",
+    "type":"ground",
+    "text id":"draft_asphalt00_text",
+    "frames":[{"x":800,"y":1004,"w":32,"h":20,"handle y":8}],
+    "border frames":[{"x":800,"y":1004,"w":32,"h":20,"handle y":8,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$concrete00",
+    "type":"ground",
+    "text id":"draft_concrete00_text",
+    "frames":[{"x":224,"y":300,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":300,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$concrete01",
+    "type":"ground",
+    "text id":"draft_concrete00_text",
+    "frames":[{"x":224,"y":280,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":280,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+
+  {
+    "id":"$sandstonetiles00",
+    "type":"ground",
+    "frames":[{"x":224,"y":240,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":240,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$brick00",
+    "type":"ground",
+    "text id":"draft_sandstonetiles00_text",
+    "frames":[{"x":224,"y":200,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":200,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$woodenpier00",
+    "type":"ground",
+    "text id":"draft_sandstonetiles00_text",
+    "frames":[{"x":224,"y":160,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":160,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$cobblestones00",
+    "type":"ground",
+    "text id":"draft_sandstonetiles00_text",
+    "frames":[{"x":224,"y":260,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":260,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$fancylongtiles00",
+    "type":"ground",
+    "text id":"draft_sandstonetiles00_text",
+    "frames":[{"x":224,"y":220,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":220,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id":"$finemarble00",
+    "type":"ground",
+    "text id":"draft_sandstonetiles00_text",
+    "frames":[{"x":224,"y":180,"w":32,"h":20,"handle y":8,"offset y": 3072}],
+    "border frames":[{"x":224,"y":180,"w":32,"h":20,"handle y":8,"offset y": 3072,"copies":15}],
+    "template":"$template_grounddeco00"
+  },
+  {
+    "id": "$ground_asphalt00",
+    "type": "ground",
+    "template": "$template_grounddeco00",
+    "frames": [
+      {"x": 707, "y": 475, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 707, "y": 475, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 475, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 475, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 475, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "texture": [
+      {"x":  655, "y": 800, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 76, "g": 66, "b": 66}
+  },
+  {
+    "id": "$ground_concrete00",
+    "type": "ground",
+    "template": "$template_grounddeco00",
+    "frames": [
+      {"x": 707, "y": 494, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 707, "y": 494, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 494, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 494, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 494, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "texture": [
+      {"x":  655, "y": 824, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 154, "g": 154, "b": 154}
+  },
+  {
+    "id": "$ground_sandstone00",
+    "type": "ground",
+    "template": "$template_grounddeco00",
+    "title": "Sandstone",
+    "text": "Sunny sandstone block surface.",
+    "frames": [
+      {"x": 707, "y": 513, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "border frames": [
+      {"x": 707, "y": 513, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 513, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 513, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024},
+      {"x": 707, "y": 513, "w": 32, "h": 19, "count": 4, "handle y": 7, "offset x": 2048, "offset y": 1024}
+    ],
+    "texture": [
+      {"x":  655, "y": 848, "w": 24, "h": 24, "count": 2, "offset x": 1024, "offset y": 2048}
+    ],
+    "map color": {"r": 165, "g": 151, "b": 124}
+  }
+]

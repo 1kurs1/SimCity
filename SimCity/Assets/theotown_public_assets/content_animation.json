@@ -1,0 +1,830 @@
+[
+  {
+    "id":"$animationblinkingredlight3x3",
+    "type":"animation",
+    "frames":[{"x":1632,"y":224,"w":3,"h":3,"count":8}],
+    "light": true
+  },
+  {
+    "id":"$animationblinkingbluelight3x3",
+    "type":"animation",
+    "frames":[{"x":632,"y":224,"w":3,"h":3,"count":8,"offset x":1024}],
+    "light": true
+  },
+  {
+    "id":"$animationblinkinggreenlight3x3",
+    "type":"animation",
+    "frames":[{"x":608,"y":227,"w":3,"h":3,"count":8,"offset x":1024}],
+    "light": true
+  },
+  {
+    "id":"$animationblinkingwhitelight3x3",
+    "type":"animation",
+    "frames":[{"x":632,"y":227,"w":3,"h":3,"count":8,"offset x":1024}],
+    "light": true
+  },
+  {
+    "id":"$animationblinkingyellowlight3x3",
+    "type":"animation",
+    "frames":[{"x":576,"y":253,"w":3,"h":3,"count":8,"offset x":1024}],
+    "light": true
+  },
+
+  {
+    "id":"$animationfan00",
+    "type":"animation",
+    "frames":[{"x":1664,"y":1473,"w":60,"h":58,"count":6}]
+  },
+
+  {
+    "id":"$animationfire00",
+    "type":"animation",
+    "frames":[{"x":896,"y":1024,"w":32,"h":48,"count":4}],
+    "light": true
+  },
+  {
+    "id":"$animationfire01",
+    "type":"animation",
+    "frames":[{"x":896,"y":1072,"w":32,"h":48,"count":4}],
+    "light": true
+  },
+  {
+    "id":"$animationfire02",
+    "type":"animation",
+    "frames":[{"x":896,"y":1120,"w":32,"h":48,"count":4}],
+    "light": true
+  },
+  {
+    "id":"$animationfire03",
+    "type":"animation",
+    "frames":[{"x":896,"y":1168,"w":32,"h":48,"count":4}],
+    "light": true
+  },
+  {
+    "id":"$animationfire04",
+    "type":"animation",
+    "frames":[{"x":0,"y":1924,"w":32,"h":40,"count":32,"handle x":16,"handle y":28}],
+    "speed":2,
+    "light": true
+  },
+
+  {
+    "id":"$animationindfan00",
+    "type":"animation",
+    "frames":[{"x":128,"y":1336,"w":12,"h":8,"count":4}]
+  },
+
+  {
+    "id":"$animationcaralertlights00",
+    "type":"animation",
+    "frames":[{"x":512,"y":675,"w":17,"h":9,"count":4}],
+    "light": true
+  },
+  {
+    "id":"$animationcaralertlightsmid00",
+    "type":"animation",
+    "frames":[{"x":512,"y":675,"w":17,"h":9,"count":4,"handle x": 8,"handle y": 4}],
+    "light": true
+  },
+
+  {
+    "id":"$animationpallettransporter00",
+    "type":"animation",
+    "frames":[
+      {"x":0,"y":1984,"w":57,"h":32,"count":15},
+      {"x":0,"y":2016,"w":57,"h":32,"count":15}
+    ]
+  },
+
+  {
+    "id":"$animationindfan01",
+    "type":"animation",
+    "frames":[{"x":128,"y":1328,"w":8,"h":4,"count":10}]
+  },
+
+  {
+    "id":"$animationindchem00",
+    "type":"animation",
+    "frames":[{"x":0,"y":1964,"w":19,"h":20,"count":12}]
+  },
+
+  {
+    "id":"$animationlighthouselight00",
+    "type":"animation",
+    "frames":[{"x":1952,"y":1536,"w":9,"h":5,"count":10}],
+    "light": true
+  },
+
+  {
+    "id":"$animationmeteorball00",
+    "type":"animation",
+    "frames":[{"x":856,"y":2009,"w":39,"h":39,"handle x":2,"handle y":37}],
+    "light": true
+  },
+
+  {
+    "id":"$animationtornado00",
+    "type":"animation",
+    "frames":[{"x":736,"y":1732,"w":96,"h":192,"count":3,"handle x":48,"handle y":177}],
+    "speed": 0.2
+  },
+  {
+    "id":"$animationtornadodirt00",
+    "type":"animation",
+    "frames":[{"x":448,"y":1860,"w":96,"h":64,"count":3,"handle x":48,"handle y":32}]
+  },
+  {
+    "id":"$animationtornadowater00",
+    "type":"animation",
+    "frames":[{"x":448,"y":1796,"w":96,"h":64,"count":3,"handle x":48,"handle y":32}]
+  },
+
+  {
+    "id":"$animationcom30fountain00",
+    "type":"animation",
+    "frames":[{"x":1632,"y":880,"w":12,"h":14,"count":4}]
+  },
+
+  {
+    "id":"$animationharbor06conveyor00",
+    "type":"animation",
+    "frames":[{"x":228,"y":1965,"w":22,"h":19,"count":10}]
+  },
+
+  {
+    "id":"$animationcom31logo00",
+    "type":"animation",
+    "frames":[{"x":1792,"y":1072,"w":28,"h":25,"count":8}],
+    "light": true
+  },
+  {
+    "id":"$animationcom31lights00",
+    "type":"animation",
+    "frames":[{"x":2016,"y":1072,"w":4,"h":12,"count":8}],
+    "light": true
+  },
+  {
+    "id":"$animationcom31fountain00",
+    "type":"animation",
+    "frames":[{"x":928,"y":1964,"w":12,"h":10,"count":8}]
+  },
+
+  {
+    "id":"$animationtownhall01flag00",
+    "type":"animation",
+    "frames":[{"x":1792,"y":1097,"w":6,"h":7,"count":6}]
+  },
+
+  {
+    "id":"$animationwaterpump01pipe00",
+    "type":"animation",
+    "frames":[{"x":1680,"y":880,"w":9,"h":8,"count":4}]
+  },
+
+  {
+    "id":"$animationfilterplant00pipe00",
+    "type":"animation",
+    "frames":[{"x":1716,"y":880,"w":11,"h":7,"count":4}]
+  },
+
+  {
+    "id":"$animationsewerpipe00pipe00",
+    "type":"animation",
+    "frames":[{"x":1728,"y":1815,"w":19,"h":25,"count":4}]
+  },
+
+  {
+    "id":"$animationmarina00flag00",
+    "type":"animation",
+    "frames":[{"x":1152,"y":1261,"w":4,"h":9,"count":6}]
+  },
+
+  {
+    "id":"$mushroomcloud00",
+    "type":"animation",
+    "frames":[{"x":704,"y":1664,"w":32,"h":48,"count":10,"handle x":0,"handle y":40}]
+  },
+
+  {
+    "id":"$animationprotester00",
+    "type":"animation",
+    "frames":[{"x":224,"y":96,"w":32,"h":18,"count":4,"handle y":10}],
+    "meta":{"tags":{"road occupation":{"speed":0.5,"remove flags":7}}}
+  },
+  {
+    "id":"$animationriot00",
+    "type":"animation",
+    "frames":[{"x":224,"y":114,"w":32,"h":18,"count":4,"handle y":10}],
+    "meta":{"tags":{
+      "road occupation":{
+        "speed":0.2,
+        "remove flags":6,
+        "locked":true
+      }
+    }}
+  },
+  {
+    "id":"$animationwaste00",
+    "type":"animation",
+    "frames":[{"x":64,"y":320,"w":32,"h":16,"handle y":8}],
+    "meta":{"tags":{"road occupation":{"speed":0.2,"remove flags":8,"locked":true}}}
+  },
+
+  {
+    "id":"$animationrailwaystation00clock00",
+    "type":"animation",
+    "frames":[
+      {"x":832,"y":914,"w":5,"h":8,"count":16},
+      {"x":0,"y":0,"w":0,"h":0,"count":16},
+      {"x":832,"y":914,"w":5,"h":8,"count":16},
+      {"x":0,"y":0,"w":0,"h":0,"count":16}
+    ],
+    "speed":0.2,
+    "rotation aware":true,
+    "light": true
+  },
+  {
+    "id":"$animationrailwaystation00clock01",
+    "type":"animation",
+    "frames":[
+      {"x":0,"y":0,"w":0,"h":0,"count":16},
+      {"x":832,"y":922,"w":5,"h":8,"count":16},
+      {"x":0,"y":0,"w":0,"h":0,"count":16},
+      {"x":832,"y":922,"w":5,"h":8,"count":16}
+    ],
+    "speed":0.2,
+    "rotation aware":true,
+    "light": true
+  },
+
+  {
+    "id":"$beachtile00",
+    "type":"animation",
+    "frames":[
+      {"x":1408,"y":1136,"w":32,"h":15,"count":4,"handle y":7},
+      {"x":1408,"y":1151,"w":32,"h":16,"count":4,"handle y":8},
+      {"x":1408,"y":1167,"w":32,"h":16,"count":4,"handle y":8},
+      {"x":1408,"y":1183,"w":32,"h":22,"count":4,"handle y":14},
+      {"x":1408,"y":1205,"w":32,"h":19,"count":4,"handle y":11},
+      {"x":1408,"y":1224,"w":32,"h":24,"count":4,"handle y":16}
+    ]
+  },
+
+  {
+    "id":"$animkite00",
+    "type":"animation",
+    "frames":[{"offset x":1024,"x":192,"y":1008,"w":32,"h":16,"count":10,"handle y":8}]
+  },
+  {
+    "id":"$animkite01",
+    "type":"animation",
+    "frames":[{"offset x":1024,"x":192,"y":984,"w":32,"h":24,"count":10,"handle y":52}]
+  },
+
+  {
+    "id":"$animbagger00",
+    "type":"animation",
+    "frames":[
+
+      {"x":592,"y":810,"w":19,"h":12,"handle x":5,"handle y":9},
+
+      {"x":611,"y":810,"w":18,"h":12,"handle x":4,"handle y":9},
+      {"x":629,"y":810,"w":20,"h":12,"handle x":6,"handle y":9},
+      {"x":649,"y":810,"w":21,"h":12,"handle x":7,"handle y":9},
+      {"x":670,"y":810,"w":14,"h":12,"handle x":0,"handle y":9},
+      {"x":684,"y":810,"w":15,"h":12,"handle x":1,"handle y":9},
+      {"x":699,"y":810,"w":18,"h":12,"handle x":1,"handle y":9},
+
+      {"x":717,"y":810,"w":17,"h":12,"handle x":1,"handle y":8},
+      {"x":717,"y":810,"w":17,"h":12,"handle x":1,"handle y":8},
+
+      {"x":699,"y":810,"w":18,"h":12,"handle x":1,"handle y":9},
+      {"x":684,"y":810,"w":15,"h":12,"handle x":1,"handle y":9},
+      {"x":670,"y":810,"w":14,"h":12,"handle x":0,"handle y":9},
+      {"x":649,"y":810,"w":21,"h":12,"handle x":7,"handle y":9},
+      {"x":629,"y":810,"w":20,"h":12,"handle x":6,"handle y":9},
+      {"x":611,"y":810,"w":18,"h":12,"handle x":4,"handle y":9},
+
+      {"x":592,"y":810,"w":19,"h":12,"handle x":5,"handle y":9}
+    ]
+  },
+
+
+  {
+    "id":"$animalertblue00",
+    "type":"animation",
+    "frames":[
+      {"x":512,"y":426,"w":8,"h":20,"handle x":3,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":520,"y":426,"w":13,"h":20,"handle x":5,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":533,"y":426,"w":16,"h":20,"handle x":6,"handle y":10,"offset x":1024,"offset y":1024},
+      {"x":549,"y":426,"w":16,"h":20,"handle x":7,"handle y":10,"offset x":1024,"offset y":1024},
+      {"x":565,"y":426,"w":12,"h":20,"handle x":5,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":577,"y":426,"w":16,"h":20,"handle x":7,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":593,"y":426,"w":16,"h":20,"handle x":7,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":609,"y":426,"w":14,"h":20,"handle x":7,"handle y":10,"offset x":1024,"offset y":1024}
+    ],
+    "color":{"r":74,"g":122,"b":244},
+    "light": true
+  },
+  {
+    "id":"$animalertred00",
+    "type":"animation",
+    "frames":[
+      {"x":512,"y":426,"w":8,"h":20,"handle x":3,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":520,"y":426,"w":13,"h":20,"handle x":5,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":533,"y":426,"w":16,"h":20,"handle x":6,"handle y":10,"offset x":1024,"offset y":1024},
+      {"x":549,"y":426,"w":16,"h":20,"handle x":7,"handle y":10,"offset x":1024,"offset y":1024},
+      {"x":565,"y":426,"w":12,"h":20,"handle x":5,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":577,"y":426,"w":16,"h":20,"handle x":7,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":593,"y":426,"w":16,"h":20,"handle x":7,"handle y":9,"offset x":1024,"offset y":1024},
+      {"x":609,"y":426,"w":14,"h":20,"handle x":7,"handle y":10,"offset x":1024,"offset y":1024}
+    ],
+    "color":{"r":233,"g":8,"b":8},
+    "additive":true,
+    "light": true
+  },
+  {
+    "id":"$animalertred01",
+    "type":"animation",
+    "frames":[
+      {"x":623,"y":426,"w":7,"h":7,"handle x":3,"handle y":3,"offset x":1024,"offset y":1024},
+      null
+    ],
+    "additive":true,
+    "speed":0.5,
+    "color":{"r":234,"g":52,"b":52},
+    "light": true
+  },
+
+  {
+    "id":"$animexplosion00",
+    "type":"animation",
+    "frames":[
+      {"x":312,"y":872,"w":64,"h":64,"count":4,"offset y":3072,"handle x":32,"handle y":32},
+      {"x":312,"y":936,"w":64,"h":64,"count":4,"offset y":3072,"handle x":32,"handle y":32}
+    ],
+    "light": true
+  },
+
+  {
+    "id":"$anim_people_source00",
+    "type":"animation",
+    "frames":[
+      {"x":224,"y":132,"w":1,"h":3,"count":16,"handle y":3}
+    ]
+  },
+  {
+    "id":"$anim_people_source01",
+    "type":"animation",
+    "frames":[
+      {"x":0,"y":736,"w":16,"h":32,"count":18},
+      {"x":288,"y":736,"w":32,"h":32},  // Wizard
+      {"x":124,"y":794,"w":32,"h":32},  // Teacher 0
+      {"x":156,"y":794,"w":16,"h":32},  // SWAT
+      {"x":172,"y":794,"w":32,"h":32},  // Teacher 1
+      {"x":224,"y":944,"w":16,"h":32,"count":6}
+    ]
+  },
+
+  {
+    "id":"$anim_connection_overlay00",
+    "type":"animation",
+    "frames":[{"x":768,"y":32,"w":32,"h":16,"count":4,"handle y":8}]
+  },
+
+  {
+    "id":"$anim_ocean00",
+    "type":"animation",
+    "frames":[{"x":0,"y":0,"w":128,"h":128,"count":8,"offset x":1024,"offset y":3072,"target height":64}]
+  },
+  {
+    "id":"$anim_ocean01",
+    "type":"animation",
+    "frames":[{"x":0,"y":128,"w":128,"h":128,"count":8,"offset x":1024,"offset y":3072,"target height":64}]
+  },
+
+  {
+    "id":"$anim_blank00",
+    "type":"animation",
+    "frames":[
+      {"x":480,"y":0,"w":32,"h":16,"handle y":8},
+      {"x":480,"y":16,"w":16,"h":16,"handle y":8},
+      {"x":496,"y":16,"w":16,"h":16,"handle x":-16,"handle y":8},
+      {"x":0,"y":748,"w":128,"h":64,"handle y":32,"offset x":1024,"offset y":2048}
+    ]
+  },
+
+  {
+    "id":"$anim_ui_new00",
+    "type":"animation",
+    "frames":[{"x":320,"y":736,"w":18,"h":18,"handle x":4,"handle y":4}]
+  },
+  {
+    "id":"$anim_ui_happiness00",
+    "type":"animation",
+    "frames":[{"x":124,"y":826,"w":15,"h":15,"count":5}]
+  },
+  {
+    "id":"$anim_ui_tilehighlight00",
+    "type":"animation",
+    "frames":[{"x":128,"y":256,"w":32,"h":64,"handle y":56}]
+  },
+
+  {
+    "id":"$anim_hand00",
+    "type":"animation",
+    "frames":[{"x":72,"y":90,"w":86,"h":72,"offset x":3072}]
+  },
+
+  {
+    "id":"$anim_overlay00",
+    "type":"animation",
+    "frames":[]
+  },
+
+  {
+    "id":"$anim_waste00",
+    "type":"animation",
+    "frames":[{"x":32,"y":320,"w":32,"h":16}]
+  },
+  {
+    "id":"$anim_skeletons00",
+    "type":"animation",
+    "frames":[{"x":40,"y":336,"w":32,"h":16}]
+  },
+  {
+    "id":"$anim_dust00",
+    "type":"animation",
+    "frames":[{"x":1,"y":337,"w":38,"h":38,"handle x":19,"handle y":19}],
+    "color":{"r":110,"g":80,"b":60}
+  },
+
+  {
+    "id":"$logo_unknown00",
+    "type":"animation",
+    "frames":[{"x":338,"y":865,"w":26,"h":26}]
+  },
+
+  {
+    "id":"$metro_marker00",
+    "type":"animation",
+    "frames":[{"x":338,"y":527,"w":22,"h":32,"handle x":-5,"handle y":32}]
+  },
+
+  {
+    "id":"$animationsnowroad",
+    "type":"animation",
+    "frames":[{"x":720,"y":778,"w":32,"h":19,"handle y":11}],
+    "meta":{"tags":{"road occupation":{"speed":0.05,"remove flags":16,"locked":true}}}
+  },
+
+  {
+    "id":"$anim_chr_sleigh00",
+    "type":"animation",
+    "frames":[{"x":512,"y":974,"w":32,"h":18,"count":4,"offset x":1024,"offset y":2048}]
+  },
+
+  {
+    "id": "$anim_cartool_emergency00",
+    "type": "animation",
+    "frames": [{"x": 178,"y": 120,"w": 26,"h": 26,"offset x": 3072}]
+  },
+  {
+    "id": "$anim_cartool_carremover00",
+    "type": "animation",
+    "frames": [{"x": 204,"y": 120,"w": 26,"h": 26,"offset x": 3072}]
+  },
+  {
+    "id": "$anim_cartool_steeringwheel00",
+    "type": "animation",
+    "frames": [{"x": 178,"y": 146,"w": 34,"h": 34,"offset x": 3072}]
+  },
+  {
+    "id": "$anim_cartool_brake00",
+    "type": "animation",
+    "frames": [{"x": 211,"y": 153,"w": 15,"h": 27,"offset x": 3072}]
+  },
+  {
+    "id": "$anim_cartool_throttle00",
+    "type": "animation",
+    "frames": [{"x": 225,"y": 153,"w": 15,"h": 27,"offset x": 3072}]
+  },
+
+  {
+    "id": "$anim_toolbar_showinfo00",
+    "type": "animation",
+    "frames": [{"x": 0, "y": 926, "w": 14, "h": 15}]
+  },
+  {
+    "id": "$anim_busroutetool_routealignment00",
+    "type": "animation",
+    "frames": [
+      {"x": 664,"y": 427,"w": 32,"h": 16,"offset x": 2048,"offset y": 1024, "count": 5,"handle y": 8},
+      {"x": 664,"y": 443,"w": 32,"h": 16,"offset x": 2048,"offset y": 1024, "count": 5,"handle y": 8},
+      {"x": 664,"y": 459,"w": 32,"h": 16,"offset x": 2048,"offset y": 1024, "count": 5,"handle y": 8}
+    ]
+  },
+
+  {
+    "id": "$kulche_car_truck_load_00",
+    "type": "animation",
+    "frames": [
+      {
+        "x": 616,
+        "y": 618,
+        "w": 14,
+        "h": 13,
+        "count": 4,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 672,
+        "y": 618,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 685,
+        "y": 618,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 689,
+        "y": 618,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 702,
+        "y": 618,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      }
+    ],
+    "speed": 0,
+    "rotation aware": true,
+    "colors": [
+      "#D8D8D8",
+      "#8C8C8C",
+      "#506172"
+    ]
+  },
+  {
+    "id": "$kulche_car_truck_load_01",
+    "type": "animation",
+    "frames": [
+      {
+        "x": 616,
+        "y": 631,
+        "w": 14,
+        "h": 13,
+        "count": 4,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 672,
+        "y": 631,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 685,
+        "y": 631,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 689,
+        "y": 631,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 702,
+        "y": 631,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      }
+    ],
+    "speed": 0,
+    "rotation aware": true,
+    "colors": [
+      "#D8D8D8",
+      "#8C8C8C",
+      "#506172"
+    ]
+  },
+  {
+    "id": "$kulche_car_truck_load_02",
+    "type": "animation",
+    "frames": [
+      {
+        "x": 616,
+        "y": 644,
+        "w": 14,
+        "h": 13,
+        "count": 4,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 672,
+        "y": 644,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 685,
+        "y": 644,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 689,
+        "y": 644,
+        "w": 13,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 702,
+        "y": 644,
+        "w": 4,
+        "h": 13,
+        "offset x": 2048,
+        "offset y": 1024
+      }
+    ],
+    "speed": 0,
+    "rotation aware": true,
+    "colors": [
+      "#D8D8D8",
+      "#8C8C8C",
+      "#D8A256",
+      "#E5C567"
+    ]
+  },
+  {
+    "id": "$kulche_car_semi_mask_00",
+    "type": "animation",
+    "frames": [
+      {
+        "handle y": -4,
+        "x": 100,
+        "y": 254,
+        "w": 9,
+        "h": 5,
+        "count": 4,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "handle y": -4,
+        "x": 136,
+        "y": 254,
+        "w": 6,
+        "h": 5,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "handle y": -4,
+        "x": 142,
+        "y": 254,
+        "w": 4,
+        "h": 5,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "handle y": -4,
+        "x": 146,
+        "y": 254,
+        "w": 6,
+        "h": 5,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "handle y": -4,
+        "x": 152,
+        "y": 254,
+        "w": 4,
+        "h": 5,
+        "offset x": 2048,
+        "offset y": 1024
+      }
+    ],
+    "speed": 0,
+    "rotation aware": true
+  },
+  {
+    "id": "$kulche_car_semi_load_00",
+    "type": "animation",
+    "frames": [
+      {
+        "x": 337,
+        "y": 448,
+        "w": 18,
+        "h": 14,
+        "count": 4,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 409,
+        "y": 448,
+        "w": 17,
+        "h": 14,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 426,
+        "y": 448,
+        "w": 4,
+        "h": 14,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 430,
+        "y": 448,
+        "w": 17,
+        "h": 14,
+        "offset x": 2048,
+        "offset y": 1024
+      },
+      {
+        "x": 447,
+        "y": 448,
+        "w": 4,
+        "h": 14,
+        "offset x": 2048,
+        "offset y": 1024
+      }
+    ],
+    "speed": 0,
+    "rotation aware": true,
+    "colors": [
+      "#D8D8D8",
+      "#8C8C8C",
+      "#506172"
+    ]
+  },
+
+  {
+    "id": "$anim_road_snow_overlay00",
+    "type": "animation",
+    "frames": [
+      {"x": 576, "y": 651, "w": 32, "h": 16, "offset x": 1024, "offset y": 2048, "handle y": 8, "count": 4},
+      {"x": 576, "y": 667, "w": 32, "h": 16, "offset x": 1024, "offset y": 2048, "handle y": 8, "count": 4},
+      {"x": 576, "y": 683, "w": 32, "h": 16, "offset x": 1024, "offset y": 2048, "handle y": 8, "count": 4},
+      {"x": 576, "y": 699, "w": 32, "h": 16, "offset x": 1024, "offset y": 2048, "handle y": 8, "count": 4}
+    ]
+  },
+
+  {
+    "id": "$anim_ground_snow_overlay00",
+    "type": "animation",
+    "frames": [
+      {"x": 768, "y": 373, "w": 32, "h": 16, "offset x": 1024, "offset y": 2048, "handle y": 8}
+    ]
+  },
+
+  {
+    "id": "$anim_gui_gradient_x00",
+    "type": "animation",
+    "frames": [
+      // Brightness black -> white
+      {"x":  0, "y": 526, "w": 256, "h": 1},
+      // Hue red -> green -> blue -> red
+      {"x":  0, "y": 525, "w": 256, "h": 1}
+    ]
+  }
+
+]

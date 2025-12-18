@@ -1,0 +1,94 @@
+[
+   {
+      "id":"$smoke00",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1024,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke01",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1056,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke02",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1088,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke03",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1120,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke04",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1152,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke05",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1184,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke06",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1216,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$smoke07",
+      "type":"smoke",
+      "frames":[{"x":512,"y":1248,"w":32,"h":32,"count":9}]
+   },
+   {
+      "id":"$watervapor00",
+      "type":"smoke",
+      "frames":[
+        {"x":512,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":16,"target h":16},
+        {"x":544,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":24,"target h":24},
+        {"x":512,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":-32,"target h":32},
+        {"x":544,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":-40,"target h":40},
+        {"x":512,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":48,"target h":48},
+        {"x":544,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":56,"target h":56},
+        {"x":512,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":-64,"target h":64},
+        {"x":544,"y":1280,"w":32,"h":32,"handle x":16,"handle y":16,"target w":-72,"target h":72}
+      ],
+      "speed":0.25,
+      "scale":6
+   },
+   {
+      "id":"$qualm00",
+      "type":"smoke",
+      "frames":[
+        {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":8,"target h":8},
+        {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":12,"target h":12},
+        {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-16,"target h":16},
+        {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-20,"target h":20},
+        {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":24,"target h":24},
+        {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":28,"target h":28},
+        {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-32,"target h":32},
+        {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-36,"target h":36}
+      ],
+      "speed":0.3,
+     "scale":4
+   },
+  {
+    "id":"$qualm01",
+    "type":"smoke",
+    "frames":[
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":8,"target h":8},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":12,"target h":12},
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-16,"target h":16},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-20,"target h":20},
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":24,"target h":24},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":28,"target h":28},
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-32,"target h":32},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-36,"target h":36},
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":40,"target h":40},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":44,"target h":44},
+      {"x":576,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-48,"target h":48},
+      {"x":608,"y":256,"w":32,"h":32,"handle x":16,"handle y":16,"offset y":1024,"target w":-52,"target h":52}
+    ],
+    "speed":0.3,
+    "scale":8
+  }
+]

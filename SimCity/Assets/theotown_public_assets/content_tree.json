@@ -1,0 +1,213 @@
+[
+  {
+    "id": "$tree_template00",
+    "type": "template",
+    "influence pollution":-1,
+    "influence noise":-1,
+    "influence nature":1,
+    "influence radioactive":-1
+  },
+
+  {
+    "id":"$flowers00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[
+      {"x":704,"y":480,"w":32,"h":16,"count":6}
+    ],
+    "auto build":false,
+    "price":10,
+    "burnable": false,
+    "map color": {"r":70,"g":100,"b":60}
+  },
+  {
+    "id": "$foliage_bushes00",
+    "type": "tree",
+    "template": "$tree_template00",
+    "frames": [
+      {"x": 768, "y": 476, "w": 32, "h": 14, "count": 4, "offset x": 1024, "offset y": 2048}
+    ],
+    "frames per tree": 1,
+    "map color": {"r": 79, "g": 102, "b": 35}
+  },
+  {
+    "id":"$tree00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[
+      {"x":0,"y":65,"w":32,"h":31,"count":32},
+      {"x":896,"y":33,"w":32,"h":31}, {"x":896,"y":33,"w":32,"h":31},
+      {"x":928,"y":33,"w":32,"h":31}, {"x":928,"y":33,"w":32,"h":31},
+      {"x":960,"y":33,"w":32,"h":31}, {"x":960,"y":33,"w":32,"h":31},
+      {"x":992,"y":33,"w":32,"h":31}, {"x":992,"y":33,"w":32,"h":31}
+    ],
+    "frames winter":[
+      {"x":0,"y":993,"w":32,"h":31,"count":32,"offset x":1024,"offset y":2048},
+      {"x":0,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048}, {"x":0,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048},
+      {"x":32,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048}, {"x":32,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048},
+      {"x":64,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048}, {"x":64,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048},
+      {"x":96,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048}, {"x":96,"y":49,"w":32,"h":31,"offset x":1024,"offset y":2048}
+    ],
+    "frames per tree":2,
+    "meta":{"tags":{"ranger tree":{}}}
+  },
+  {
+    "id":"$tree00_autumn00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[
+      {"x":0,"y":0,"w":32,"h":32,"count":32,"offset x":2048,"offset y":1024}
+    ],
+    "frames winter":[
+      {"x":0,"y":992,"w":32,"h":32,"count":32,"offset x":1024,"offset y":2048}
+    ],
+    "frames per tree":2,
+    "auto build":false
+  },
+
+
+  {
+    "id":"$tree_alder00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[{"x":640,"y":132,"w":32,"h":24,"count":8,"offset y":3072}],
+    "auto build":false,
+    "build height":4,
+    "price":50
+  },
+  {
+    "id":"$tree_spruce00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[{"x":640,"y":156,"w":32,"h":23,"count":8,"offset y":3072}],
+    "frames winter": [{"x": 480, "y": 572, "w": 32, "h": 23, "count": 8, "offset x": 1024, "offset y": 2048}],
+    "auto build":false,
+    "build height":4,
+    "price":50
+  },
+
+  {
+    "id":"$tree_sakura00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[{"x":64,"y":279,"w":32,"h":27,"count":6,"offset x":1024,"offset y":2048}],
+    "auto build":false,
+    "price":80,
+    "map color": {
+      "r": 220,
+      "g": 160,
+      "b": 220
+    }
+  },
+
+  {
+    "id":"$palmtree00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[{"x":96,"y":320,"w":32,"h":32,"count":3}],
+    "price":80
+  },
+
+  {
+    "id":"$cactus00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[
+      {"x":96,"y":352,"w":32,"h":16,"count":3},
+      {"x":896,"y":336,"w":32,"h":16,"count":4}
+    ],
+    "price": 20,
+    "map color": {"r":160,"g":160,"b":120},
+    "map color winter": {"r":33,"g":50,"b":20}
+  },
+
+  {
+    "id": "$tree_linden00",
+    "type": "tree",
+    "template": "$tree_template00",
+    "frames": [
+      {"x": 736, "y": 490, "w": 32, "h": 26, "count": 5, "offset x": 1024, "offset y": 2048},
+      {"x": 736, "y": 576, "w": 32, "h": 26, "count": 5, "offset x": 1024, "offset y": 2048}
+    ],
+    "frames per tree": 2,
+    "map color": {"r": 115, "g": 153, "b": 62}
+  },
+  {
+    "id": "$tree_aspen00",
+    "type": "tree",
+    "template": "$tree_template00",
+    "frames": [
+      {"x": 736, "y": 516, "w": 32, "h": 32, "count": 5, "offset x": 1024, "offset y": 2048},
+      {"x": 736, "y": 602, "w": 32, "h": 32, "count": 5, "offset x": 1024, "offset y": 2048}
+    ],
+    "frames per tree": 2,
+    "map color": {"r": 216, "g": 153, "b": 65}
+  },
+  {
+    "id": "$tree_fir00",
+    "type": "tree",
+    "template": "$tree_template00",
+    "frames": [
+      {"x": 736, "y": 548, "w": 32, "h": 28, "count": 5, "offset x": 1024, "offset y": 2048},
+      {"x": 736, "y": 634, "w": 32, "h": 28, "count": 5, "offset x": 1024, "offset y": 2048}
+    ],
+    "frames winter": [
+      {"x": 576, "y": 595, "w": 32, "h": 28, "count": 5, "offset x": 1024, "offset y": 2048},
+      {"x": 576, "y": 623, "w": 32, "h": 28, "count": 5, "offset x": 1024, "offset y": 2048}
+    ],
+    "frames per tree": 2,
+    "map color": {"r": 54, "g": 89, "b": 68}
+  },
+
+  {
+    "id":"$redwood_tree00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "author":"THEMAX",
+    "frames":[
+      {"x":96,"y":541,"w":32,"h":68,"offset x":2048,"offset y":1024},
+      {"x":96,"y":458,"w":32,"h":83,"offset x":2048,"offset y":1024},
+      {"x":64,"y":458,"w":32,"h":90,"offset x":2048,"offset y":1024},
+      {"x":0,"y":458,"w":32,"h":100,"offset x":2048,"offset y":1024},
+      {"x":32,"y":458,"w":32,"h":100,"offset x":2048,"offset y":1024},
+      {"x":0,"y":338,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":32,"y":338,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":64,"y":338,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":96,"y":338,"w":32,"h":120,"offset x":2048,"offset y":1024}
+    ],
+    "frames winter":[
+      {"x":32,"y":778,"w":32,"h":68,"offset x":2048,"offset y":1024},
+      {"x":64,"y":758,"w":32,"h":83,"offset x":2048,"offset y":1024},
+      {"x":64,"y":668,"w":32,"h":90,"offset x":2048,"offset y":1024},
+      {"x":0,"y":678,"w":32,"h":100,"offset x":2048,"offset y":1024},
+      {"x":32,"y":678,"w":32,"h":100,"offset x":2048,"offset y":1024},
+      {"x":0,"y":558,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":32,"y":558,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":64,"y":548,"w":32,"h":120,"offset x":2048,"offset y":1024},
+      {"x":96,"y":609,"w":32,"h":120,"offset x":2048,"offset y":1024}
+    ],
+    "frames per tree":1,
+    "influence nature":2
+  },
+  {
+    "id":"$jungletree00",
+    "type":"tree",
+    "template": "$tree_template00",
+    "frames":[{"x":512,"y":684,"w":32,"h":64,"count":4,"offset y":3072}],
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence nature":2,
+    "build height":4,
+    "price":100
+  },
+
+  {
+    "id":"$halloween_tree00",
+    "type":"tree",
+    "frames":[
+      {"x":177,"y":828,"w":32,"h":32,"offset x":1024,"offset y":1024},
+      {"x":480,"y":719,"w":32,"h":32,"offset x":1024,"offset y":1024}
+    ],
+    "price":666
+  }
+]

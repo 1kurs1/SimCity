@@ -3,6 +3,9 @@
     public enum TileType
     {
         Empty,
-        Residential
+        Residential,
+        Commercial,
+        Industrial,
+        Road
     }
 }

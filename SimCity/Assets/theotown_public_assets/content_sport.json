@@ -1,0 +1,144 @@
+[
+  {
+    "id":"$basketball00",
+    "type":"sport",
+    "width":2,
+    "height":2,
+    "frames":[{"x":1216,"y":1136,"w":64,"h":48}],
+    "price":500,
+    "monthly price":8,
+    "influence sport":8,
+    "power":0,
+    "water":0,
+    "needs road":false,
+    "build height":1,
+    "requirements":[
+      {"type":"RANK", "lvl":5}
+    ]
+  },
+
+  {
+    "id":"$tennis00",
+    "type":"sport",
+    "width":2,
+    "height":2,
+    "frames":[
+      {"x":263,"y":658,"w":64,"h":39,"offset x":1024,"offset y":1024},
+      {"x":1280,"y":1145,"w":64,"h":39,"offset x":0,"offset y":0}
+    ],
+    "frames winter":[
+      {"x":512,"y":32,"w":64,"h":39,"offset x":1024,"offset y":2048},
+      {"x":1280,"y":1145,"w":64,"h":39,"offset x":0,"offset y":0}
+    ],
+    "price":4000,
+    "monthly price":9,
+    "influence sport":14,
+    "power":0,
+    "water":0,
+    "needs road":false,
+    "build height":2,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":6}}]}
+  },
+
+  {
+    "id":"$footballfield00",
+    "type":"sport",
+    "width":8,
+    "height":8,
+    "frames":[{"x":1280,"y":1370,"w":256,"h":134}],
+    "frames winter":[{"x":480,"y":438,"w":256,"h":134,"offset x": 1024,"offset y": 2048}],
+    "price":14000,
+    "monthly price":34,
+    "influence sport":20,
+    "build height":4,
+    "power":0,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":7}}]}
+  },
+  {
+    "id":"$rugbyfield00",
+    "type":"sport",
+    "width":8,
+    "height":8,
+    "frames":[{"x":256,"y":716,"w":256,"h":128,"offset y":3072}],
+    "frames winter":[{"x":512,"y":310,"w":256,"h":128,"offset x": 1024,"offset y":2048}],
+    "price":18000,
+    "monthly price":40,
+    "influence sport":30,
+    "build height":4,
+    "power":0,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":8}}]}
+  },
+
+  {
+    "id":"$pool00",
+    "type":"sport",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1024,"y":1264,"w":128,"h":80}],
+    "price":30000,
+    "monthly price":25,
+    "influence sport":60,
+    "build height":4,
+    "upgrades":[
+      {
+        "id":"$pool00_waterslide",
+        "frames":[{"x":1201,"y":1664,"w":64,"h":26,"handle x":-64,"handle y":23}],
+        "price":2000,
+        "monthly price":20,
+        "influence sport":60,
+        "requirements":[
+          {"type":"RANK","lvl":11}
+        ],
+        "build time":30
+      }
+    ],
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":9}}]}
+  },
+
+  {
+    "id":"$footballstadion00",
+    "type":"sport",
+    "width":8,
+    "height":8,
+    "frames":[{"x":1024,"y":1536,"w":256,"h":128}],
+    "price":50000,
+    "monthly price":40,
+    "influence sport":100,
+    "build height":5,
+    "upgrades":[
+      {
+        "id":"$footballstadion00_lights",
+        "frames":[
+          {"x":1280,"y":1536,"w":40,"h":59,"handle x":-108,"handle y":95},
+          {"x":1320,"y":1536,"w":191,"h":104,"handle x":-55,"handle y":68}
+        ],
+        "price":2000,
+        "monthly price":200,
+        "influence sport":10,
+        "build time":20
+      },
+      {
+        "id":"$footballstadion00_roof",
+        "frames":[
+          {"x":1351,"y":1640,"w":179,"h":105,"handle x":-38,"handle y":59},
+          {"x":1024,"y":1664,"w":177,"h":68,"handle x":-40,"handle y":23}
+        ],
+        "price":4000,
+        "monthly price":100,
+        "influence sport":10,
+        "build time":30
+      },
+      {
+        "id":"$footballstadion00_fanshop",
+        "frames":[
+          {"x":1280,"y":1640,"w":0,"h":0},
+          {"x":1280,"y":1640,"w":71,"h":42,"handle x":-33,"handle y":2}
+        ],
+        "price":5000,
+        "monthly price":-500,
+        "build time":30
+      }
+    ],
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":10}}]}
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "hidden":true,
+    "id":"$beachnearwater00",
+    "type":"park",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1408,"y":1136,"w":32,"h":20,"count":4,"handle y":8}],
+    "rotation aware":true,
+    "draw ground":true,
+    "needs road":false,
+    "water":0,
+    "power":0
+  },
+
+  {
+    "id":"$beach00",
+    "type":"park",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":1408,"y":1188,"w":32,"h":22,"count":4,"handle y":14},
+      {"x":1408,"y":1156,"w":32,"h":16,"count":4,"handle y":8},
+      {"x":1408,"y":1172,"w":32,"h":16,"count":4,"handle y":8},
+      {"x":1408,"y":1210,"w":32,"h":20,"count":4,"handle y":12},
+      {"x":1408,"y":1230,"w":32,"h":24,"count":4,"handle y":16}
+    ],
+    "needs road":false,
+    "water":0,
+    "power":0,
+    "influence park":10,
+    "influence sport":1,
+    "influence pollution":-2,
+    "price":120,
+    "monthly price":1,
+    "selectable frames":false,
+    "draw ground":true,
+    "supports slope": false,
+    "supports terrain": false,
+    "build time":0,
+    "price factor":0.1
+  },
+
+  {
+    "id":"$park01",
+    "type":"park",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":1056,"y":1024,"w":32,"h":32,"count":3},
+      {"x":1216,"y":1024,"w":32,"h":32,"count":10},
+      {"x":1344,"y":1104,"w":32,"h":32,"count":6},
+      {"x":1024,"y":1024,"w":32,"h":32}
+    ],
+    "build time":0,
+    "needs road":false,
+    "price":500,
+    "monthly price":1,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":10,
+    "water":0,
+    "power":0,
+    "pedestrian count": 1
+  },
+  {
+    "id":"$waterfountain00",
+    "type":"park",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1024,"y":1056,"w":32,"h":48,"count":16}],
+    "animated":true,
+    "build time":0,
+    "needs road":false,
+    "price":1000,
+    "monthly price":2,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":30,
+    "water":0,
+    "power":0,
+    "requirements":[{"type":"RANK", "lvl":2}],
+    "burnable": false
+  },
+
+  {
+    "id":"$waterfountain01",
+    "type":"park",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1216,"y":1104,"w":32,"h":32,"count":4}],
+    "animated":true,
+    "build time":0,
+    "needs road":false,
+    "price":1000,
+    "monthly price":2,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":30,
+    "water":0,
+    "power":0,
+    "requirements":[{"type":"RANK", "lvl":2}],
+    "burnable": false
+  },
+
+  {
+    "id":"$treepark00",
+    "type":"park",
+    "width":2,
+    "height":2,
+    "frames":[
+      {"x":1344,"y":1136,"w":64,"h":48},
+      {"x":1152,"y":1104,"w":64,"h":48},
+      {"x":177,"y":666,"w":64,"h":48,"offset x":1024,"offset y":1024},
+      {"x":177,"y":714,"w":64,"h":48,"offset x":1024,"offset y":1024}
+    ],
+    "build time":0,
+    "needs road":false,
+    "price":2400,
+    "monthly price":3,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":20,
+    "water":0,
+    "power":0,
+    "requirements":[{"type":"RANK", "lvl":3}],
+    "draw water ground": true
+  },
+
+  {
+    "id":"$middlepark00",
+    "type":"park",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1024,"y":1184,"w":96,"h":64}],
+    "needs road":false,
+    "price":6000,
+    "monthly price":3,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":16,
+    "upgrades":[
+      {
+        "id":"$middlepark00_lights",
+        "frames":[
+          {"x":1120,"y":1184,"w":96,"h":64}
+        ],
+        "price":2000,
+        "monthly price":20,
+        "influence park":8,
+        "only one":true,
+        "build time":20
+      },
+      {
+        "id":"$middlepark00_clock",
+        "frames":[
+          {"x":1216,"y":1184,"w":96,"h":64}
+        ],
+        "price":2000,
+        "monthly price":20,
+        "influence park":8,
+        "only one":true,
+        "build time":20
+      }
+    ],
+      "requirements":[{"type":"RANK", "lvl":4}]
+  },
+
+  {
+    "id":"$biergarten00",
+    "type":"park",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1312,"y":1184,"w":96,"h":64}],
+    "animation":[
+      {"id":"1x2l", "x":25, "y":-18},
+      {"id":"1x3l", "x":28, "y":-11},
+      {"id":"1x2l", "x":49, "y":-17},
+      {"id":"1x2l", "x":55, "y":-16},
+      {"id":"1x2l", "x":41, "y":-25},
+      {"id":"cutelamp", "x":29, "y":-4},
+      {"id":"cutelamp", "x":42, "y":2},
+      {"id":"cutelamp", "x":57, "y":1},
+      {"id":"cutelamp", "x":67, "y":-5}
+    ],
+    "influence park":20,
+    "influence sport":8,
+    "price":8000,
+    "monthly price":4,
+    "requirements":[{"type":"RANK", "lvl":5}]
+  },
+
+  {
+    "id":"$bigpark00",
+    "type":"park",
+    "width":4,
+    "height":4,
+    "frames":[
+      {"x":128,"y":873,"w":128,"h":80,"offset x":1024,"offset y":1024},
+      {"x":1024,"y":1104,"w":128,"h":80},
+      {"x":512,"y":384,"w":128,"h":80,"offset y":3072}
+    ],
+    "needs road":false,
+    "price":12000,
+    "monthly price":5,
+    "influence pollution":-2,
+    "influence noise":-2,
+    "influence park":20,
+    "power":0,
+    "requirements":[{"type":"RANK", "lvl":6}]
+  },
+
+  {
+    "id":"$animationcarcinema00canvas00",
+    "type":"animation",
+    "frames":[
+      {"x":1440,"y":1264,"w":23,"h":28},
+      {"x":1463,"y":1264,"w":23,"h":28},
+      {"x":1486,"y":1264,"w":23,"h":28},
+      {"x":1509,"y":1264,"w":23,"h":28},
+      {"x":1440,"y":1292,"w":23,"h":28},
+      {"x":1463,"y":1292,"w":23,"h":28},
+      {"x":0,"y":0,"w":0,"h":0,"count":2},
+      {"x":1486,"y":1292,"w":23,"h":28},
+      {"x":1509,"y":1292,"w":23,"h":28},
+      {"x":1440,"y":1320,"w":23,"h":28},
+      {"x":1463,"y":1320,"w":23,"h":28},
+      {"x":1486,"y":1320,"w":23,"h":28},
+      {"x":1509,"y":1320,"w":23,"h":28},
+      {"x":0,"y":0,"w":0,"h":0,"count":2}
+    ],
+    "speed":0.1
+  },
+
+  {
+    "id":"$carcinema00",
+    "type":"park",
+    "width":5,
+    "height":5,
+    "frames":[{"x":1280,"y":1264,"w":160,"h":96}],
+    "animation":[
+      {"id":"$animationcarcinema00canvas00","x":91,"y":-46},
+      {"id":"1x2l", "x":25, "y":-5}
+    ],
+    "price":18000,
+    "monthly price":6,
+    "influence park":16,
+    "requirements":[{"type":"RANK", "lvl":7}]
+  }
+]

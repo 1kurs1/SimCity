@@ -1,0 +1,124 @@
+[
+  {
+    "id":"$rnk_isolateddwelling",
+    "type":"rank"
+  },
+
+  {"id":"$rnk_hamlet", "type":"rank"},
+  {"id":"$rnk_village_small", "type":"rank"},
+
+  {
+    "id":"$rnk_village_medium",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQAg"
+  },
+
+  {"id":"$rnk_village_big", "type":"rank"},
+  {"id":"$rnk_town_small", "type":"rank"},
+
+  {
+    "id":"$rnk_town_medium",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQAw"
+  },
+
+  {"id":"$rnk_town_big", "type":"rank"},
+  {"id":"$rnk_town_large", "type":"rank"},
+
+  {
+    "id":"$rnk_city_small",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQBQ"
+  },
+
+  {
+    "id":"$rnk_city_medium",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQBg"
+  },
+
+  {
+    "id":"$rnk_city_big",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQBw"
+  },
+
+  {"id":"$rnk_city_large", "type":"rank"},
+
+  {"id":"$rnk_metropolis_small","type":"rank"},
+  {
+    "id":"$rnk_metropolis",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQCA"
+  },
+  {"id":"$rnk_metropolis_big","type":"rank"},
+  {"id":"$rnk_metropolis_large","type":"rank"},
+
+  {"id":"$rnk_conurbation_small","type":"rank"},
+  {
+    "id":"$rnk_conurbation",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQCQ"
+  },
+  {"id":"$rnk_conurbation_big","type":"rank"},
+  {"id":"$rnk_conurbation_large","type":"rank"},
+
+  {"id":"$rnk_megalopolis_small","type":"rank"},
+  {
+    "id":"$rnk_megalopolis",
+    "type":"rank",
+    "achievement":"CgkIl_L2yOgLEAIQCg"
+  },
+  {"id":"$rnk_megalopolis_big","type":"rank"},
+  {"id":"$rnk_megalopolis_large","type":"rank"},
+
+  {"id":"$rnk_country_small","type":"rank"},
+  {"id":"$rnk_country_medium","type":"rank"},
+  {"id":"$rnk_country_big","type":"rank"},
+  {"id":"$rnk_country_large","type":"rank"},
+
+  {"id":"$rnk_continent_small","type":"rank"},
+  {"id":"$rnk_continent_medium","type":"rank"},
+  {"id":"$rnk_continent_big","type":"rank"},
+  {"id":"$rnk_continent_large","type":"rank"},
+
+  {"id":"$rnk_planet_small","type":"rank"},
+  {"id":"$rnk_planet_medium","type":"rank"},
+  {"id":"$rnk_planet_big","type":"rank"},
+  {"id":"$rnk_planet_large","type":"rank"},
+
+  {"id":"$rnk_solar_system_small","type":"rank"},
+  {"id":"$rnk_solar_system_medium","type":"rank"},
+  {"id":"$rnk_solar_system_big","type":"rank"},
+  {"id":"$rnk_solar_system_large","type":"rank"},
+
+  {"id":"$rnk_galaxy_small","type":"rank"},
+  {"id":"$rnk_galaxy_medium","type":"rank"},
+  {"id":"$rnk_galaxy_big","type":"rank"},
+  {"id":"$rnk_galaxy_large","type":"rank"},
+
+  {"id":"$rnk_galaxy_cluster_small","type":"rank"},
+  {"id":"$rnk_galaxy_cluster_medium","type":"rank"},
+  {"id":"$rnk_galaxy_cluster_big","type":"rank"},
+  {"id":"$rnk_galaxy_cluster_large","type":"rank"},
+
+  {"id":"$rnk_supercluster_small","type":"rank"},
+  {"id":"$rnk_supercluster_medium","type":"rank"},
+  {"id":"$rnk_supercluster_big","type":"rank"},
+  {"id":"$rnk_supercluster_large","type":"rank"},
+
+  {"id":"$rnk_universe_small","type":"rank"},
+  {"id":"$rnk_universe_medium","type":"rank"},
+  {"id":"$rnk_universe_big","type":"rank"},
+  {"id":"$rnk_universe_large","type":"rank"},
+
+  {"id":"$rnk_multiverse_small","type":"rank"},
+  {"id":"$rnk_multiverse_medium","type":"rank"},
+  {"id":"$rnk_multiverse_big","type":"rank"},
+  {"id":"$rnk_multiverse_large","type":"rank"},
+
+  {"id":"$rnk_infinity_small","type":"rank"},
+  {"id":"$rnk_infinity_medium","type":"rank"},
+  {"id":"$rnk_infinity_big","type":"rank"},
+  {"id":"$rnk_infinity_large","type":"rank"}
+]

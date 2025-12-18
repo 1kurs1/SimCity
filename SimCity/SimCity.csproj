@@ -55,9 +55,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BuildingSelector.xaml.cs">
+      <DependentUpon>BuildingSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameCanvas.xaml.cs">
+      <DependentUpon>GameCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Camera.cs" />
+    <Compile Include="Game\EconomySystem.cs" />
     <Compile Include="Game\GameController.cs" />
+    <Compile Include="Game\GameState.cs" />
+    <Compile Include="Game\WorldCoordinateSystem.cs" />
+    <Compile Include="Map\BuildingInfo.cs" />
+    <Compile Include="Map\LandscapeType.cs" />
+    <Compile Include="Map\TileSize.cs" />
     <Compile Include="UI\MainViewModel.cs" />
+    <Compile Include="UI\OrthographicRenderer.cs" />
     <Compile Include="UI\TileViewModel.cs" />
+    <Page Include="BuildingSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -92,6 +114,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Compile Include="Game\BuildingRegistry.cs" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +122,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\town_hall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\industrial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\road.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\residential.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\house_small.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

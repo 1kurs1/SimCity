@@ -1,5 +1,8 @@
 ﻿using SimCity.Game;
+using SimCity.Map;
+using System;
 using System.Collections.ObjectModel;
+using System.Windows.Threading;
 
 namespace SimCity.UI
 {
@@ -9,19 +12,18 @@ namespace SimCity.UI
         public int MapWidth { get; } = 20;
         public int MapHeight { get; } = 20;
 
-        private readonly GameController m_controller;
-        
         public MainViewModel()
         {
-            m_controller = new GameController(MapWidth, MapHeight);
+            var controller = GameController.Instance;
+
             Tiles = new ObservableCollection<TileViewModel>();
 
-            for (int y = 0; y < MapHeight; y++)
+            for (int y = 0; y < controller.Map.Height; y++)
             {
-                for (int x = 0; x < MapWidth; x++)
+                for (int x = 0; x < controller.Map.Width; x++)
                 {
-                    var tile = m_controller.Map.Tiles[x, y];
-                    Tiles.Add(new TileViewModel(tile, m_controller));
+                    var tile = controller.Map.Tiles[x, y];
+                    Tiles.Add(new TileViewModel(tile));
                 }
             }
         }

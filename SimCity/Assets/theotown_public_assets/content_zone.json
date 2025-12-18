@@ -1,0 +1,282 @@
+[
+  {
+    "id": "$zoneresidential",
+    "type": "zone",
+    "rci":true,
+    "old id":0,
+    "frames":[{"x":320,"y":0,"w":32,"h":16}],
+    "preview frames":[{"x":0,"y":553,"w":26,"h":26}],
+    "price":100,
+    "placeable":true,
+    "map color":{
+      "r":82,
+      "g":180,
+      "b":40
+    }
+  },
+  {
+    "id": "$zonecommercial",
+    "type": "zone",
+    "rci":true,
+    "old id":1,
+    "frames":[{"x":352,"y":0,"w":32,"h":16}],
+    "preview frames":[{"x":0,"y":579,"w":26,"h":26}],
+    "price":100,
+    "placeable":true,
+    "map color":{
+      "r":91,
+      "g":95,
+      "b":255
+    }
+  },
+  {
+    "id": "$zoneindustrial",
+    "type": "zone",
+    "rci":true,
+    "old id":2,
+    "frames":[{"x":384,"y":0,"w":32,"h":16}],
+    "preview frames":[{"x":0,"y":605,"w":26,"h":26}],
+    "price":100,
+    "placeable":true,
+    "map color":{
+      "r":210,
+      "g":208,
+      "b":14
+    }
+  },
+
+  {
+    "separator":true,
+    "id": "$zoneresidential_lvl2",
+    "type": "zone",
+    "rci":true,
+    "base":"$zoneresidential",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":5}}]},
+    "old id":5,
+    "frames":[{"x":320,"y":16,"w":32,"h":16}],
+    "preview frames":[{"x":416,"y":787,"w":26,"h":26}],
+    "price":400,
+    "superior to base":true,
+    "placeable":true,
+    "map color":{
+      "r":40,
+      "g":220,
+      "b":100
+    }
+  },
+  {
+    "id": "$zonecommercial_lvl2",
+    "type": "zone",
+    "rci":true,
+    "base":"$zonecommercial",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":5}}]},
+    "old id":6,
+    "frames":[{"x":352,"y":16,"w":32,"h":16}],
+    "preview frames":[{"x":338,"y":813,"w":26,"h":26}],
+    "price":400,
+    "superior to base":true,
+    "placeable":true,
+    "map color":{
+      "r":140,
+      "g":100,
+      "b":255
+    }
+  },
+  {
+    "id": "$zoneindustrial_lvl2",
+    "type": "zone",
+    "rci":true,
+    "base":"$zoneindustrial",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":5}}]},
+    "old id":7,
+    "frames":[{"x":384,"y":16,"w":32,"h":16}],
+    "preview frames":[{"x":364,"y":813,"w":26,"h":26}],
+    "price":400,
+    "superior to base":true,
+    "placeable":true,
+    "map color":{
+      "r":243,
+      "g":228,
+      "b":170
+    }
+  },
+
+  {
+    "separator":true,
+    "id": "$zonefarm",
+    "type": "zone",
+    "rci":true,
+    "base":"$zoneindustrial",
+    "old id":3,
+    "frames":[{"x":416,"y":16,"w":32,"h":16}],
+    "preview frames":[{"x":390,"y":813,"w":26,"h":26}],
+    "price":50,
+    "placeable":true,
+    "map color":{
+      "r":255,
+      "g":255,
+      "b":50
+    }
+  },
+  {
+    "id": "$zoneharbor",
+    "type": "zone",
+    "rci":true,
+    "base":"$zoneindustrial",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":5}}]},
+    "old id":4,
+    "frames":[{"x":448,"y":16,"w":32,"h":16}],
+    "preview frames":[{"x":416,"y":813,"w":26,"h":26}],
+    "price":200,
+    "placeable":true,
+    "map color":{
+      "r":251,
+      "g":171,
+      "b":107
+    }
+  },
+
+  {
+    "id": "$zoneother",
+    "type": "zone",
+    "hidden":true,
+    "old id":10,
+    "frames":[{"x":416,"y":0,"w":32,"h":16}],
+    "persistent":true
+  },
+  {
+    "hidden":true,
+    "id": "$zonedestroyed",
+    "type": "zone",
+    "old id":11,
+    "frames":[{"x":416,"y":0,"w":32,"h":16}],
+    "superior to all":true,
+    "map color":{
+      "r":0,
+      "g":0,
+      "b":0
+    }
+  },
+
+  {
+    "hidden":true,
+    "id": "$zonedecoration",
+    "type": "zone",
+    "old id":12,
+    "frames":[{"x":416,"y":0,"w":32,"h":16}],
+    "preview frames":[{"x":130,"y":527,"w":26,"h":26}],
+    "superior to all":true,
+    "map color":{
+      "r":160,
+      "g":160,
+      "b":160
+    }
+  },
+
+  {
+    "id":"$zonemilitary",
+    "type":"zone",
+    "border frames":[
+      null,
+      {"x":32,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":64,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":32,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":32,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":96,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":32,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":160,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":128,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":32,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":64,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null
+    ],
+    "road border frames":[
+      null,
+      {"x":64,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":0,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      {"x":64,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":64,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      null,
+      {"x":0,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      {"x":0,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {"x":96,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":32,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      {"x":96,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":96,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      null,
+      {"x":32,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      {"x":32,"y":144,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "requirement":{
+      "requirements":[
+        {
+          "type":"FEATURE",
+          "data":{"id":"$feature_military00"}
+        }
+      ]
+    },
+    "category":"$cat_military00",
+    "persistent":true,
+    "old id":13,
+    "frames":[{"x":384,"y":27,"w":32,"h":16,"offset y":3072}],
+    "price":100,
+    "placeable":true,
+    "radius":2,
+    "map color":{
+      "r":171,
+      "g":251,
+      "b":107
+    }
+  },
+
+  {
+    "id":"$zoneairport",
+    "type":"zone",
+    "border frames":[
+      null,
+      {"x":32,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072,"count":6},
+      {"x":160,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072},
+
+      {"x":256,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072,"count":3},
+      {"x":320,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":384,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":160,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072},
+      {"x":320,"y":684,"w":32,"h":32,"handle y":24,"offset y":3072},
+      null
+    ],
+    "category":"$cat_airport00",
+    "persistent":true,
+    "old id":14,
+    "frames":[{"x":416,"y":27,"w":32,"h":16,"offset y":3072}],
+    "price":100,
+    "placeable":true,
+    "radius":2,
+    "map color":{
+      "r":107,
+      "g":171,
+      "b":171
+    },
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":12}}]}
+  }
+]

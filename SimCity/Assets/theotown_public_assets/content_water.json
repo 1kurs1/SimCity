@@ -1,0 +1,110 @@
+[
+  {
+    "id":"$pipe00",
+    "type":"pipe",
+    "frames":[{"x":1536,"y":1968,"w":32,"h":16,"count":16}],
+    "price":50,
+    "preview frames":[{"x":448,"y":720,"w":64,"h":32}],
+    "water radius":4
+  },
+   
+  {
+    "separator":true,
+    "id":"$watertower00",
+    "type":"water",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1600,"y":1056,"w":32,"h":48}],
+    "draw ground": true,
+    "price":1200,
+    "monthly price":20,
+    "water":2000,
+    "power":0,
+    "needs road":false,
+    "performance":true
+  },
+
+  {
+    "id":"$waterpump01",
+    "type":"water",
+    "width":2,
+    "height":2,
+    "frames":[{"x":1984,"y":1027,"w":64,"h":45}],
+    "price":6000,
+    "monthly price":47,
+    "build time":20,
+    "water":12000,
+    "power":0,
+    "needs water":true,
+    "needs land":true,
+    "supports terrain": false,
+    "draw water border": true,
+    "performance":true,
+    "animation":[
+      {"id":"1x2l", "x":20, "y":-3},
+      {"id":"1x2l", "x":22, "y":-4},
+      {"id":"1x2l", "x":20, "y":-14},
+      {"id":"1x2l", "x":22, "y":-15},
+      {"id":"1x2l", "x":26, "y":-12},
+      {"id":"1x2l", "x":28, "y":-13},
+      {"id":"$animationwaterpump01pipe00","x":35,"y":-11}
+    ],
+    "requirements":[{"type":"RANK","lvl":4}],
+    "draw water borders": true
+  },
+
+  {
+    "id":"$waterpump00",
+    "type":"water",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1696,"y":1024,"w":96,"h":80}],
+    "price":22000,
+    "monthly price":72,
+    "water":30000,
+    "requirements":[{"type":"RANK","lvl":8}],
+    "performance":true
+  },
+
+  {
+    "id":"$sewerpipe00",
+    "type":"water",
+    "width":2,
+    "height":2,
+    "frames":[{"x":1664,"y":1804,"w":64,"h":36}],
+    "price":18000,
+    "monthly price":80,
+    "water":-1,
+    "water waste":-4000,
+    "animation":[
+      {"id":"$animationsewerpipe00pipe00","x":21,"y":-15}
+    ],
+    "influence pollution":80,
+    "requirements":[{"type":"RANK","lvl":5}]
+  },
+
+  {
+    "id":"$filterplant00",
+    "type":"water",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1536,"y":1777,"w":128,"h":63}],
+    "price":40000,
+    "monthly price":200,
+    "water":-1,
+    "water waste":-20000,
+    "animation":[
+      {"id":"1x2l", "x":17, "y":-5},
+      {"id":"1x2l", "x":17, "y":-6},
+      {"id":"1x2l", "x":71, "y":4},
+      {"id":"1x2l", "x":73, "y":3},
+      {"id":"1x2l", "x":71, "y":15},
+      {"id":"1x2l", "x":73, "y":14},
+      {"id":"1x2l", "x":77, "y":6},
+      {"id":"1x2l", "x":79, "y":5},
+      {"id":"$animationfilterplant00pipe00","x":88,"y":-2}
+    ],
+    "requirements":[{"type":"RANK","lvl":9}],
+    "influence pollution":-40
+  }
+]

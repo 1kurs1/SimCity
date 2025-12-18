@@ -1,0 +1,156 @@
+[
+
+  {
+    "id":"$taxi_depot00",
+    "type":"public",
+    "category":"$cat_bus00",
+    "author":"A_Dutch_Guy",
+    "width":3,
+    "height":3,
+    "price":8000,
+    "monthly price":40,
+    "influence passenger bus":50,
+    "frames":[{"x":160,"y":662,"w":96,"h":66,"offset y":2048}],
+    "car spawner":[
+      {
+        "cars":["$car_taxi00"],
+        "radius":150,
+        "count":15
+      }
+    ],
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":2}}]}
+  },
+
+
+  {
+    "id":"$bus_road00",
+    "type":"road",
+    "category":"$cat_bus00",
+    "level":1,
+    "frames":[{"x":512,"y":240,"w":32,"h":16,"count":16}],
+    "bridge frames":[
+      {"x":896,"y":288,"w":32,"h":32,"count":4},
+      {"x":640,"y":96,"w":32,"h":48,"count":8},
+      {"x":896,"y":214,"w":32,"h":26,"count":4}
+    ],
+    "frames per bridge":16,
+    "tunnel frames":[
+      {"x":896,"y":192,"w":16,"h":19,"handle y":7},
+      {"x":912,"y":192,"w":16,"h":19,"handle x":-16,"handle y":7},
+      {"x":928,"y":192,"w":16,"h":19,"handle y":7},
+      {"x":944,"y":192,"w":16,"h":19,"handle x":-16,"handle y":7}
+    ],
+    "bridge height":12,
+    "traffic lights":[{"x":512,"y":32,"w":32,"h":32,"count":4}],
+    "green phase":3000,
+    "yellow phase":500,
+    "speed":2.0,
+
+    "price":400,
+    "bridge price":2000,
+    "monthly price":4,
+    "flag normal":false,
+    "flag pkw":false,
+    "flag lkw":false,
+    "flag bus":true,
+
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":4}}]},
+    "ordinal":98
+  },
+  {
+    "id":"$bus_oneway_road00",
+    "type":"road",
+    "category":"$cat_bus00",
+    "level":1,
+    "frames":[
+      {"x":512,"y":240,"w":32,"h":16,"count":16},
+      {"x":512,"y":240,"w":32,"h":16,"count":16},
+      {"x":512,"y":240,"w":32,"h":16,"count":16},
+      {"x":512,"y":240,"w":32,"h":16,"count":16}
+    ],
+    "bridge frames":[
+      {"x":896,"y":288,"w":32,"h":32,"count":4},
+      {"x":640,"y":96,"w":32,"h":48,"count":8},
+      {"x":896,"y":214,"w":32,"h":26,"count":4}
+    ],
+    "frames per bridge":16,
+    "tunnel frames":[
+      {"x":896,"y":192,"w":16,"h":19,"handle y":7},
+      {"x":912,"y":192,"w":16,"h":19,"handle x":-16,"handle y":7},
+      {"x":928,"y":192,"w":16,"h":19,"handle y":7},
+      {"x":944,"y":192,"w":16,"h":19,"handle x":-16,"handle y":7}
+    ],
+    "bridge height":12,
+    "traffic lights":[{"x":512,"y":32,"w":32,"h":32,"count":4}],
+    "green phase":3000,
+    "yellow phase":500,
+    "speed":2.0,
+    "one way":true,
+    "one way frames":[{"x":896,"y":320,"w":32,"h":16,"count":4}],
+
+    "price":400,
+    "bridge price":2000,
+    "monthly price":4,
+    "flag normal":false,
+    "flag pkw":false,
+    "flag lkw":false,
+    "flag bus":true,
+
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":4}}]},
+    "ordinal":99
+  },
+
+  {
+    "id": "$busstop00",
+    "type": "bus stop",
+    "width": 1,
+    "height": 1,
+    "influence passenger bus": 30,
+    "frames": [{"x":512,"y":864,"w":32,"h":32,"count":4},
+      {"x":512,"y":896,"w":32,"h":32,"count":4},
+      {"x":512,"y":928,"w":32,"h":32,"count":4},
+      {"x":512,"y":960,"w":32,"h":32,"count":4},
+      {"x":512,"y":992,"w":32,"h":32,"count":4}],
+    "capacity": 32,
+    "price":800,
+    "requirements":[
+      {"type":"RANK","lvl":3}
+    ],
+    "ordinal":100,
+    "meta":{"tags":{"default_busstop":{}}}
+  },
+
+  {
+    "id": "$busdepot00",
+    "type": "bus depot",
+    "category":"$cat_bus00",
+    "road flags normal": false,
+    "road flags bus": true,
+    "width": 4,
+    "height": 4,
+    "frames": [
+      {"x":640,"y":944,"w":128,"h":80}
+    ],
+    "price": 16000,
+    "monthly price":100,
+    "requirements":[
+      {"type":"RANK","lvl":3}
+    ],
+    "ordinal":101,
+    "price factor":2,
+    "moveable":false,
+    "depot capacity": 8,
+    "meta":{"tags":{"bus depot":{}}}
+  },
+
+  // Bus ts instance.
+  {
+    "id":"$ts_native_bus00",
+    "type":"script",
+    "template": "$ts_native_template00",
+    "script":"#ts/bus.lua",
+    "requirements": [{"type": "RANK", "lvl": 3}],
+    "preview frame": {"steal": "$cat_bus00"},
+    "ordinal": 0
+  }
+]

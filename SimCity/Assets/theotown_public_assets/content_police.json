@@ -1,0 +1,112 @@
+[
+  {
+    "id":"$police02topplain00",
+    "type":"animation",
+    "frames":[{"offset x":1024,"offset y":1024,"x":512,"y":240,"w":102,"h":74,"handle x":-30,"handle y":53}]
+  },
+  {
+    "id":"$police02compplain00",
+    "type":"animation",
+    "frames":[{"offset x":1024,"offset y":1024,"x":512,"y":314,"w":102,"h":32,"handle x":-30,"handle y":11}]
+  },
+  {
+    "id":"$police02baseplain00",
+    "type":"animation",
+    "frames":[{"offset x":1024,"offset y":1024,"x":512,"y":346,"w":160,"h":80,"handle y":40}]
+  },
+
+  {
+    "id":"$police01",
+    "type":"police",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1888,"y":1331,"w":32,"h":35}],
+    "frames winter":[{"x":256,"y":211,"w":32,"h":35,"offset x":1024,"offset y":2048}],
+    "animation":[{"id":"1x3l", "x":7, "y":-7}, {"id":"1x3l", "x":19, "y":-6}],
+    "price":2000,
+    "monthly price":20,
+    "influence police":200,
+    "requirements":[{"type":"RANK", "data":{"lvl":2}}],
+    "performance":true,
+    "pedestrian": "$pedestrian_police00",
+    "pedestrian count": 1
+  },
+
+  {
+    "id":"$police00",
+    "type":"police",
+    "width":2,
+    "height":2,
+    "frames":[{"x":1792,"y":1024,"w":64,"h":48}],
+    "frames winter":[{"x":960,"y":810,"w":64,"h":48,"offset x":1024,"offset y":2048}],
+    "animation":[
+      {"id":"2x2l", "x":14, "y":-22},
+      {"id":"2x2l", "x":20, "y":-14},
+      {"id":"2x2l", "x":30, "y":-14},
+      {"id":"2x2l", "x":32, "y":-13},
+      {"id":"2x2l", "x":42, "y":-11}
+    ],
+    "price":18000,
+    "monthly price":30,
+    "influence police":100,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":5}}]},
+    "performance":true,
+    "pedestrian": "$pedestrian_police00",
+    "pedestrian count": 1
+  },
+
+  {
+    "id":"$police03",
+    "type":"police",
+    "width":5,
+    "height":5,
+    "build height":4,
+    "frames":[{"x":352,"y":442,"w":160,"h":91,"offset y":3072}],
+    "template":"$template_diamondbuilding00","diamond price":75,
+    "animation":[
+      {"id":"$animationblinkingredlight3x3","x":31,"y":-40},
+      {"id":"$animationblinkingredlight3x3","x":35,"y":-38},
+      {"id":"$animationblinkingredlight3x3","x":67,"y":-52}
+    ],
+    "meta":{
+      "tags":{
+        "policehelicopter":{}
+      }
+    },
+    "price":86000,
+    "monthly price":120,
+    "influence police":200,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":7}}]},
+    "performance":true,
+    "pedestrian": "$pedestrian_police00",
+    "pedestrian count": 1
+  },
+
+// SWAT
+  {
+    "id": "$police02",
+    "type": "swat",
+    "width": 5,
+    "height": 5,
+    "level": 0,
+    "frames": [{"x": 0, "y": 0, "w": 0, "h": 154}],
+    "animation": [
+      {"id": "$police02baseplain00", "x": 0,"y": 0},
+      {"id": "$police02compplain00","x": 0,"y": -38},
+      {"id": "$police02compplain00", "x": 0, "y": -47},
+      {"id": "$police02compplain00", "x": 0, "y": -56},
+      {"id": "$police02compplain00", "x": 0, "y": -65},
+      {"id": "$police02topplain00", "x": 0, "y": -74}
+    ],
+    "influence police": 80,
+    "price": 80000,
+    "monthly price": 800,
+    "build height": 12,
+    "script": "#light\/SWAT",
+    "requirements": [
+      {"type": "RANK", "lvl": 10}
+    ],
+    "pedestrian": "$pedestrian_swat00",
+    "pedestrian count": 1
+  }
+]

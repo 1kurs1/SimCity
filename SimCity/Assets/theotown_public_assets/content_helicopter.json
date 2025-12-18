@@ -1,0 +1,55 @@
+[
+  {
+    "id":"$rotor00",
+    "type":"animation",
+    "frames":[
+      {"x":360,"y":526,"w":38,"h":9,"count":4,"handle x":18,"handle y":5},
+      {"x":360,"y":512,"w":38,"h":13,"count":4,"handle x":18,"handle y":6}
+    ]
+  },
+
+  {
+    "id":"$heliprivate00",
+    "type":"helicopter",
+    "frames":[{"x":360,"y":537,"w":38,"h":18,"count":4,"handle x":18,"handle y":16}],
+    "animation":[{
+      "id":"$rotor00","x":0,"y":-10
+    }]
+  },
+
+  {
+    "id":"$helifirefighter00",
+    "type":"helicopter",
+    "frames":[{"x":360,"y":555,"w":38,"h":18,"count":4,"handle x":18,"handle y":16}],
+    "animation":[{
+      "id":"$rotor00","x":0,"y":-10
+    }]
+  },
+
+  {
+    "id":"$helipolice00",
+    "type":"helicopter",
+    "frames":[{"x":360,"y":574,"w":38,"h":18,"count":4,"handle x":18,"handle y":16}],
+    "animation":[{
+      "id":"$rotor00","x":0,"y":-10
+    }]
+  },
+
+  {
+    "id":"$helinews00",
+    "type":"helicopter",
+    "frames":[{"x":360,"y":593,"w":38,"h":18,"count":4,"handle x":18,"handle y":16}],
+    "animation":[{
+      "id":"$rotor00","x":0,"y":-10
+    }]
+  },
+
+  {
+    "id":"$heliswat00",
+    "type":"helicopter",
+    "frames":[{"x":360,"y":612,"w":38,"h":18,"count":4,"handle x":18,"handle y":16}],
+    "animation":[{
+      "id":"$rotor00","x":0,"y":-10
+    }]
+  }
+]

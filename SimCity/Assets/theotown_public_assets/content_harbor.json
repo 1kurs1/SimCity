@@ -1,0 +1,237 @@
+[
+  {
+    "id":"$harborind00",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":0,"y":1872,"w":64, "h":48}],
+    "level":1
+  },
+  {
+    "id":"$harborind01",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":64,"y":1872,"w":64, "h":48}],
+    "animation":[{"id":"lamppost_night", "x":17, "y":-10}, {"id":"lamppost_night", "x":40, "y":-21}],
+    "level":1
+  },
+  {
+    "id":"$harborind02",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":128,"y":1872,"w":64, "h":48}],
+    "animation":[{"id":"lamppost_night", "x":17, "y":-10}, {"id":"lamppost_night", "x":40, "y":-21}],
+    "level":1
+  },
+  {
+    "id":"$harborind03",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":192,"y":1872,"w":64, "h":48}],
+    "animation":[{"id":"lamppost_night", "x":17, "y":-10}, {"id":"lamppost_night", "x":40, "y":-21}],
+    "level":1
+  },
+  {
+    "id":"$harborind04",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":256,"y":1872,"w":64, "h":48}],
+    "level":1
+  },
+  {
+    "id":"$harborind05",
+    "type":"harbor ind",
+    "width":2,
+    "height":2,
+    "frames":[{"x":320,"y":1872,"w":64, "h":48}],
+    "animation":[{"id":"lamppost_night", "x":23, "y":-18}],
+    "level":1
+  },
+  {
+    "id":"$harborind06",
+    "type":"harbor ind",
+    "width":4,
+    "height":4,
+    "frames":[{"x":0,"y":1776,"w":128,"h":96}],
+    "frames winter":[{"x":896,"y":288,"w":128,"h":96,"offset x":1024,"offset y":2048}],
+    "level":1,
+    "animation":[
+      {"id":"$animationharbor06conveyor00","x":79,"y":-32},
+      {"id":"special0_ind", "x":45, "y":-66}
+    ]
+  },
+
+  {
+    "id":"$animationharborpierbase00",
+    "type":"animation",
+    "frames":[
+      {"x":0,"y":376,"w":64,"h":38,"handle x":-32,"handle y":10},
+      {"x":64,"y":376,"w":64,"h":38,"handle x":-32,"handle y":26},
+      {"x":128,"y":376,"w":64,"h":38,"handle x":0,"handle y":26},
+      {"x":192,"y":376,"w":64,"h":38,"handle x":0,"handle y":10}
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierbaseext00",
+    "type":"animation",
+    "frames":[
+      {"x":96,"y":414,"w":50,"h":30,"handle x":-18,"handle y":19},
+      {"x":146,"y":414,"w":48,"h":30,"handle x":-16,"handle y":10},
+      {"x":0,"y":414,"w":48,"h":30,"handle x":-32,"handle y":10},
+      {"x":48,"y":414,"w":48,"h":30,"handle x":-32,"handle y":18}
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierhouse00",
+    "type":"animation",
+    "frames":[
+      {"x":256,"y":376,"w":49,"h":35,"handle x":-43,"handle y":18},
+      {"x":305,"y":376,"w":52,"h":35,"handle x":-44,"handle y":33},
+      {"x":256,"y":376,"w":49,"h":35,"handle x":-13,"handle y":32},
+      {"x":305,"y":376,"w":52,"h":35,"handle x":-12,"handle y":18}
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierhouseext00",
+    "type":"animation",
+    "frames":[
+      {"x":194,"y":414,"w":46,"h":26,"handle x":-26,"handle y":21},
+      {"x":240,"y":414,"w":43,"h":26,"handle x":-25,"handle y":16},
+      {"x":194,"y":414,"w":46,"h":26,"handle x":-32,"handle y":16},
+      {"x":240,"y":414,"w":43,"h":26,"handle x":-33,"handle y":20}
+    ],
+    "rotation aware":true
+  },
+
+  {
+    "id":"$animationharborpiersmallcranebase00",
+    "type":"animation",
+    "frames":[
+      {"x":357,"y":376,"w":24,"h":34,"handle x":-39,"handle y":31}
+    ]
+  },
+  {
+    "id":"$animationharborpiersmallcranetop00",
+    "type":"animation",
+    "frames":[
+      {"x":316,"y":470,"w":45,"h":42,"handle x":-36,"handle y":60},
+      {"x":361,"y":470,"w":47,"h":42,"handle x":-34,"handle y":66},
+      {"x":408,"y":470,"w":47,"h":42,"handle x":-15,"handle y":65},
+      {"x":455,"y":470,"w":45,"h":42,"handle x":-15,"handle y":60},
+      {"x":316,"y":470,"w":45,"h":42,"handle x":-36,"handle y":60},
+      {"x":361,"y":470,"w":47,"h":42,"handle x":-34,"handle y":66},
+      {"x":316,"y":470,"w":45,"h":42,"handle x":-36,"handle y":60},
+      {"x":316,"y":470,"w":45,"h":42,"handle x":-36,"handle y":60},
+      {"x":455,"y":470,"w":45,"h":42,"handle x":-15,"handle y":60},
+      {"x":316,"y":470,"w":45,"h":42,"handle x":-36,"handle y":60},
+      {"x":361,"y":470,"w":47,"h":42,"handle x":-34,"handle y":66},
+      {"x":408,"y":470,"w":47,"h":42,"handle x":-15,"handle y":65},
+      {"x":455,"y":470,"w":45,"h":42,"handle x":-15,"handle y":60},
+      {"x":408,"y":470,"w":47,"h":42,"handle x":-15,"handle y":65},
+      {"x":455,"y":470,"w":45,"h":42,"handle x":-15,"handle y":60},
+      {"x":455,"y":470,"w":45,"h":42,"handle x":-15,"handle y":60}
+
+    ],
+    "speed":0.1
+  },
+
+  {
+    "id":"$animationharborpierbigcranetop00",
+    "type":"animation",
+    "frames":[
+      {"x":158,"y":444,"w":80,"h":63,"handle x":0,"handle y":57},
+      {"x":238,"y":444,"w":78,"h":63,"handle x":0,"handle y":57},
+      {"x":0,"y":444,"w":78,"h":63,"handle x":-18,"handle y":57},
+      {"x":78,"y":444,"w":80,"h":63,"handle x":-16,"handle y":57}
+    ],
+    "color":{"r":20,"g":180,"b":255},
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierbigcranetop01",
+    "type":"animation",
+    "frames":[
+      {"x":158,"y":444,"w":80,"h":63,"handle x":0,"handle y":57},
+      {"x":238,"y":444,"w":78,"h":63,"handle x":0,"handle y":57},
+      {"x":0,"y":444,"w":78,"h":63,"handle x":-18,"handle y":57},
+      {"x":78,"y":444,"w":80,"h":63,"handle x":-16,"handle y":57}
+    ],
+    "color":{"r":255,"g":255,"b":80},
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierbigcranetop02",
+    "type":"animation",
+    "frames":[
+      {"x":158,"y":444,"w":80,"h":63,"handle x":0,"handle y":57},
+      {"x":238,"y":444,"w":78,"h":63,"handle x":0,"handle y":57},
+      {"x":0,"y":444,"w":78,"h":63,"handle x":-18,"handle y":57},
+      {"x":78,"y":444,"w":80,"h":63,"handle x":-16,"handle y":57}
+    ],
+    "color":{"r":255,"g":80,"b":80},
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierbigcranetop03",
+    "type":"animation",
+    "frames":[
+      {"x":158,"y":444,"w":80,"h":63,"handle x":0,"handle y":57},
+      {"x":238,"y":444,"w":78,"h":63,"handle x":0,"handle y":57},
+      {"x":0,"y":444,"w":78,"h":63,"handle x":-18,"handle y":57},
+      {"x":78,"y":444,"w":80,"h":63,"handle x":-16,"handle y":57}
+    ],
+    "color":{"r":80,"g":255,"b":120},
+    "rotation aware":true
+  },
+  {
+    "id":"$animationharborpierbigcranetop04",
+    "type":"animation",
+    "frames":[
+      {"x":158,"y":444,"w":80,"h":63,"handle x":0,"handle y":57},
+      {"x":238,"y":444,"w":78,"h":63,"handle x":0,"handle y":57},
+      {"x":0,"y":444,"w":78,"h":63,"handle x":-18,"handle y":57},
+      {"x":78,"y":444,"w":80,"h":63,"handle x":-16,"handle y":57}
+    ],
+    "color":{"r":255,"g":200,"b":80},
+    "rotation aware":true
+  },
+
+  {
+    "id":"$animationharborpierbigcranebase00",
+    "type":"animation",
+    "frames":[
+      {"x":1159,"y":1985,"w":68,"h":63,"handle x":-10,"handle y":53},
+      {"x":1227,"y":1985,"w":67,"h":63,"handle x":-10,"handle y":56},
+      {"x":1024,"y":1985,"w":67,"h":63,"handle x":-19,"handle y":56},
+      {"x":1091,"y":1985,"w":68,"h":63,"handle x":-18,"handle y":53}
+    ],
+    "rotation aware":true
+  },
+
+  {
+    "id":"$animationbuoy00light00",
+    "type":"animation",
+    "frames":[{"x":316,"y":450,"w":4,"h":3,"count":8}]
+  },
+
+  {
+    "separator":true,
+    "id":"$buoy00",
+    "type":"buoy",
+    "width":1,
+    "height":1,
+    "frames":[{"x":316,"y":453,"w":32,"h":16}],
+    "animation":[
+      {"id":"$animationbuoy00light00","x":14,"y":-8}
+    ],
+    "requirements":[ { "type":"RANK", "lvl": 10 } ],
+    "ordinal":300
+  }
+]

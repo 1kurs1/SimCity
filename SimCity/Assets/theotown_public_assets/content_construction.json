@@ -1,0 +1,85 @@
+[
+  {
+    "active": false,
+    "id":"$site",
+    "type":"site",
+    "frames":[
+      {"x":640,"y":256,"w":32,"h":32,"count":12},
+      {"x":512,"y":288,"w":32,"h":32,"count":12},
+      {"x":512,"y":320,"w":32,"h":32,"count":12},
+      {"x":512,"y":352,"w":32,"h":32,"count":6}
+    ]
+  },
+  {
+    "id": "$template_site00",
+    "type": "template",
+    "frames per floor": 4,
+    "frames per progress": 4,
+    "height per floor": 9,
+    "frames": [
+      {"x": 512,"y": 112,"w": 32,"h": 25,"count": 4,"offset x": 1024,"offset y": 3072},
+      {"x": 512,"y": 137,"w": 32,"h": 25,"count": 4,"offset x": 1024,"offset y": 3072},
+      {"x": 512,"y": 162,"w": 32,"h": 25,"count": 4,"offset x": 1024,"offset y": 3072},
+      {"x": 512,"y": 162,"w": 32,"h": 25,"count": 4,"offset x": 1024,"offset y": 3072}
+    ],
+    "frames fg": [
+      null, null, null, null,
+      null, null, null, null,
+      null, null, null, null,
+      {"x": 512,"y": 187,"w": 32,"h": 25,"count": 4,"offset x": 1024,"offset y": 3072}
+    ]
+  },
+  {
+    "id": "$site00_00",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#58AAB0"
+  },
+  {
+    "id": "$site00_01",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#9B9B9B"
+  },
+  {
+    "id": "$site00_02",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#628854"
+  },
+  {
+    "id": "$site00_03",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#5A6BB2"
+  },
+  {
+    "id": "$site00_04",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#AF7095"
+  },
+  {
+    "id": "$site00_05",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#AF6357"
+  },
+  {
+    "id": "$site00_06",
+    "type": "site",
+    "template": "$template_site00",
+    "color": "#B18359"
+  },
+
+  {
+    "id":"$crane",
+    "type":"crane",
+    "frames":[
+      {"x":704,"y":352,"w":64,"h":32,"count":4},
+      {"x":512,"y":384,"w":64,"h":32,"count":8},
+      {"x":512,"y":416,"w":64,"h":32,"count":8},
+      {"x":512,"y":448,"w":64,"h":32,"count":8}
+    ]
+  }
+]

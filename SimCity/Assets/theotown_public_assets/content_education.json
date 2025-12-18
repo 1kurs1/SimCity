@@ -1,0 +1,92 @@
+[
+  {
+    "id":"$school02",
+    "type":"education",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1952,"y":1731,"w":96,"h":61}],
+    "frames winter":[{"x":800,"y":322,"w":96,"h":61,"offset x": 1024,"offset y": 2048}],
+    "price":8000,
+    "monthly price":100,
+    "influence education low":8,
+    "provide aspect education low":250,
+    "requirements":[ { "type":"RANK", "lvl": 3 } ],
+    "performance":true
+  },
+
+  {
+    "id":"$school00",
+    "type":"education",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1664,"y":1168,"w":128,"h":96}],
+    "frames winter":[{"x":896,"y":618,"w":128,"h":96,"offset x":1024,"offset y":2048}],
+    "price":24000,
+    "monthly price":800,
+    "influence education low":20,
+    "provide aspect education low":800,
+    "requirements":[ { "type":"RANK", "lvl": 6 } ],
+    "performance":true
+  },
+
+  {
+    "id":"$bigschool00",
+    "type":"education",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1696,"y":1536,"w":128,"h":96}],
+    "frames winter":[{"x":896,"y":714,"w":128,"h":96,"offset x":1024,"offset y":2048}],
+    "price":60000,
+    "monthly price":3000,
+    "influence education low":80,
+    "provide aspect education low":3000,
+    "requirements":[ { "type":"RANK", "lvl": 9 } ],
+    "performance":true
+  },
+
+  {
+    "separator":true,
+    "id":"$school01",
+    "type":"education",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1792,"y":1168,"w":96,"h":96}],
+    "frames winter":[{"x":800,"y":130,"w":96,"h":96,"offset x":1024,"offset y":2048}],
+    "price":30000,
+    "monthly price":400,
+    "influence education high":30,
+    "provide aspect education high":800,
+    "requirements":[ {"type":"RANK","lvl":10} ],
+    "performance":true
+  },
+
+  {
+    "id":"$school03",
+    "type":"education",
+    "width":5,
+    "height":5,
+    "frames":[{"x":352,"y":752,"w":160,"h":96,"offset x":1024,"offset y":1024}],
+    "frames winter":[{"x":256,"y":748,"w":160,"h":96,"offset x":1024,"offset y":2048}],
+    "price":120000,
+    "monthly price":2000,
+    "influence education high":80,
+    "provide aspect education high":3000,
+    "requirements":[ {"type":"RANK","lvl":11} ],
+    "performance":true
+  },
+   
+  {
+    "separator":true,
+    "id":"$museum00",
+    "type":"education",
+    "width":5,
+    "height":5,
+    "frames":[{"x":1888,"y":1168,"w":160,"h":128}],
+    "frames winter":[{"x":256,"y":844,"w":160,"h":128,"offset x":1024,"offset y":2048}],
+    "price":12000,
+    "monthly price":300,
+    "requirements":[ { "type":"RANK", "lvl": 10 } ],
+    "influence education low":10,
+    "influence education high":10
+  }
+]

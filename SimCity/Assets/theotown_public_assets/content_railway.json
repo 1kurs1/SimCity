@@ -1,0 +1,722 @@
+[
+
+  {
+    "id":"$template_sggtrains00",
+    "type":"template",
+    "category":"$cat_train00",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":6}}]}
+  },
+  {
+    "id":"$template_sggtrains00_parts00",
+    "type":"template",
+    "category":"$cat_train00_parts00",
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":6}}]},
+    "required flag normal": false,
+    "required flag train":true
+  },
+  {
+    "id": "$template_rails00",
+    "type": "template",
+    "draw ground":true,
+    "price":50,
+    "monthly price":20,
+    "allow transfer":false,
+    "allow bus":false,
+    "connectable":true,
+    "auto join":false,
+    "level":10,
+    "speed":2.5,
+    "flag normal":false,
+    "flag train":true,
+    "x flags":{"flag normal":true,"flag train":true},
+    "allow bus stop":false
+  },
+  {
+    "hidden":true,
+    "id": "$diagonal_rails00",
+    "type": "road",
+    "title id": "draft_rails00_title",
+    "text id": "draft_rails00_text",
+    "frames":[
+      {"x":384,"y":64,"w":32,"h":17,"count":3,"offset x":2048,"offset y":1024},
+      {"x":326,"y":486,"w":32,"h":16,"offset x":2048,"offset y":1024},
+      {"x":512,"y":64,"w":32,"h":17,"count":2,"offset x":2048,"offset y":1024},
+      {"x":358,"y":486,"w":32,"h":16,"offset x":2048,"offset y":1024},
+      {"x":608,"y":64,"w":32,"h":17,"count":2,"offset x":2048,"offset y":1024},
+      {"x":422,"y":486,"w":32,"h":16,"offset x":2048,"offset y":1024},
+      {"x":704,"y":64,"w":32,"h":17,"count":2,"offset x":2048,"offset y":1024},
+      {"x":390,"y":486,"w":32,"h":16,"offset x":2048,"offset y":1024},
+      {"x":800,"y":64,"w":32,"h":17,"count":3,"offset x":2048,"offset y":1024}
+    ],
+    "allow diagonal":true,
+    "template":["$template_sggtrains00", "$template_rails00"]
+  },
+  {
+    "id":"$rails00",
+    "type":"road",
+    "template":["$template_sggtrains00", "$template_rails00"],
+    "diagonal road":"$diagonal_rails00",
+    "frames":[{"x":384,"y":64,"w":32,"h":17,"count":16,"offset x":2048,"offset y":1024}],
+    "bridge frames":[
+      {"x":512,"y":319,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+      {"x":512,"y":81,"w":32,"h":38,"count":8,"offset x":2048,"offset y":1024},
+      {"x":384,"y":81,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+
+      {"x":512,"y":319,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+      {"x":512,"y":119,"w":32,"h":38,"count":8,"offset x":2048,"offset y":1024},
+      {"x":384,"y":119,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+
+      {"x":512,"y":319,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+      {"x":512,"y":157,"w":32,"h":38,"count":8,"offset x":2048,"offset y":1024},
+      {"x":384,"y":157,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+
+      {"x":512,"y":319,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024},
+      {"x":512,"y":195,"w":32,"h":38,"count":8,"offset x":2048,"offset y":1024},
+      {"x":384,"y":195,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024}
+    ],
+    "tunnel frames":[
+      {"x":280,"y":252,"w":16,"h":19,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":296,"y":252,"w":16,"h":19,"handle x":-16,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":312,"y":252,"w":16,"h":19,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":328,"y":252,"w":16,"h":19,"handle x":-16,"handle y":7,"offset x":2048,"offset y":1024}
+    ],
+    "frames per bridge": 16,
+    "bridge height":12,
+    "bridge price":120
+  },
+  {
+    "id":"$rails00oneway00",
+    "type":"road",
+    "template":"$template_sggtrains00",
+    "frames":[{"x":384,"y":64,"w":32,"h":17,"count":16,"offset x":2048,"offset y":1024,"copies":3}],
+    "bridge frames":[
+      {"x":384,"y":81,"w":32,"h":38,"count":12,"offset x":2048,"offset y":1024},
+      {"x":384,"y":119,"w":32,"h":38,"count":12,"offset x":2048,"offset y":1024},
+      {"x":384,"y":157,"w":32,"h":38,"count":12,"offset x":2048,"offset y":1024},
+      {"x":384,"y":195,"w":32,"h":38,"count":12,"offset x":2048,"offset y":1024}
+    ],
+    "tunnel frames":[
+      {"x":280,"y":252,"w":16,"h":19,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":296,"y":252,"w":16,"h":19,"handle x":-16,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":312,"y":252,"w":16,"h":19,"handle y":7,"offset x":2048,"offset y":1024},
+      {"x":328,"y":252,"w":16,"h":19,"handle x":-16,"handle y":7,"offset x":2048,"offset y":1024}
+    ],
+    "one way frames":[{"x":896,"y":320,"w":32,"h":16,"count":4}],
+    "one way":true,
+    "draw ground":true,
+    "price":50,
+    "monthly price":20,
+    "bridge height":12,
+    "bridge price":120,
+    "allow transfer":false,
+    "allow bus":false,
+    "connectable":true,
+    "auto join":false,
+    "level":10,
+    "speed":2.5,
+    "flag normal":false,
+    "flag train":true,
+    "x flags":{"flag normal":true,"flag train":true},
+    "allow bus stop":false
+  },
+
+  {"id":"$anim_roaddeco_railroof00_00","type":"animation","frames":[{"x":768,"y":81,"w":32,"h":26,"handle y":30,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_railroof00_01","type":"animation","frames":[{"x":800,"y":81,"w":32,"h":26,"handle y":30,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_railroof00_02","type":"animation","frames":[{"x":832,"y":81,"w":32,"h":26,"handle y":30,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_railroof00_03","type":"animation","frames":[{"x":864,"y":81,"w":32,"h":26,"handle y":30,"offset x":2048,"offset y":1024}]},
+  {
+    "id":"$railroof00",
+    "type":"road decoration",
+    "template":"$template_sggtrains00_parts00",
+    "preview road":"$rails00",
+    "speed":0.5,
+    "price":100,
+    "animation":[
+      {"id":"$anim_roaddeco_railroof00_00"},
+      {"id":"$anim_roaddeco_railroof00_02"}
+    ],
+    "frame animation indices":[
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[],
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[]
+    ],
+    "animation fg":[
+      {"id":"$anim_roaddeco_railroof00_01"},
+      {"id":"$anim_roaddeco_railroof00_03"}
+    ],
+    "frame animation fg indices":[
+      [0,1],[0],[0,1],[0],
+      [0,1],[0],[0,1],[0],
+      [1],[],[1],[],
+      [1],[],[1],[]
+    ]
+  },
+  {
+    "hidden":true,
+    "id":"$railroof01",
+    "type":"road decoration",
+    "template":"$template_sggtrains00_parts00",
+    "speed":0.5,
+    "price":100
+  },
+  {"id":"$anim_roaddeco_crane00_00","type":"animation","frames":[{"x":360,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane00_01","type":"animation","frames":[{"x":392,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane00_02","type":"animation","frames":[{"x":424,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane00_03","type":"animation","frames":[{"x":456,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {
+    "id":"$raildeco_crane00",
+    "type":"road decoration",
+    "template":"$template_sggtrains00_parts00",
+    "required flag normal": true,
+    "preview road":"$rails00",
+    "price":100,
+    "speed":0.5,
+    "animation":[
+      {"id":"$anim_roaddeco_crane00_00"},
+      {"id":"$anim_roaddeco_crane00_02"}
+    ],
+    "frame animation indices":[
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[],
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[]
+    ],
+    "animation fg":[
+      {"id":"$anim_roaddeco_crane00_01"},
+      {"id":"$anim_roaddeco_crane00_03"}
+    ],
+    "frame animation fg indices":[
+      [0,1],[0],[0,1],[0],
+      [0,1],[0],[0,1],[0],
+      [1],[],[1],[],
+      [1],[],[1],[]
+    ]
+  },
+  {"id":"$anim_roaddeco_crane01_00","type":"animation","frames":[{"x":360,"y":259,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane01_01","type":"animation","frames":[{"x":392,"y":259,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane01_02","type":"animation","frames":[{"x":424,"y":259,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_crane01_03","type":"animation","frames":[{"x":456,"y":259,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {
+    "id":"$raildeco_crane01",
+    "type":"road decoration",
+    "template":"$template_sggtrains00_parts00",
+    "required flag normal": true,
+    "title id":"draft_raildeco_crane00_title",
+    "text id":"draft_raildeco_crane00_text",
+    "preview road":"$rails00",
+    "price":100,
+    "speed":0.5,
+    "animation":[
+      {"id":"$anim_roaddeco_crane01_00"},
+      {"id":"$anim_roaddeco_crane01_02"}
+    ],
+    "frame animation indices":[
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[],
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[]
+    ],
+    "animation fg":[
+      {"id":"$anim_roaddeco_crane01_01"},
+      {"id":"$anim_roaddeco_crane01_03"}
+    ],
+    "frame animation fg indices":[
+      [0,1],[0],[0,1],[0],
+      [0,1],[0],[0,1],[0],
+      [1],[],[1],[],
+      [1],[],[1],[]
+    ]
+  },
+  {
+    "id":"$anim_traincrossing00",
+    "type":"animation",
+    "frames":[{"x":488,"y":233,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$raildeco_traincrossing00",
+    "type":"road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "price":100,
+    "speed":0.8,
+    "animation":[{"id":"$anim_traincrossing00"}]
+  },
+  {"id":"$anim_roaddeco_mast00_00","type":"animation","frames":[{"x":520,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_mast00_01","type":"animation","frames":[{"x":552,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_mast00_02","type":"animation","frames":[{"x":584,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_roaddeco_mast00_03","type":"animation","frames":[{"x":616,"y":233,"w":32,"h":26,"handle y":18,"offset x":2048,"offset y":1024}]},
+  {
+    "id":"$raildeco_mast00",
+    "type":"road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "speed":1.1,
+    "price":100,
+    "animation":[
+      {"id":"$anim_roaddeco_mast00_00"},
+      {"id":"$anim_roaddeco_mast00_02"}
+    ],
+    "frame animation indices":[
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[],
+      [0,1],[0,1],[1],[1],
+      [0],[0],[],[]
+    ],
+    "animation fg":[
+      {"id":"$anim_roaddeco_mast00_01"},
+      {"id":"$anim_roaddeco_mast00_03"}
+    ],
+    "frame animation fg indices":[
+      [0,1],[0],[0,1],[0],
+      [0,1],[0],[0,1],[0],
+      [1],[],[1],[],
+      [1],[],[1],[]
+    ]
+  },
+  {"id":"$anim_raillights00_00","type": "animation","frames": [{"x":640,"y":233,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_01","type": "animation","frames": [{"x":672,"y":233,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_02","type": "animation","frames": [{"x":704,"y":233,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_03","type": "animation","frames": [{"x":736,"y":233,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {
+    "id": "$raildeco_lights00_00",
+    "type": "road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "price":100,
+    "animation":[ {"id":"$anim_raillights00_00"}, {"id":"$anim_raillights00_02"} ],
+    "frame animation indices":[ [0,1],[0,1],[1],[1], [0],[0],[],[], [0,1],[0,1],[1],[1], [0],[0],[],[] ],
+    "animation fg":[ {"id":"$anim_raillights00_01"}, {"id":"$anim_raillights00_03"} ],
+    "frame animation fg indices":[ [0,1],[0],[0,1],[0], [0,1],[0],[0,1],[0], [1],[],[1],[], [1],[],[1],[] ],
+    "fun":{ "condition":"day%10>=8", "action":{"type":"build","id":"$raildeco_lights00_01"} },
+    "occupation group": "$raildeco_lights_group"
+  },
+  {"id":"$anim_raillights00_01_00","type": "animation","frames": [{"x":640,"y":253,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_01_01","type": "animation","frames": [{"x":672,"y":253,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_01_02","type": "animation","frames": [{"x":704,"y":253,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights00_01_03","type": "animation","frames": [{"x":736,"y":253,"w":32,"h":20,"handle y":12,"offset x":2048,"offset y":1024}]},
+  {
+    "hidden": true,
+    "id": "$raildeco_lights00_01",
+    "type": "road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "price":100,
+    "enter speed":0,
+    "animation":[ {"id":"$anim_raillights00_01_00"}, {"id":"$anim_raillights00_01_02"} ],
+    "frame animation indices":[ [0,1],[0,1],[1],[1], [0],[0],[],[], [0,1],[0,1],[1],[1], [0],[0],[],[] ],
+    "animation fg":[ {"id":"$anim_raillights00_01_01"}, {"id":"$anim_raillights00_01_03"} ],
+    "frame animation fg indices":[ [0,1],[0],[0,1],[0], [0,1],[0],[0,1],[0], [1],[],[1],[], [1],[],[1],[] ],
+    "fun":{ "condition":"day%10<8", "action":{"type":"build","id":"$raildeco_lights00_00"} },
+    "occupation group": "$raildeco_lights_group"
+  },
+  {"id":"$anim_raillights01_00","type": "animation","frames": [{"x":640,"y":273,"w":32,"h":28,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_01","type": "animation","frames": [{"x":672,"y":273,"w":32,"h":28,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_02","type": "animation","frames": [{"x":704,"y":273,"w":32,"h":28,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_03","type": "animation","frames": [{"x":736,"y":273,"w":32,"h":28,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {
+    "id": "$raildeco_lights01_00",
+    "type": "road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "title id":"draft_raildeco_lights00_00_title",
+    "text id":"draft_raildeco_lights00_00_text",
+    "price":100,
+    "animation":[ {"id":"$anim_raillights01_00"}, {"id":"$anim_raillights01_02"} ],
+    "frame animation indices":[ [0,1],[0,1],[1],[1], [0],[0],[],[], [0,1],[0,1],[1],[1], [0],[0],[],[] ],
+    "animation fg":[ {"id":"$anim_raillights01_01"}, {"id":"$anim_raillights01_03"} ],
+    "frame animation fg indices":[ [0,1],[0],[0,1],[0], [0,1],[0],[0,1],[0], [1],[],[1],[], [1],[],[1],[] ],
+    "fun":{ "condition":"day%10>=8", "action":{"type":"build","id":"$raildeco_lights01_01"} },
+    "occupation group": "$raildeco_lights_group"
+  },
+  {"id":"$anim_raillights01_01_00","type": "animation","frames": [{"x":512,"y":259,"w":32,"h":24,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_01_01","type": "animation","frames": [{"x":544,"y":259,"w":32,"h":24,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_01_02","type": "animation","frames": [{"x":576,"y":259,"w":32,"h":24,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {"id":"$anim_raillights01_01_03","type": "animation","frames": [{"x":608,"y":259,"w":32,"h":24,"handle y":19,"offset x":2048,"offset y":1024}]},
+  {
+    "hidden":true,
+    "id":"$raildeco_lights01_01",
+    "type":"road decoration",
+    "preview road":"$rails00",
+    "template":"$template_sggtrains00_parts00",
+    "price":100,
+    "enter speed":0,
+    "animation":[ {"id":"$anim_raillights01_01_00"}, {"id":"$anim_raillights01_01_02"} ],
+    "frame animation indices":[ [0,1],[0,1],[1],[1], [0],[0],[],[], [0,1],[0,1],[1],[1], [0],[0],[],[] ],
+    "animation fg":[ {"id":"$anim_raillights01_01_01"}, {"id":"$anim_raillights01_01_03"} ],
+    "frame animation fg indices":[ [0,1],[0],[0,1],[0], [0,1],[0],[0,1],[0], [1],[],[1],[], [1],[],[1],[] ],
+    "fun":{ "condition":"day%10<8", "action":{"type":"build","id":"$raildeco_lights01_00"} },
+    "occupation group": "$raildeco_lights_group"
+  },
+
+
+
+  {
+    "id":"$template_trainplatform00",
+    "type":"template",
+    "template":"$template_sggtrains00_parts00",
+    "build time": 0,
+    "price":100,
+    "capacity": 10,
+    "draw ground": true,
+    "monthly price": 10,
+    "needs land": true,
+    "needs water": false,
+    "needs road": false,
+    "rotation aware":true,
+    "width":1,
+    "height":1,
+    "power":0,
+    "water":0,
+    "meta": {"tags": {"passenger_train_platform": {}}}
+  },
+  {
+    "id":"$trainplatform00",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "frames":[{"x":768,"y":107,"w":32,"h":17,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform01",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":768,"y":124,"w":32,"h":28,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform02",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":768,"y":152,"w":32,"h":17,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform03",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":768,"y":169,"w":32,"h":18,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform04",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":768,"y":187,"w":32,"h":26,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform05",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":896,"y":98,"w":32,"h":27,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform06",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":896,"y":125,"w":32,"h":40,"count":4,"offset x":2048,"offset y":1024}]
+  },
+  {
+    "id":"$trainplatform07",
+    "type":"decoration",
+    "template":"$template_trainplatform00",
+    "text id":"draft_trainplatform00_text",
+    "frames":[{"x":896,"y":165,"w":32,"h":38,"count":4,"offset x":2048,"offset y":1024}]
+  },
+
+  {
+    "id":"$template_trainstation00",
+    "type":"template",
+    "template":"$template_sggtrains00_parts00",
+    "width":1,
+    "height":1,
+    "capacity":60,
+    "draw ground":true,
+    "rotation aware":true,
+    "needs road":false,
+    "build time":0,
+    "influence park":0,
+    "influence passenger train":80,
+    "monthly price":20,
+    "price":400,
+    "power":0,
+    "water":0,
+    "meta": {"tags": {"railway": {"levels": [0]}}}
+  },
+  {
+    "id":"$trainstation00",
+    "type":"railway station",
+    "template":"$template_trainstation00",
+    "frames": [{"x":896,"y":203,"w":32,"h":17,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"short_distance_passenger_train_station":{}}}
+  },
+  {
+    "id":"$trainstation01",
+    "type":"railway station",
+    "template":"$template_trainstation00",
+    "frames": [{"x":768,"y":213,"w":32,"h":17,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"long_distance_passenger_train_station":{}}}
+  },
+
+  {
+    "id":"$template_train_freight_station00",
+    "type":"template",
+    "template":"$template_sggtrains00_parts00",
+    "width":1,
+    "height":1,
+    "capacity":30,
+    "draw ground":true,
+    "rotation aware":true,
+    "needs road":false,
+    "build time":0,
+    "influence park":0,
+    "influence passenger train":80,
+    "monthly price":20,
+    "price":400,
+    "power":0,
+    "water":0
+  },
+  {
+    "id":"$train_freight_station00",
+    "type":"railway station",
+    "template":"$template_train_freight_station00",
+    "frames": [{"x":896,"y":220,"w":32,"h":19,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"freight_train_station":{}}}
+  },
+  {
+    "id":"$train_freight_station01",
+    "type":"railway station",
+    "template":"$template_train_freight_station00",
+    "text id":"draft_train_freight_station00_text",
+    "frames": [{"x":768,"y":230,"w":32,"h":19,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"freight_train_station":{}}}
+  },
+  {
+    "id":"$train_freight_station02",
+    "type":"railway station",
+    "template":"$template_train_freight_station00",
+    "text id":"draft_train_freight_station00_text",
+    "frames": [{"x":896,"y":292,"w":32,"h":17,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"heavy_freight_train_station":{}}}
+  },
+  {
+    "id":"$train_freight_station03",
+    "type":"railway station",
+    "template":"$template_train_freight_station00",
+    "text id":"draft_train_freight_station00_text",
+    "frames": [{"x":896,"y":239,"w":32,"h":53,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"heavy_freight_train_station":{}}}
+  },
+  {
+    "id":"$train_freight_station04",
+    "type":"railway station",
+    "template":"$template_train_freight_station00",
+    "text id":"draft_train_freight_station00_text",
+    "frames": [{"x":768,"y":249,"w":32,"h":53,"count":4,"offset x":2048,"offset y":1024}],
+    "meta":{"tags":{"heavy_freight_train_station":{}}}
+  },
+
+  {
+    "id":"$trainstation_prebuilt00",
+    "type":"railway station",
+    "template":"$template_sggtrains00",
+    "width":4,"height":2,
+    "composition":[
+      {"id":"$trainplatform03","y":0,"x":0,"frame":1},
+      {"id":"$trainstation00","y":0,"x":1,"frame":0},
+      {"id":"$trainplatform05","y":0,"x":2,"frame":1},
+      {"id":"$trainplatform03","y":0,"x":3,"frame":1},
+      {"id":"$rails00","x0":0,"y1":1,"y0":1,"x1":3},
+      {"id":"$railroof01","x":1,"y":1},
+      {"id":"$railroof01","x":2,"y":1}
+    ]
+  },
+
+  {
+    "id":"$trainstation_prebuilt01",
+    "type":"railway station",
+    "template":"$template_sggtrains00",
+    "width":5,"height":5,
+    "composition":[
+      {"id":"$trainplatform04","y":0,"x":0,"frame":1},
+      {"id":"$trainplatform07","y":0,"x":1,"frame":2},
+      {"id":"$trainplatform00","y":0,"x":2,"frame":1},
+      {"id":"$trainplatform05","y":0,"x":3,"frame":1},
+      {"id":"$trainplatform03","y":0,"x":4,"frame":1},
+      {"id":"$rails00","x0":0,"y1":1,"y0":1,"x1":4},
+      {"id":"$trainplatform01","y":2,"x":0,"frame":1},
+      {"id":"$trainplatform06","y":2,"x":1,"frame":1},
+      {"id":"$trainstation00","y":2,"x":2,"frame":0},
+      {"id":"$trainplatform00","y":2,"x":3,"frame":3},
+      {"id":"$trainplatform01","y":2,"x":4,"frame":1},
+      {"id":"$rails00","x0":0,"y1":3,"y0":3,"x1":4},
+      {"id":"$trainplatform04","y":4,"x":0,"frame":3},
+      {"id":"$trainplatform07","y":4,"x":1,"frame":0},
+      {"id":"$trainplatform00","y":4,"x":2,"frame":1},
+      {"id":"$trainplatform05","y":4,"x":3,"frame":3},
+      {"id":"$trainplatform03","y":4,"x":4,"frame":3},
+      {"id":"$railroof00","x":1,"y":1},
+      {"id":"$railroof01","x":2,"y":1},
+      {"id":"$railroof01","x":3,"y":1},
+      {"id":"$railroof00","x":1,"y":3},
+      {"id":"$railroof01","x":2,"y":3},
+      {"id":"$railroof01","x":3,"y":3}
+    ]
+  },
+  {
+    "id":"$trainstation_prebuilt02",
+    "type":"railway station",
+    "template":"$template_sggtrains00",
+    "width":7,"height":7,
+    "composition":[
+      {"id":"$trainplatform03","y":0,"x":0,"frame":1},
+      {"id":"$trainplatform05","y":0,"x":1,"frame":1},
+      {"id":"$trainplatform04","y":0,"x":2,"frame":1},
+      {"id":"$trainplatform07","y":0,"x":3,"frame":2},
+      {"id":"$trainplatform07","y":0,"x":4,"frame":2},
+      {"id":"$trainplatform00","y":0,"x":5,"frame":1},
+      {"id":"$trainplatform04","y":0,"x":6,"frame":1},
+      {"id":"$rails00","x0":0,"y1":1,"y0":1,"x1":6},
+      {"id":"$trainplatform00","y":2,"x":0,"frame":1},
+      {"id":"$trainplatform01","y":2,"x":1,"frame":1},
+      {"id":"$trainstation00","y":2,"x":2,"frame":0},
+      {"id":"$trainplatform06","y":2,"x":3,"frame":1},
+      {"id":"$trainplatform06","y":2,"x":4,"frame":1},
+      {"id":"$trainplatform02","y":2,"x":5,"frame":1},
+      {"id":"$trainplatform00","y":2,"x":6,"frame":3},
+      {"id":"$rails00","x0":0,"y1":3,"y0":3,"x1":6},
+      {"id":"$trainplatform00","y":4,"x":0,"frame":1},
+      {"id":"$trainplatform01","y":4,"x":1,"frame":1},
+      {"id":"$trainstation01","y":4,"x":2,"frame":0},
+      {"id":"$trainplatform06","y":4,"x":3,"frame":1},
+      {"id":"$trainplatform06","y":4,"x":4,"frame":1},
+      {"id":"$trainplatform02","y":4,"x":5,"frame":1},
+      {"id":"$trainplatform00","y":4,"x":6,"frame":3},
+      {"id":"$rails00","x0":0,"y1":5,"y0":5,"x1":6},
+      {"id":"$trainplatform04","y":6,"x":0,"frame":3},
+      {"id":"$trainplatform05","y":6,"x":1,"frame":3},
+      {"id":"$trainplatform05","y":6,"x":2,"frame":1},
+      {"id":"$trainplatform07","y":6,"x":3,"frame":0},
+      {"id":"$trainplatform07","y":6,"x":4,"frame":0},
+      {"id":"$trainplatform00","y":6,"x":5,"frame":1},
+      {"id":"$trainplatform03","y":6,"x":6,"frame":3},
+      {"id":"$railroof01","x":1,"y":1},
+      {"id":"$railroof01","x":2,"y":1},
+      {"id":"$railroof00","x":3,"y":1},
+      {"id":"$railroof00","x":4,"y":1},
+      {"id":"$railroof01","x":5,"y":1},
+      {"id":"$railroof01","x":1,"y":3},
+      {"id":"$railroof01","x":2,"y":3},
+      {"id":"$railroof00","x":3,"y":3},
+      {"id":"$railroof00","x":4,"y":3},
+      {"id":"$railroof01","x":5,"y":3},
+      {"id":"$railroof01","x":1,"y":5},
+      {"id":"$railroof01","x":2,"y":5},
+      {"id":"$railroof00","x":3,"y":5},
+      {"id":"$railroof00","x":4,"y":5},
+      {"id":"$railroof01","x":5,"y":5}
+    ]
+  },
+  {
+    "id":"$trainstation_prebuilt10",
+    "type":"railway station",
+    "template":"$template_sggtrains00",
+    "width":5,"height":4,
+    "composition":[
+      {"id":"$decoconstruction00","y":0,"x":1,"frame":9},
+      {"id":"$decoind00","y":0,"x":2,"frame":31},
+      {"id":"$train_freight_station00","y":0,"x":3,"frame":0},
+      {"id":"$trainplatform03","y":0,"x":4,"frame":1},
+      {"id":"$road01","x0":0,"y1":3,"y0":0,"x1":0},
+      {"id":"$rails00","x0":0,"y1":1,"y0":1,"x1":4},
+      {"id":"$rails00","x0":1,"y1":3,"y0":1,"x1":1},
+      {"id":"$rails00","x0":1,"y1":3,"y0":3,"x1":4},
+      {"id":"$raildeco_crane00","y":1,"x":3,"level":0},
+      {"id":"$decoind00","y":2,"x":2,"frame":1},
+      {"id":"$decoind00","y":2,"x":3,"frame":29},
+      {"id":"$train_freight_station01","y":2,"x":4,"frame":0},
+      {"id":"$raildeco_crane00","y":3,"x":2,"level":0},
+      {"id":"$raildeco_traincrossing00","y":1,"x":0,"level":0},
+      {"id":"$railroof01","x":1,"y":1},
+      {"id":"$railroof01","x":2,"y":1},
+      {"id":"$railroof01","x":4,"y":1},
+      {"id":"$railroof01","x":1,"y":2},
+      {"id":"$railroof01","x":1,"y":3},
+      {"id":"$railroof01","x":3,"y":3},
+      {"id":"$railroof01","x":4,"y":3}
+    ]
+  },
+  {
+    "id":"$trainstation_prebuilt11",
+    "type":"railway station",
+    "template":"$template_sggtrains00",
+    "width":7,"height":6,
+    "composition":[
+      {"id":"$decoind00","y":0,"x":0,"frame":2},
+      {"id":"$decoind00","y":0,"x":1,"frame":1},
+      {"id":"$decocom00","y":0,"x":2,"frame":2},
+      {"id":"$roaddeco_barrier_open00","y":0,"x":3,"level":0},
+      {"id":"$train_freight_station02","y":0,"x":5,"frame":0},
+      {"id":"$decocom00","y":0,"x":6,"frame":22},
+      {"id":"$decocom00","y":0,"x":4,"frame":1},
+      {"id":"$rails00","x0":0,"y1":1,"y0":1,"x1":6},
+      {"id":"$railroof01","y":1,"x":1,"level":0},
+      {"id":"$raildeco_crane01","y":1,"x":2,"level":0},
+      {"id":"$raildeco_traincrossing00","y":1,"x":3,"level":0},
+      {"id":"$raildeco_crane01","y":1,"x":4,"level":0},
+      {"id":"$railroof01","y":1,"x":5,"level":0},
+      {"id":"$decoind00","y":2,"x":0,"frame":3},
+      {"id":"$rails00","x0":1,"y1":4,"y0":1,"x1":1},
+      {"id":"$raildeco_lights00_00","y":2,"x":1,"level":0},
+      {"id":"$train_freight_station04","y":2,"x":2,"frame":0},
+      {"id":"$road01","x0":3,"y1":3,"y0":0,"x1":3},
+      {"id":"$train_freight_station00","y":2,"x":4,"frame":0},
+      {"id":"$decoind00","y":2,"x":5,"frame":29},
+      {"id":"$decoind00","y":2,"x":6,"frame":31},
+      {"id":"$decoind00","y":3,"x":0,"frame":4},
+      {"id":"$road01","x0":2,"y1":3,"y0":3,"x1":3},
+      {"id":"$roaddeco_roundabout00","y":3,"x":2,"level":0},
+      {"id":"$train_freight_station03","y":3,"x":4,"frame":0},
+      {"id":"$decoind00","y":3,"x":5,"frame":31},
+      {"id":"$decoind00","y":3,"x":6,"frame":26},
+      {"id":"$decoind00","y":4,"x":0,"frame":5},
+      {"id":"$railroof01","y":4,"x":1,"level":0},
+      {"id":"$rails00","x0":0,"y1":4,"y0":4,"x1":6},
+      {"id":"$railroof01","y":4,"x":2,"level":0},
+      {"id":"$raildeco_crane01","y":4,"x":3,"level":0},
+      {"id":"$raildeco_crane01","y":4,"x":4,"level":0},
+      {"id":"$railroof01","y":4,"x":5,"level":0},
+      {"id":"$decoind00","y":5,"x":0,"frame":6},
+      {"id":"$decoind00","y":5,"x":1,"frame":26},
+      {"id":"$train_freight_station01","y":5,"x":2,"frame":0},
+      {"id":"$trainplatform03","y":5,"x":3,"frame":3},
+      {"id":"$decoind00","y":5,"x":5,"frame":26},
+      {"id":"$decoconstruction00","y":5,"x":6,"frame":4},
+      {"id":"$decoconstruction00","y":5,"x":4,"frame":9}
+    ]
+  },
+
+  // Passenger train ts instance.
+  {
+    "id":"$ts_native_passengertrain00",
+    "type":"script",
+    "template": "$ts_native_template00",
+    "script": "#ts/passengertrain.lua",
+    "requirements": [{"type": "RANK", "lvl": 6}],
+    "preview frame": {"steal": "$cat_train00"},
+    "ordinal": 10
+  },
+
+  // Freight train ts instance.
+  {
+    "id":"$ts_native_freighttrain00",
+    "type":"script",
+    "template": "$ts_native_template00",
+    "script": "#ts/freighttrain.lua",
+    "requirements": [{"type": "RANK", "lvl": 6}],
+    "preview frame": {"steal": "$ts_freight_train_icon00"},
+    "ordinal": 20
+  }
+]

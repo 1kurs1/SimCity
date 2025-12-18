@@ -1,0 +1,374 @@
+[
+  {
+    "separator":true,
+    "id":"$decores00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":1248,"y":448,"w":32,"h":16,"count":7},
+      {"x":1504,"y":80,"w":32,"h":16},
+      {"x":1408,"y":80,"w":32,"h":16},
+      {"x":1216,"y":112,"w":32,"h":16,"count":2},
+      {"x":1344,"y":128,"w":32,"h":16,"count":2},
+      {"x":1344,"y":272,"w":32,"h":16},
+      {"x":1280,"y":288,"w":32,"h":32},
+      {"x":1120,"y":480,"w":32,"h":16},
+      {"x":288,"y":928,"w":32,"h":15,"offset x":1024},
+      {"x":352,"y":952,"w":32,"h":32,"count":5,"offset x":1024}
+    ],
+    "meta":{"tags":{"decorator":{"zones":["$zoneresidential","$zoneresidential_lvl2","$matison_medieval"]}}},
+    "price":0,
+    "bulldoze price":0,
+    "supports terrain": true
+  },
+  {
+    "id":"$decores01",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":1248,"y":448,"w":32,"h":16}],
+    "animation":[{"id":"$animkite00","x":0,"y":0},{"id":"$animkite01","x":0,"y":0}],
+    "meta":{"tags":{"decorator":{"zones":["$zoneresidential","$zoneresidential_lvl2","$matison_medieval"]}}},
+    "price":0,
+    "bulldoze price":0,
+    "supports terrain": true
+  },
+  {
+    "id":"$decores02",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":192,"y":256,"w":32,"h":19,"offset x":1024,"offset y":3072,"count":10}],
+    "meta":{"tags":{"decorator":{"zones":["$zoneresidential","$zoneresidential_lvl2","$matison_medieval"]}}},
+    "price":0,
+    "bulldoze price":0,
+    "supports terrain": true
+  },
+
+  {
+    "id":"$decocom00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":1536,"y":48,"w":32,"h":16,"count":3},
+      {"x":1696,"y":96,"w":32,"h":16},
+      {"x":2016,"y":48,"w":32,"h":16},
+      {"x":1632,"y":144,"w":32,"h":16,"count":2},
+      {"x":1760,"y":160,"w":32,"h":16,"count":2},
+      {"x":1728,"y":240,"w":32,"h":16},
+      {"x":1920,"y":224,"w":32,"h":16},
+      {"x":1536,"y":512,"w":32,"h":16,"count":3},
+      {"x":1824,"y":512,"w":32,"h":16},
+      {"x":1856,"y":608,"w":32,"h":16},
+      {"x":768,"y":0,"w":32,"h":16,"count":3,"offset x":1024},
+      {"x":768,"y":16,"w":32,"h":21,"count":2,"offset x":1024},
+      {"x":512,"y":256,"w":32,"h":16,"count":2,"offset x":1024}
+    ],
+    "meta":{
+      "tags":{
+        "decorator":{
+          "zones":["$zonecommercial","$zonecommercial_lvl2"]
+        }
+      }
+    },
+    "price":0,
+    "bulldoze price":0,
+    "supports terrain": true
+  },
+  {
+    "id":"$decoind00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":0,"y":1056,"w":32,"h":16,"count":2},
+      {"x":96,"y":1216,"w":32,"h":16,"count":2},
+      {"x":384,"y":1344,"w":32,"h":16},
+      {"x":384,"y":1360,"w":32,"h":16},
+      {"x":0,"y":1472,"w":32,"h":16,"count":4},
+      {"x":0,"y":1488,"w":32,"h":16,"count":4},
+      {"x":192,"y":1568,"w":32,"h":16},
+      {"x":192,"y":1584,"w":32,"h":16},
+      {"x":416,"y":1520,"w":32,"h":16,"count":3},
+      {"x":416,"y":1536,"w":32,"h":16,"count":3},
+      {"x":416,"y":1552,"w":32,"h":16,"count":3},
+      {"x":416,"y":1568,"w":32,"h":16,"count":3},
+      {"x":96,"y":1632,"w":32,"h":16,"count":2},
+      {"x":96,"y":1648,"w":32,"h":16,"count":2}
+    ],
+    "meta":{
+      "tags":{
+        "decorator":{
+          "zones":["$zoneindustrial","$zoneindustrial_lvl2"]
+        }
+      }
+    },
+    "price":0,
+    "bulldoze price":0,
+    "supports terrain": true
+  },
+  {
+    "id":"$decoroad00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":384,"y":80,"w":32,"h":32,"count":4,"offset x":1024,"offset y":1024}
+    ],
+    "influence nature":1,
+    "influence pollution":-1
+  },
+
+  {
+    "id":"$decoconstruction00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":0,"y":888,"w":32,"h":25,"offset x":1024,"offset y":1024,"count":4},
+      {"x":0,"y":913,"w":32,"h":16,"offset x":1024,"offset y":1024,"count":4},
+      {"x":0,"y":929,"w":32,"h":24,"offset x":1024,"offset y":1024,"count":4}
+    ],
+    "supports terrain": true
+  },
+
+  {
+    "id":"$decorustywatertower00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":896,"y":768,"w":32,"h":48,"offset x":1024,"offset y":1024}
+    ],
+    "price":400,
+    "monthly price":1,
+    "supports terrain": true
+  },
+
+  {
+    "id":"$notify_easteregg_spawned00",
+    "type":"notification",
+    "frames":[{"x":288,"y":736,"w":32,"h":32}]
+  },
+  {
+    "id":"$notify_easteregg_found00",
+    "type":"notification",
+    "frames":[{"x":288,"y":736,"w":32,"h":32}]
+  },
+  {
+    "hidden":true,               // <- Hides eggs from manual selection
+    "id":"$easteregg00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":128,"y":507,"w":32,"h":18,"count":6}],
+    "draw ground":true,
+    "pickable": false,
+    "random fun":[
+      {
+        "condition":{
+          "type":"and","inner":[
+            //{"type":false},           // <- Disables auto spawn
+            {"type":"value","code":"$eastereggcounter","z":0},
+            {"type":"value","code":"day/180","min":1,"max":9999999},
+            {"type":"building","invert":true},
+            {"type":"zone","invert":true},
+            {"type":"wire","invert":true},
+            {"type":"buildable","id":"$easteregg00"}
+          ]
+        },
+        "actions":[
+          {"type":"build","id":"$easteregg00"},
+          "$eastereggcounter=$eastereggcounter+1",
+          {"type":"notify","id":"$notify_easteregg_spawned00"}
+        ],
+        "double check":true,
+        "p":0.01
+      }
+    ],
+    "on click fun":[
+      {
+        "condition":{"type":"value","code":"localeastereggachievement","z":0},
+        "actions":[
+          "!eastereggachievement=!eastereggachievement+1",
+          "localeastereggachievement=localeastereggachievement+1",
+          {"type":"notify","id":"$notify_easteregg_found00"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "id":"$ancientbear_guard00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":166,"y":164,"w":32,"h":32,"offset y":3072}],
+    "draw ground":true,
+    "price":1000,
+    "influence religion":10
+  },
+  {
+    "id":"$ancientbear_statue00",
+    "type":"decoration",
+    "width":3,
+    "height":3,
+    "frames":[{"x":128,"y":196,"w":96,"h":124,"offset y":3072}],
+    "price":10000,
+    "draw ground":true,
+    "influence religion":100,
+    "max count":1
+  },
+
+
+
+
+
+  {
+    "id":"$igloo00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":192,"y":112,"w":32,"h":16,"offset y":3072}],
+    "draw ground":true,
+    "price":100
+  },
+
+
+
+
+  {
+    "once":true,
+    "id":"$gol_dead",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":704,"y":240,"w":32,"h":16,"offset x":1024,"offset y":1024}],
+    "preview frames":[{"x":672,"y":239,"w":26,"h":26,"offset x":1024,"offset y":1024}],
+    "frame alignment area":true,
+    "fun":[
+      {
+        "condition":{"type":"nearby","z":3,"inner":[{"type":"building","id":"$gol_alive"}]},
+        "actions":[{"type":"remove"},{"type":"build","id":"$gol_alive"}]
+      }
+    ],
+    "on click fun":[
+      {"actions":[
+        "!_golclickcounter=!_golclickcounter+1",
+        {"type":"remove"},
+        {"type":"build","id":"$gol_alive"}
+      ]}
+    ],
+    "supports terrain": true
+  },
+
+  {
+    "once":true,
+    "hidden":true,
+    "id":"$gol_alive",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "frames":[{"x":736,"y":240,"w":32,"h":16,"offset x":1024,"offset y":1024}],
+    "frame alignment area":true,
+    "fun":[
+      {
+        "condition":{"type":"nearby","min":2,"max":3,"invert":true,"inner":[{"type":"building","id":"$gol_alive"}]},
+        "actions":[{"type":"remove"},{"type":"build","id":"$gol_dead"}]
+      }
+    ],
+    "on click fun":[
+      {
+        "actions":[
+          "!_golclickcounter=!_golclickcounter+1",
+          {"type":"remove"},
+          {"type":"build","id":"$gol_dead"}]
+      }
+    ],
+    "supports terrain": true
+  },
+
+  {
+    "id":"$halloween_rain00",
+    "type":"animation",
+    "frames":[
+      {"x":385,"y":833,"w":126,"h":126,"offset x":3072},
+      {"x":511,"y":833,"w":-126,"h":126,"offset x":3072}
+    ]
+  },
+  {
+    "id":"$halloween_devil00",
+    "type":"animation",
+    "frames":{"x":241,"y":691,"w":34,"h":30,"target w":17,"target h":15,"handle x":8,"handle y":15,"offset x":1024,"offset y":1024}
+  },
+  {
+    "id":"$halloween_pumpkin00",
+    "type":"decoration",
+    "width":1,
+    "height":1,
+    "price":100,
+    "frames":{"x":209,"y":828,"w":32,"h":43,"offset x":1024,"offset y":1024},
+    "scripts":"#halloween/HalloweenScript.lua"
+  },
+
+  // Rainforest biome only temple
+  {
+    "id": "$ancient_temple00",
+    "type": "decoration",
+    "frames": [
+      {"x": 128, "y": 741, "w": 128, "h": 72, "offset x": 1024, "offset y": 2048}
+    ],
+    "width": 4,
+    "height": 4,
+    "draw ground": true,
+    "needs road": false,
+    "power": 0,
+    "water": 0,
+    "hidden":  true,
+    "movable": false,
+    "pickable": false,
+    "influence culture":1
+  },
+
+  // Other biome related decorations by Pluc
+  {
+    "id": "$lookout_tower00",
+    "type": "decoration",
+    "frames": [
+      {"x": 736, "y": 438, "w": 32, "h": 52, "offset x": 1024, "offset y": 2048}
+    ],
+    "width": 1,
+    "height": 1,
+    "draw ground": true
+  },
+  {
+    "id": "$boulders00",
+    "type": "decoration",
+    "frames": [
+      {"x": 768, "y": 390, "w": 32, "h": 22, "count": 4, "offset x": 1024, "offset y": 2048}
+    ],
+    "width": 1,
+    "height": 1,
+    "draw ground": true
+  },
+
+
+  // Integrity check related script hidden here for unkown reasons
+  {
+    "hidden":true,
+    "final": true,
+    "index": false,
+    "id":"$deadcity00",
+    "width":1,
+    "height":1,
+    "frames":[null],
+    "type":"decoration",
+    "scripts":"#integrity/DeadCityScript.lua",
+    "mute lua":true,
+    "mute":true,
+    "hide id":true,
+    "supports terrain": true
+  }
+]

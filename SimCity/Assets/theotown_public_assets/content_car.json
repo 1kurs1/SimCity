@@ -1,0 +1,1641 @@
+[
+  {
+    "id":"$car_null00",
+    "type":"car",
+    "frames":[{"x":0,"y":0,"w":0,"h":0,"count":4}],
+    "flag all":true
+  },
+
+  {
+    "id":"$car_taxi00",
+    "type":"car",
+    "frames":[{"x":192,"y":161,"w":12,"h":11,"count":4,"offset y":2048}],
+    "v2":true,
+    "chargeable": false
+  },
+
+  {
+    "id":"$carres00",
+    "type":"car",
+    "frames":[
+      {"x":512,"y":512,"w":12,"h":9,"count":4},
+      {"x": 512,"y": 112,"w": 12,"h": 9, "count": 4, "offset y": 3072},
+      {"x":560,"y":512,"w":12,"h":9,"count":4},
+      {"x": 560,"y": 112,"w": 12,"h": 9, "count": 4, "offset y": 3072}
+    ],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [null,null, 0, 5, 9, 6, null,null]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [null,null, 2, 6, 11, 5, null,null]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [8, 6, null,null, null,null, 1, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [10, 5, null,null, null,null, 3, 6]
+       }
+    ],
+    "v2":[3,0,1,0, 0,0,0,0, 3,0,1,0, 0,0,0,0],
+    "auto colorize":true,
+    "flag normal":false,
+    "flag pkw":true,
+    "meta":{"tags":{"carres0":{}}}
+  },
+  {
+    "id":"$carres01",
+    "type":"car",
+    "frames":[
+      {"x":608,"y":512,"w":14,"h":12,"count":4},
+      {"x": 256,"y": 96,"w": 14,"h": 12, "count": 4, "offset y": 3072},
+      {"x":664,"y":512,"w":12,"h":9,"count":4},
+      {"x": 256,"y": 108,"w": 12,"h": 9, "count": 4, "offset y": 3072}
+    ],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [
+          null,null, 1, 9, 10, 10, null,null,   null,null,null,null,null,null,null,null,
+          null,null, 1, 6, 8, 7, null,null,   null,null,null,null,null,null,null,null
+        ]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [
+          null,null, 3, 10, 12, 9, null,null,   null,null,null,null,null,null,null,null,
+          null,null, 3, 7, 10, 6, null,null,   null,null,null,null,null,null,null,null
+        ]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [
+          11, 10, null,null, null,null, 0, 9,   null,null,null,null,null,null,null,null,
+          8, 7, null,null, null,null, 0, 6,   null,null,null,null,null,null,null,null
+        ]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [
+          13, 9, null,null, null,null, 2, 10,   null,null,null,null,null,null,null,null,
+          10, 6, null,null, null,null, 2, 7,   null,null,null,null,null,null,null,null
+        ]
+      }
+    ],
+    "v2":[2,1,0,-1, 0,0,0,0, 3,0,2,0, 0,0,0,0],
+    "auto colorize":true,
+    "flag normal":false,
+    "flag pkw":true,
+    "meta":{
+      "tags":{
+        "carres1":{}
+      }
+    }
+  },
+  {
+    "id":"$motorcycle00",
+    "type":"car",
+    "frames":[
+      {"x":512,"y":697,"w":4,"h":4,"count":12,"handle x":-6},
+      {"x":512,"y":701,"w":4,"h":4,"count":12,"handle x":-6},
+      {"x":512,"y":705,"w":4,"h":4,"count":12,"handle x":-6}
+    ],
+    "v2":[4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2, 4,4,3,2],
+    "animation": [
+      {
+        "id": "carlight_yellow",
+        "pos": [3, 2, null,null, null,null, 0, 2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [null,null, 0, 2, 3, 2, null,null]
+      }
+    ],
+    "flag normal":false,
+    "flag pkw":true,
+    "meta":{"tags":{"carres0":{}}}
+  },
+  {
+    "id":"$carres02",
+    "type":"car",
+    "frames":[
+      {"x":712,"y":512,"w":18,"h":11,"count":4},
+      {"x": 312,"y": 844,"w": 18,"h": 12, "count": 4, "offset y": 3072},
+      {"x":784,"y":512,"w":18,"h":11,"count":4},
+      {"x": 312,"y": 856,"w": 18,"h": 12, "count": 4, "offset y": 3072}
+    ],
+    "frames per variant": 8,
+    "v2":[0,1, 0,0, 0,1, 0,0],
+    "flag normal":false,
+    "flag pkw":true,
+    "meta":{
+      "tags":{
+        "carres2":{}
+      }
+     },
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [null, null, 1, 7, 13, 9, null, null]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [null, null, 4, 9, 16, 7, null, null]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13, 9, null, null, null, null, 1, 7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [16, 7, null, null, null, null, 4, 9]
+      }
+    ]
+   },
+
+   {
+    "id":"$carind00",
+    "type":"car",
+    "frames":[
+      {"x":640,"y":112,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":126,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":140,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":154,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":182,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":196,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+      {"x":640,"y":210,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072}
+    ],
+     "v2": true,
+     "frames per variant": 8,
+    "animation":[
+      {
+        "id": "carlight_red",
+        "pos": [ null,null, 1,11, 14,12, null,null ]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [ null,null, 3,12, 16,11, null,null ]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [ 14,12, null,null, null,null, 0,11 ]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [ 16,11, null,null, null,null, 2,12 ]
+      }
+    ],
+    "speed":0.9,
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{
+      "tags":{
+        "carind0":{}
+      }
+    }
+   },
+   {
+      "id":"$carind01",
+      "type":"car",
+      "frames":[
+        {"x":640,"y":112,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":126,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":140,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":154,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":182,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":196,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":210,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":224,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":640,"y":238,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":128,"y":234,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072}
+      ],
+     "v2": true,
+     "frames per variant": 8,
+     "animation":[
+       {
+         "id": "carlight_red",
+         "pos": [ null,null, 1,11, 14,12, null,null ]
+       },
+       {
+         "id": "carlight_red",
+         "pos": [ null,null, 3,12, 16,11, null,null ]
+       },
+       {
+         "id": "carlight_yellow",
+         "pos": [ 14,12, null,null, null,null, 0,11 ]
+       },
+       {
+         "id": "carlight_yellow",
+         "pos": [ 16,11, null,null, null,null, 2,12 ]
+       }
+     ],
+     "speed":0.9,
+     "flag normal":false,
+     "flag lkw":true,
+     "meta":{
+       "tags":{
+         "carind1":{}
+       }
+     }
+   },
+   {
+      "id":"$carind02",
+      "type":"car",
+      "frames":[
+        {"x":640,"y":168,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072},
+        {"x":272,"y":234,"w":18,"h":14,"count":8,"offset x": 1024,"offset y": 3072}
+      ],
+     "v2": true,
+     "frames per variant": 8,
+     "animation":[
+       {
+         "id": "carlight_red",
+         "pos": [ null,null, 1,11, 14,12, null,null ]
+       },
+       {
+         "id": "carlight_red",
+         "pos": [ null,null, 3,12, 16,11, null,null ]
+       },
+       {
+         "id": "carlight_yellow",
+         "pos": [ 14,12, null,null, null,null, 0,11 ]
+       },
+       {
+         "id": "carlight_yellow",
+         "pos": [ 16,11, null,null, null,null, 2,12 ]
+       }
+     ],
+     "speed":0.9,
+     "flag normal":false,
+     "flag lkw":true,
+     "meta":{
+       "tags":{
+         "carind2":{}
+       }
+     }
+   },
+
+  {
+    "id":"$cartv00",
+    "type":"car",
+    "frames":[
+      {"x":544,"y":618,"w":32,"h":20},
+      {"x":512,"y":618,"w":32,"h":20},
+      {"x":608,"y":618,"w":32,"h":20},
+      {"x":576,"y":618,"w":32,"h":20},
+      {"x": 913,"y": 528, "w": 19, "h": 15},
+      {"x": 932,"y": 528, "w": 5, "h": 15},
+      {"x": 938,"y": 528, "w": 19, "h": 15},
+      {"x": 957,"y": 528, "w": 5, "h": 15}
+    ],
+    "frames per variant": 8,
+    "v2": [-3,[8,1],[4,-10],-5, -2,[-2,0],0,[-3,0]],
+    "animation":[
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 11, 16, 25, 13, 0, 0],
+        "frames": [1, 2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 13, 17, 27, 12, 0, 0],
+        "frames": [1, 2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [19, 17, 0, 0, 0, 0, 2, 12],
+        "frames": [0, 3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [21, 16, 0, 0, 0, 0, 4, 13],
+        "frames": [0, 3]
+      }
+    ]
+  },
+
+  {
+    "id":"$carfirebrigade00",
+    "type":"car",
+    "frames":[
+      {"x":768,"y":528,"w":18,"h":15,"count":8}
+    ],
+    "frames per variant": 8,
+    "v2": [0,0,-1,0, 0,[4,0],0,[-3,0]],
+    "animation":[
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos": [14,8, 0,7, 0,2, 0,7,   0,5, 7,0, 0,5, 7,0],
+        "important":true
+      },
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos": [17,7, 3,8, 14,8, 3,8,   0,6, 10,0, 0,6, 10,0],
+        "important":true
+      },
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos": [0,2, 17,2, 17,7, 17,2,   17,5, 7,9, 17,5, 7,9],
+        "important":true
+      },
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos": [0,0, 0,0, 0,0, 0,0,   17,6, 10,9, 17,6, 10,9],
+        "important":true,
+        "frames": [4,5,6,7]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,11, 14,12, 0,0,   0,11, 7,13, 17,11, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,12, 17,11, 0,0,   0,0, 10,13, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [14,12, 0,0, 0,0, 0,11,   17,11, 0,0, 0,11, 7,13],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [17,11, 0,0, 0,0, 3,12,   0,0, 0,0, 0,0, 10,13],
+        "frames": [0,3, 7]
+      }
+    ],
+    "flag military":true,
+    "flag airport":true,
+    "flag emergency": true,
+    "chargeable": false,
+    "meta":{"tags":{"fire brigade":{}}}
+  },
+
+  {
+    "id":"$carmedic00",
+    "type":"car",
+    "frames":[
+      {"x":772,"y":702,"w":15,"h":13,"count":4},
+      {"x":640,"y":696,"w":15,"h":13,"count":4}
+    ],
+    "v2":[2,1,0,-1],
+    "animation": [
+      {
+        "id":"$animationcaralertlights00",
+        "pos":[10,-7, 5,-6, 0,-11, 9,-10],
+        "important":true,
+        "normalize pos": false
+      },
+      {
+        "id":"$animationcaralertlights00",
+        "pos":[13,-6, 8,-7, 3,-10, 12,-11],
+        "important":true,
+        "normalize pos": false
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 0, 6, 10, 8, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 8, 14, 6, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 0, 9, 10, 11, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 11, 14, 9, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [11, 11, 0, 0, 0, 0, 0, 10],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13, 10, 0, 0, 0, 0, 2, 11],
+        "frames": [0,3]
+      }
+    ],
+    "flag military":true,
+    "flag airport":true,
+    "flag emergency": true,
+    "chargeable": false,
+    "meta":{"tags":{"medic":{}}}
+  },
+
+  {
+    "id":"$carpolice00",
+    "type":"car",
+    "frames":[
+      {"x":896,"y":618,"w":12,"h":9,"count":8}
+    ],
+    "v2": [2,0,0,0, 0,0,0,0],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos":[6,3, 5,1, 4,2, 4,2,   6,1, 4,2, 5,1, 4,3],
+        "important":true
+      },
+      {
+        "id":"$animationcaralertlightsmid00",
+        "pos":[8,2, 7,2, 6,1, 6,3,   6,2, 7,2, 5,2, 7,3],
+        "important":true
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,5, 9,6, 0,0,   0,5, 4,7, 11,5, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 2,6, 11,5, 0,0,   0,0, 7,7, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [9,6, 0,0, 0,0, 1,5,   10,5, 0,0, 1,5, 4,7],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [11,5, 0,0, 0,0, 3,6,   0,0, 0,0, 0,0, 7,7],
+        "frames": [0,3, 7]
+      }
+    ],
+    "flag military":true,
+    "flag airport":true,
+    "flag emergency": true,
+    "chargeable": false,
+    "meta":{"tags":{"police":{}}}
+  },
+
+  {
+    "id": "$carbus00",
+    "type": "car",
+    "frames": [
+      {"x":896,"y":657,"w":32,"h":19,"count":4},
+      {"x":896,"y":676,"w":32,"h":19,"count":4},
+      {"x":896,"y":695,"w":32,"h":19,"count":4},
+      {"x":896,"y":714,"w":32,"h":19,"count":4}
+    ],
+    "capacity": 40,
+    "speed":0.9,
+    "flag normal":false,
+    "flag bus":true,
+    "chargeable": false
+  },
+
+  {
+    "id":"$carswat00",
+    "type":"car",
+    "frames":[
+      {"x":711,"y":657,"w":16,"h":13,"count":4},
+      {"x": 964, "y": 529, "w": 13, "h": 12},
+      {"x": 978, "y": 529, "w": 4, "h": 12},
+      {"x": 983, "y": 529, "w": 13, "h": 12},
+      {"x": 997, "y": 529, "w": 4, "h": 12}
+    ],
+    "frames per variant": 8,
+    "v2":[0, 0, 0, 0, [-4, -1], [-3, 2], [-2, -1], [-4, 0]],
+    "animation": [
+      {
+        "id":"$animationcaralertlights00",
+        "pos":[1,1, 0,-4, -5,-2, -6,1, 2,-2, -8,-4, -5,-2, -8,2],
+        "important": true
+      },
+      {
+        "id":"$animationcaralertlights00",
+        "pos":[4,0, 3,-3, -2,-3, -3,2, 2,0, -5,-4, -5,0, -5,2],
+        "important": true
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,8, 10,11, 0,0, 0,8, 0,10, 12,8, 0,0],
+        "frames": [1,2, 4, 5, 6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 4,10, 14,9, 0,0, 0,0, 3,10, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [10,10, 0,0, 0,0, 1,10, 12,8, 0,0, 0,8, 0,10],
+        "frames": [0,3, 4, 6, 7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13,9, 0,0, 0,0, 4,11, 0,0, 0,0, 0,0, 3,10],
+        "frames": [0,3, 7]
+      }
+    ],
+    "flag military":true,
+    "flag airport":true,
+    "flag emergency": true,
+    "chargeable": false,
+    "meta":{"tags":{"swat":{}}}
+  },
+
+  {
+    "id":"$garbagetruck00",
+    "type":"car",
+    "frames":[
+      {"x":640,"y":668,"w":17,"h":14},
+      {"x":657,"y":668,"w":18,"h":14},
+      {"x":675,"y":668,"w":18,"h":14},
+      {"x":693,"y":668,"w":17,"h":14}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 0, 11, 13, 13, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 13 , 17, 11, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13, 12, 0, 0, 0, 0, 0, 11],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [16, 11, 0, 0, 0, 0, 3, 12],
+        "frames": [0,3]
+      }
+    ],
+    "v2":[0,1,0,0],
+    "speed":0.9,
+    "flag military":true,
+    "flag airport":true,
+    "chargeable": false,
+    "meta":{"tags":{"garbage":{}}}
+  },
+  {
+    "id":"$recyclingtruck00",
+    "type":"car",
+    "frames":[
+      {"x":640,"y":682,"w":17,"h":14,"count":4}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 2, 10, 12, 10, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 11 , 14, 9, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [11, 11, 0, 0, 0, 0, 3, 10],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13, 10, 0, 0, 0, 0, 5, 11],
+        "frames": [0,3]
+      }
+    ],
+    "v2":true,
+    "speed":0.9,
+    "flag military":true,
+    "flag airport":true
+  },
+  {
+    "id":"$rangertruck00",
+    "type":"car",
+    "chargeable": false,
+    "frames":[
+      {"x":708,"y":683,"w":12,"h":12,"count":4},
+      {"x":553,"y":547,"w":12,"h":11},
+      {"x":565,"y":547,"w":5,"h":11},
+      {"x":570,"y":547,"w":12,"h":11},
+      {"x":582,"y":547,"w":5,"h":11}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 1,7, 8,8, 0,0,   1,5, 1,8, 11,5, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,8 , 10,7, 0,0,   0,0, 4,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [8,6, 0,0, 0,0, 1,8,   11,5, 0,0, 1,5, 1,8],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [10,5, 0,0, 0,0, 3,9,   0,0, 0,0, 0,0, 4,8],
+        "frames": [0,3, 7]
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[0, 0, 0, 0, [-4, -2], [-2, 2], [-2, -2], [-3, -1]]
+  },
+
+  {
+    "id":"$gocart00",
+    "type":"car",
+    "frames":[
+      {"x":580,"y":675,"w":7,"h":9,"count":4},
+      {"x":580,"y":684,"w":7,"h":9,"count":4},
+      {"x":580,"y":693,"w":7,"h":9,"count":4}
+    ],
+    "v2":true,
+    "speed":1.1,
+    "chargeable": false,
+    "flag pedestrian":true
+  },
+
+  {
+    "id":"$hearse00",
+    "type":"car",
+    "frames":[
+      {"x":710,"y":671,"w":18,"h":12},
+      {"x":729,"y":671,"w":18,"h":12},
+      {"x":748,"y":671,"w":18,"h":12},
+      {"x":767,"y":671,"w":18,"h":12},
+      {"x":512,"y":547,"w":15,"h":15},
+      {"x":527,"y":547,"w":5,"h":15},
+      {"x":532,"y":547,"w":15,"h":15},
+      {"x":547,"y":547,"w":5,"h":15}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 1,8, 13,10, 0,0,   1,10, 1,12, 14,10, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 4,10, 16,8, 0,0,   0,0, 4,12, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [13,10, 0,0, 0,0, 1,8,   14,10, 0,0, 1,10, 1,12],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [16,8, 0,0, 0,0, 4,10,   0,0, 0,0, 0,0, 4,12],
+        "frames": [0,3, 7]
+      }
+    ],
+    "v2":[0, 0, 0, 0, [-4, -2], [-2, 2], [-2, -1], [-3, -1]],
+    "frames per variant": 8,
+    "chargeable": false,
+    "flag military":true,
+    "meta": {"tags": {"car hearse": {}}}
+  },
+
+  {
+    "id":"$tank00",
+    "type":"car",
+    "frames":[{"x":786,"y":671,"w":23,"h":15,"count":4}],
+    "v2":true,
+    "speed":0.5,
+    "flag military":true,
+    "flag pedestrian":true,
+    "flag tram":true,
+    "flag airport":true,
+    "chargeable": false,
+    "meta":{"tags":{"military tank":{}}}
+  },
+
+  {
+    "id":"$mltry_truck00",
+    "type":"car",
+    "frames":[{"x":756,"y":686,"w":20,"h":16,"count":4}],
+    "v2":true,
+    "speed":0.9,
+    "flag military":true,
+    "flag pedestrian":true,
+    "flag tram":true,
+    "flag airport":true,
+    "chargeable": false,
+    "meta":{"tags":{"military truck":{}}}
+  },
+
+  {
+    "id":"$car_nation00",
+    "type":"car",
+    "frames":[{"x":512,"y":684,"w":12,"h":13,"count":4}],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 1, 8, 7, 10, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 10, 10, 8, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [7, 9, 0, 0, 0, 0, 1, 10],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [9, 8, 0, 0, 0, 0, 3, 11],
+        "frames": [0,3]
+      }
+    ],
+    "v2":true,
+    "speed":1.2,
+    "flag military":true,
+    "flag pedestrian":true,
+    "flag tram":true,
+    "flag airport":true,
+    "chargeable": false
+  },
+
+
+
+  {
+    "id":"$tractor_trailer00",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x":644,"y":709,"w":14,"h":11,"count":4},
+      {"x": 708, "y": 547, "w": 15, "h": 13},
+      {"x": 723, "y": 547, "w": 5, "h": 13},
+      {"x": 728, "y": 547, "w": 15, "h": 13},
+      {"x": 743, "y": 547, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,8, 9,10, 0,0, 0,8, 0,8, 13,8, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 4,10, 13,8, 0,0, 0,0, 3,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      }
+    ],
+    "v2":[3,1,2,0, [0,0],[-4,-2],[-4,0],[-4,2]]
+  },
+  {
+    "id":"$tractor00",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x":700,"y":717,"w":16,"h":10,"count":4},
+      {"x": 628, "y": 547, "w": 15, "h": 13},
+      {"x": 643, "y": 547, "w": 5, "h": 13},
+      {"x": 648, "y": 547, "w": 15, "h": 13},
+      {"x": 663, "y": 547, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,6, 12,7, 0,0, 0,8, 0,8, 13,8, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,7, 15,6, 0,0, 0,0, 3,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [7,5, 0,0, 0,0, 6,5, 9,7, 0,0, 4,7, 0,8],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [9,4, 0,0, 0,0, 8,6, 0,0, 0,0, 0,0, 3,8],
+        "frames": [0,3, 7]
+      }
+    ],
+    "speed":0.5,
+    "tail":["$tractor_trailer00"],
+    "v2":[3,1,1,1, [-4,0],[-4,0],[0,0],[-4,0]],
+    "flag normal":false,
+    "flag tractor":true
+  },
+  {
+    "id":"$tractor01",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x":700,"y":717,"w":16,"h":10,"count":4},
+      {"x": 628, "y": 547, "w": 15, "h": 13},
+      {"x": 643, "y": 547, "w": 5, "h": 13},
+      {"x": 648, "y": 547, "w": 15, "h": 13},
+      {"x": 663, "y": 547, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,6, 12,7, 0,0, 0,8, 0,8, 13,8, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,7, 15,6, 0,0, 0,0, 3,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [7,5, 0,0, 0,0, 6,5, 9,7, 0,0, 4,7, 0,8],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [9,4, 0,0, 0,0, 8,6, 0,0, 0,0, 0,0, 3,8],
+        "frames": [0,3, 7]
+      }
+    ],
+    "speed":0.5,
+    "v2":[3,1,1,1, [-4,0],[-4,0],[0,0],[-4,0]],
+    "flag normal":false,
+    "flag tractor":true
+  },
+  {
+    "id":"$tractor02",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x":644,"y":720,"w":13,"h":11,"count":4},
+      {"x": 668, "y": 547, "w": 15, "h": 13},
+      {"x": 683, "y": 547, "w": 5, "h": 13},
+      {"x": 688, "y": 547, "w": 15, "h": 13},
+      {"x": 703, "y": 547, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,7, 9,8, 0,0, 0,8, 0,8, 13,8, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,8, 12,7, 0,0, 0,0, 3,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [8,6, 0,0, 0,0, 2,5, 9,7, 0,0, 4,7, 0,9],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [10,5, 0,0, 0,0, 4,6, 0,0, 0,0, 0,0, 3,9],
+        "frames": [0,3, 7]
+      }
+    ],
+    "speed":0.5,
+    "v2":[3,1,3,1, [-4,0],[-4,0], [0,0], [-4,0]],
+    "flag normal":false,
+    "flag tractor":true
+  },
+  {
+    "id":"$tractor03",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x":772,"y":715,"w":12,"h":12,"count":4},
+      {"x": 588, "y": 547, "w": 15, "h": 13},
+      {"x": 603, "y": 547, "w": 5, "h": 13},
+      {"x": 608, "y": 547, "w": 15, "h": 13},
+      {"x": 623, "y": 547, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,7, 9,8, 0,0, 0,8, 0,8, 13,8, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 3,8, 12,7, 0,0, 0,0, 3,8, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [8,7, 0,0, 0,0, 2,6, 9,7, 0,0, 4,7, 0,9],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [10,6, 0,0, 0,0, 4,7, 0,0, 0,0, 0,0, 3,9],
+        "frames": [0,3, 7]
+      }
+    ],
+    "speed":0.5,
+    "v2":[3,1,3,1, [-4,0],[-4,0], [0,0], [-4,0]],
+    "flag normal":false,
+    "flag tractor":true
+  },
+
+  {
+    "id":"$car_com69_trailer00",
+    "type":"car",
+    //"frames per variant": 8,
+    "frames": [
+      {"x":592,"y":797,"w":20,"h":13,"count":4}
+    //  { "x": 592, "y": 797, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 338, "y": 361, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 352, "y": 361, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 357, "y": 361, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 371, "y": 361, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 }
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 1, 9, 11, 11, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 11, 14, 9, 0, 0],
+        "frames": [1,2]
+      }
+    ],
+    "v2":[-1,1,2,1]
+  },
+  {
+    "id":"$car_com69_truck00",
+    "type":"car",
+    "frames":[
+      {"x":704,"y":727,"w":16,"h":9,"count":4}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 0, 7, 9, 8, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 3, 8, 12, 7, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [12, 6, 0, 0, 0, 0, 4, 5],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [15, 5, 0, 0, 0, 0, 7, 6],
+        "frames": [0,3]
+      }
+    ],
+    "tail":["$car_com69_trailer00"],
+    "speed":0.9,
+    "v2":[1,2,3,3]
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "id":"$car_trailers00",
+    "type":"car",
+    //"frames per variant": 8,
+    "frames": [
+      {"x":783,"y":435,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":832,"y":422,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":863,"y":435,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":672,"y":797,"w":20,"h":13,"count":4},
+      {"x":770,"y":783,"w":20,"h":13,"count":4}
+    //  { "x": 783, "y": 435, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 512, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 526, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 531, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 545, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 832, "y": 422, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 512, "y": 299, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 526, "y": 299, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 531, "y": 299, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 545, "y": 299, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 863, "y": 435, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 551, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 565, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 570, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 584, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 672, "y": 797, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 551, "y": 299, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 565, "y": 299, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 570, "y": 299, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 584, "y": 299, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 770, "y": 783, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 590, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 604, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 609, "y": 284, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 623, "y": 284, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 }
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 1, 9, 11, 11, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 11, 14, 9, 0, 0],
+        "frames": [1,2]
+      }
+    ],
+    "v2":[-1,1,2,1]
+  },
+  {
+    "id":"$car_trailers01",
+    "type":"car",
+    //"frames per variant": 8,
+    "frames": [
+      {"x":770,"y":769,"w":20,"h":14,"count":4},
+      {"x":816,"y":751,"w":20,"h":13,"count":4},
+      {"x":816,"y":738,"w":20,"h":13,"count":4},
+      {"x":770,"y":809,"w":20,"h":13,"count":4},
+      {"x":623,"y":435,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024}
+    //  { "x": 770, "y": 769, "w": 20, "h": 14, "count": 4 },
+    //  { "x": 590, "y": 299, "w": 13, "h": 15, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 604, "y": 299, "w": 4, "h": 15, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 609, "y": 299, "w": 13, "h": 15, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 623, "y": 299, "w": 4, "h": 15, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 816, "y": 751, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 338, "y": 475, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 352, "y": 475, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 357, "y": 475, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 371, "y": 475, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 816, "y": 738, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 377, "y": 475, "w": 13, "h": 8, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 391, "y": 475, "w": 4, "h": 8, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 396, "y": 475, "w": 13, "h": 8, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 410, "y": 475, "w": 4, "h": 8, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 770, "y": 809, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 592, "y": 358, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 606, "y": 358, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 611, "y": 358, "w": 13, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 625, "y": 358, "w": 4, "h": 13, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 623, "y": 435, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 710, "w": 13, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 710, "w": 4, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 710, "w": 13, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 710, "w": 4, "h": 12, "offset x": 2048, "offset y": 1024 }
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 1, 11, 11, 13, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 4, 13, 14, 11, 0, 0],
+        "frames": [1,2]
+      }
+    ],
+    "v2":[-1,1,2,1]
+  },
+  {
+    "id":"$car_trailers02",
+    "type":"car",
+    //"frames per variant": 8,
+    "frames": [
+      {"x":703,"y":435,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":672,"y":422,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":752,"y":422,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":672,"y":409,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024}
+    //  { "x": 703, "y": 435, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 724, "w": 13, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 724, "w": 4, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 724, "w": 13, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 724, "w": 4, "h": 12, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 672, "y": 422, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 416, "y": 475, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 430, "y": 475, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 435, "y": 475, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 449, "y": 475, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 752, "y": 422, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 738, "w": 13, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 738, "w": 4, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 738, "w": 13, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 738, "w": 4, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 672, "y": 409, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 751, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 751, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 751, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 751, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 }
+    ],
+    "v2":[-1,1,2,1]
+  },
+  {
+    "id":"$car_trailers03",
+    "type":"car",
+    //"frames per variant": 8,
+    "frames": [
+      {"x":752,"y":409,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":832,"y":406,"w":20,"h":16,"count":4,"offset x":1024,"offset y":1024},
+      {"x":912,"y":400,"w":20,"h":13,"count":4,"offset x":1024,"offset y":1024},
+      {"x":770,"y":796,"w":20,"h":13,"count":4}
+    //  { "x": 752, "y": 409, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 763, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 763, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 763, "w": 13, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 763, "w": 4, "h": 10, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 832, "y": 406, "w": 20, "h": 16, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 775, "w": 13, "h": 17, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 775, "w": 4, "h": 17, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 775, "w": 13, "h": 17, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 775, "w": 4, "h": 17, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 912, "y": 400, "w": 20, "h": 13, "count": 4, "offset x": 1024, "offset y": 1024 },
+    //  { "x": 646, "y": 794, "w": 13, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 794, "w": 4, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 794, "w": 13, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 794, "w": 4, "h": 11, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 770, "y": 796, "w": 20, "h": 13, "count": 4 },
+    //  { "x": 646, "y": 807, "w": 13, "h": 9, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 660, "y": 807, "w": 4, "h": 9, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 665, "y": 807, "w": 13, "h": 9, "offset x": 2048, "offset y": 1024 },
+    //  { "x": 679, "y": 807, "w": 4, "h": 9, "offset x": 2048, "offset y": 1024 }
+    ],
+    "v2":[-1,1,2,1]
+  },
+
+
+
+  {
+    "id": "$template_car_truck00_lightdefs00",
+    "type": "template",
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 3, 7, 9, 8, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 6, 8, 12, 7, 0, 0],
+        "frames": [1,2]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [12, 6, 0, 0, 0, 0, 4, 5],
+        "frames": [0,3]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [15, 5, 0, 0, 0, 0, 7, 6],
+        "frames": [0,3]
+      }
+    ]
+  },
+  {
+    "id":"$car_truck00",
+    "type":"car",
+    "frames":[
+      {"x":704,"y":727,"w":16,"h":9,"count":4}, // blue
+      {"x":704,"y":736,"w":16,"h":9,"count":4}, // green
+      {"x":704,"y":745,"w":16,"h":9,"count":4}, // grey
+      {"x":704,"y":754,"w":16,"h":9,"count":4}, // red
+      {"x":704,"y":763,"w":16,"h":9,"count":4}  // yellow
+    ],
+    //"template": "$template_car_truck00_lightdefs00",
+    "speed":0.9,
+    "v2":[1,2,3,3],
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{"tags":{"carind0":{},"carind1":{},"carind2":{}}}
+  },
+  {
+    "id":"$car_truck01",
+    "type":"car",
+    "frames":[{"steal":"$car_truck00","count":20}],
+    //"template": "$template_car_truck00_lightdefs00",
+    "speed":0.9,
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{"tags":{"carind0":{},"carind1":{},"carind2":{}}},
+    "tail":["$car_trailers00"]
+  },
+  {
+    "id":"$car_truck02",
+    "type":"car",
+    "frames":[{"steal":"$car_truck00","count":20}],
+    //"template": "$template_car_truck00_lightdefs00",
+    "speed":0.9,
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{"tags":{"carind0":{},"carind1":{},"carind2":{}}},
+    "tail":["$car_trailers01"]
+  },
+  {
+    "id":"$car_truck03",
+    "type":"car",
+    "frames":[{"steal":"$car_truck00","count":20}],
+    //"template": "$template_car_truck00_lightdefs00",
+    "speed":0.9,
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{"tags":{"carind0":{},"carind1":{},"carind2":{}}},
+    "tail":["$car_trailers02"]
+  },
+  {
+    "id":"$car_truck04",
+    "type":"car",
+    "frames":[{"steal":"$car_truck00","count":20}],
+    //"template": "$template_car_truck00_lightdefs00",
+    "speed":0.9,
+    "flag normal":false,
+    "flag lkw":true,
+    "meta":{"tags":{"carind0":{},"carind1":{},"carind2":{}}},
+    "tail":["$car_trailers03"]
+  },
+
+  {
+    "id":"$presidential_convoy00",
+    "type":"car",
+    "frames":[
+      {"x":560,"y":684,"w":4,"h":4,"count":4,"handle x":-6}
+    ],
+    "v2":[4,4,3,2],
+    "animation": [
+      {
+        "id": "carlight_yellow",
+        "pos": [3, 2, 0, 0, 0, 0, 0, 2],
+        "frames": [0, 3]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0, 0, 0, 2, 3, 2, 0, 0],
+        "frames": [1, 2]
+      }
+    ],
+    "flag normal":false,
+    "flag pkw":true,
+    "tail": ["$carpolice00", "$car_nation00", "$car_null00", "$carres02", "$car_null00", "$car_nation00", "$car_null00", "$carpolice00"]
+  },
+
+  // Templates
+  {
+    "once":true,
+    "id": "$kulche_car_template_trailer_00",
+    "type": "template",
+    "v2": [[ 6, 3 ], [ 6, -2 ], [ 3, 0 ], [ 3, -1 ], [ 9, -1 ], [ -4, -4 ], [ -10, -1 ], [ -4, -1 ]],
+    "frames per variant": 8,
+    "frames": [
+      { "x": 243, "w": 18, "h": 8, "count": 4, "y": 722, "offset x": 2048, "offset y": 1024 },
+      { "x": 315, "w": 17, "h": 8, "y": 722, "offset x": 2048, "offset y": 1024 },
+      { "x": 332, "w": 4, "h": 8, "y": 722, "offset x": 2048, "offset y": 1024 },
+      { "x": 336, "w": 17, "h": 8, "y": 722, "offset x": 2048, "offset y": 1024 },
+      { "x": 353, "w": 4, "h": 8, "y": 722, "offset x": 2048, "offset y": 1024 }
+    ],
+    "animation": [
+      {
+        "id": "$kulche_car_semi_load_00",
+        "pos": [0, -7, 0, -7, 0, -7, 0, -7, 0, -7, 0, -7, 0, -7, 0, -7]
+      },
+      {
+        "id": "$kulche_car_light_back_01",
+        "pos": [-6, -4, -6, 5, 14, 5, 18, -4, -4, 1, -1, 6, 16, 1, -1, -10]
+      }
+    ]
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_template_small_00",
+    "type": "template",
+    "v2": [3, 0, 1, 0, -1, 0, 0, 0],
+    "frames per variant": 8,
+    "auto colorize": true,
+    "flag normal": false,
+    "flag pkw": true,
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_00",
+        "pos": [8, 5, 9, -2, -6, -2, -5, 5, 10, 3, 3, -4, -4, 3, 3, 7]
+      },
+      {
+        "id": "$kulche_car_light_back_00",
+        "pos": [-5, -2, -4, 5, 9, 5, 10, -2, -4, 3, 3, 7, 11, 3, 3, -3]
+      }
+    ]
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_template_minivan_00",
+    "type": "template",
+    "v2": [3, 0, 1, 0, -1, 0, 0, 0],
+    "frames per variant": 8,
+    "auto colorize": true,
+    "flag normal": false,
+    "flag pkw": true,
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_00",
+        "pos": [8, 6, 9, -1, -6, -1, -5, 6, 10, 4, 3, -4, -4, 4, 3, 8]
+      },
+      {
+        "id": "$kulche_car_light_back_00",
+        "pos": [-5, -1, -4, 6, 9, 6, 10, -1, -4, 4, 3, 8, 11, 4, 3, -3]
+      }
+    ]
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_template_van_00",
+    "type": "template",
+    "v2": [1, 0, 1, 0, -1, [1, 0], 0, [1, 0]],
+    "frames per variant": 8,
+    "auto colorize": true,
+    "flag normal": false,
+    "flag pkw": true,
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_01",
+        "pos": [10, 8, 12, 0, -8, 0, -8, 8, 13, 6, 4, -4, -5, 6, 4, 10]
+      },
+      {
+        "id": "$kulche_car_light_back_01",
+        "pos": [-6, 2, -6, 8, 10, 8, 14, 2, -4, 6, 4, 10, 13, 6, 4, -3]
+      }
+    ]
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_template_truck_00",
+    "type": "template",
+    "v2": [1, 2, 0, 1, -1, [3, 0], 0, [3, 0]],
+    "frames per variant": 8,
+    "auto colorize": true,
+    "flag normal": false,
+    "flag lkw": true
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_template_semi_00",
+    "type": "template",
+    "v2": [5, 1, 3, 1, 1, [-4, 0], [-12, 1], [-4, 0]],
+    "frames per variant": 8,
+    "auto colorize": true,
+    "flag normal": false,
+    "flag lkw": true
+  },
+
+  // Trailers
+  {
+    "once":true,
+    "id": "$kulche_car_trailer_00",
+    "type": "car",
+    "template": "$kulche_car_template_trailer_00"
+  },
+
+  // Cars
+  {
+    "once":true,
+    "id": "$kulche_car_small_00",
+    "type": "car",
+    "template": "$kulche_car_template_small_00",
+    "frames": [
+      {
+        "y": 657, "w": 12, "h": 9, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "meta": {"tags": {"carres0": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_small_01",
+    "type": "car",
+    "template": "$kulche_car_template_small_00",
+    "frames": [
+      {
+        "y": 666, "w": 12, "h": 9, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "meta": {"tags": {"carres1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_small_02",
+    "type": "car",
+    "template": "$kulche_car_template_small_00",
+    "frames": [
+      {
+        "y": 675, "w": 12, "h": 9, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "meta": {"tags": {"carres1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_small_03",
+    "type": "car",
+    "template": "$kulche_car_template_minivan_00",
+    "frames": [
+      {
+        "y": 684, "w": 12, "h": 10, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "meta": {"tags": {"carres1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_van_00",
+    "type": "car",
+    "template": "$kulche_car_template_van_00",
+    "frames": [
+      {
+        "y": 462, "w": 14, "h": 12, "count": 8,
+        "x": 337, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "meta": {"tags": {"carind0": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_truck_00",
+    "type": "car",
+    "template": "$kulche_car_template_truck_00",
+    "frames": [
+      {
+        "y": 694, "w": 18, "h": 15, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_01",
+        "pos": [14, 12, 16, 2, -8, 2, -8, 12, 17, 8, 6, -4, -5, 8, 6, 13]
+      },
+      {
+        "id": "$kulche_car_light_back_01",
+        "pos": [-6, 4, -6, 12, 14, 12, 18, 4, -4, 8, 6, 13, 17, 8, 6, -3]
+      },
+      {
+        "id": "$kulche_car_truck_load_00",
+        "pos": [0, 0, 0, 2, 4, 2, 4, 0, 0, 0, 7, 1, 5, 0, 7, 0]
+      }
+    ],
+    "meta": {"tags": {"carind1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_truck_01",
+    "type": "car",
+    "template": "$kulche_car_template_truck_00",
+    "frames": [
+      {
+        "y": 694, "w": 18, "h": 15, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_01",
+        "pos": [14, 12, 16, 2, -8, 2, -8, 12, 17, 8, 6, -4, -5, 8, 6, 13]
+      },
+      {
+        "id": "$kulche_car_light_back_01",
+        "pos": [-6, 4, -6, 12, 14, 12, 18, 4, -4, 8, 6, 13, 17, 8, 6, -3]
+      },
+      {
+        "id": "$kulche_car_truck_load_01",
+        "pos": [0, 0, 0, 2, 4, 2, 4, 0, 0, 0, 7, 1, 5, 0, 7, 0]
+      }
+    ],
+    "meta": {"tags": {"carind1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_truck_02",
+    "type": "car",
+    "template": "$kulche_car_template_truck_00",
+    "frames": [
+      {
+        "y": 694, "w": 18, "h": 15, "count": 8,
+        "x": 645, "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "animation": [
+      {
+        "id": "$kulche_car_light_front_01",
+        "pos": [14, 12, 16, 2, -8, 2, -8, 12, 17, 8, 6, -4, -5, 8, 6, 13]
+      },
+      {
+        "id": "$kulche_car_light_back_01",
+        "pos": [-6, 4, -6, 12, 14, 12, 18, 4, -4, 8, 6, 13, 17, 8, 6, -3]
+      },
+      {
+        "id": "$kulche_car_truck_load_02",
+        "pos": [0, 0, 0, 2, 4, 2, 4, 0, 0, 0, 7, 1, 5, 0, 7, 0]
+      }
+    ],
+    "meta": {"tags": {"carind1": {}}}
+  },
+  {
+    "once":true,
+    "id": "$kulche_car_semi_00",
+    "type": "car",
+    "template": "$kulche_car_template_semi_00",
+    "frames": [
+      {
+        "x": 200, "y": 162, "w": 9, "h": 9,
+        "count": 4, "offset x": 2048, "offset y": 1024
+      },
+      {
+        "x": 236, "y": 162, "w": 6, "h": 9,
+        "offset x": 2048, "offset y": 1024
+      }, {
+        "x": 242, "y": 162, "w": 4, "h": 9,
+        "offset x": 2048, "offset y": 1024
+      }, {
+        "x": 246, "y": 162, "w": 6, "h": 9,
+        "offset x": 2048, "offset y": 1024
+      }, {
+        "x": 252, "y": 162, "w": 4, "h": 9,
+        "offset x": 2048, "offset y": 1024
+      }
+    ],
+    "animation": [
+      {"id": "$kulche_car_semi_mask_00"},
+      {
+        "id": "$kulche_car_light_front_01",
+        "pos": [5, 6, 7, 0, -8, 0, -8, 6, 5, 4, -1, -4, -5, 4, -1, 7]
+      }
+    ],
+    "tail": ["$kulche_car_trailer_00"],
+    "meta": {"tags": {"carind1": {}, "carind2": {}}}
+  },
+
+  {
+    "id":"$native_snow_plow00",
+    "type":"car",
+    "frames per variant": 8,
+    "frames":[
+      {"x": 768, "y": 543, "w":15, "h":13, "count":4},
+      {"x": 828, "y": 543, "w": 15, "h": 13},
+      {"x": 843, "y": 543, "w": 5, "h": 13},
+      {"x": 848, "y": 543, "w": 15, "h": 13},
+      {"x": 863, "y": 543, "w": 5, "h": 13}
+    ],
+    "animation": [
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 0,7, 11,8, 0,0, 0,7, 0,9, 13,7, 0,0],
+        "frames": [1,2, 4,5,6]
+      },
+      {
+        "id": "carlight_red",
+        "pos": [0,0, 2,8, 13,7, 0,0, 0,0, 3,9, 0,0, 0,0],
+        "frames": [1,2, 5]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [9,8, 0,0, 0,0, 3,7, 9,7, 0,0, 4,7, 0,9],
+        "frames": [0,3, 4,6,7]
+      },
+      {
+        "id": "carlight_yellow",
+        "pos": [11,7, 0,0, 0,0, 5,8, 0,0, 0,0, 0,0, 3,9],
+        "frames": [0,3, 7]
+      }
+    ],
+    "speed":0.7,
+    "v2":[1,-2,-1,-1, [0,-2],[-3,0],[0,-1],[-4,0]],
+    "flag normal":true
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id":"$small_church00",
+    "type":"religion",
+    "width":1,
+    "height":1,
+    "frames":[{"x":928,"y":781,"w":32,"h":35,"offset x":1024,"offset y":1024}],
+    "price":1500,
+    "monthly price":8,
+    "influence religion":20,
+    "requirements":[{"type":"RANK","lvl":1}]
+  },
+  {
+    "id":"$small_mosque00",
+    "type":"religion",
+    "width":1,
+    "height":1,
+    "frames":[{"x":960,"y":770,"w":32,"h":46,"offset x":1024,"offset y":1024}],
+    "price":1500,
+    "monthly price":8,
+    "influence religion":20,
+    "requirements":[{"type":"RANK", "lvl":1}]
+  },
+
+  {
+    "id":"$church02",
+    "type":"religion",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1888,"y":1554,"w":96,"h":78}],
+    "price":4000,
+    "monthly price":16,
+    "influence religion":20,
+    "requirements":[{"type":"RANK", "lvl":4}]
+  },
+
+  {
+    "id":"$mosque01",
+    "type":"religion",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1952,"y":1632,"w":96,"h":96}],
+    "price":4000,
+    "monthly price":16,
+    "influence religion":20,
+    "requirements":[{"type":"RANK", "lvl":4}]
+  },
+
+  {
+    "id":"$church01",
+    "type":"religion",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1696,"y":1632,"w":128,"h":160}],
+    "frames winter":[{"x":0,"y":812,"w":128,"h":160,"offset x":1024,"offset y":2048}],
+    "price":20000,
+    "monthly price":24,
+    "influence religion":80,
+    "requirements":[{"type":"RANK", "lvl":9}]
+  },
+
+  {
+    "id":"$mosque00",
+    "type":"religion",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1824,"y":1632,"w":128,"h":160}],
+    "frames winter":[{"x":128,"y":812,"w":128,"h":160,"offset x":1024,"offset y":2048}],
+    "price":20000,
+    "monthly price":24,
+    "influence religion":80,
+    "requirements":[{"type":"RANK", "lvl":9}]
+  }
+]

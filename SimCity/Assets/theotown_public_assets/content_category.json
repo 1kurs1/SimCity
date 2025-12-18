@@ -1,0 +1,455 @@
+[
+  // This category is parent of all other categories. You can just ignore it.
+  {
+    "hidden":true,
+    "id":"$cat_root00",
+    "type":"category",
+    "frames":[null]
+  },
+
+  // This category can be used for drafts that should not be shown in the toolbar but still not hidden
+  // Useful e.g. for drafts that are also part of tool groups
+  {
+    "hidden": true,
+    "id": "$cat_hidden00",
+    "type": "category",
+    "category": "$cat_hidden00",
+    "frames": [null]
+  },
+
+  {
+    "id":"$cat_terrain00",
+    "type":"category",
+    "frames":[{"x":156,"y":683,"w":26,"h":26}],
+    "title id":"draftselector_titleterrain"
+  },
+  {
+    "id":"$cat_hills00",
+    "type":"category",
+    "frames":[{"x":286,"y":898,"w":26,"h":26}],
+    "category":"$cat_terrain00"
+  },
+  {
+    "id":"$cat_asphalt00",
+    "type":"category",
+    "frames":[{"x":104,"y":277,"w":26,"h":26,"offset x": 3072}],
+    "category":"$cat_terrain00"
+  },
+  {
+    "id":"$cat_tree00",
+    "type":"category",
+    "frames":[{"x":638,"y":64,"w":26,"h":26}],
+    "category":"$cat_terrain00"
+  },
+
+
+
+  {
+    "id":"$cat_transport00",
+    "type":"category",
+    "frames":[{"x":52,"y":631,"w":26,"h":26}],
+    "title id":"draftselector_titletransport"
+  },
+
+  // Road
+  {
+    "id":"$cat_road00",
+    "type":"category",
+    "frames":[{"x":52,"y":631,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+  {
+    "id":"$cat_roaddeco00",
+    "type":"category",
+    "frames":[{"x":364,"y":865,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+  {
+    "id":"$cat_streetlights00",
+    "type":"category",
+    "frames":[{"x":78,"y":832,"w":26,"h":26,"offset x": 3072}],
+    "category":"$cat_roaddeco00"
+  },
+  {
+    "id":"$cat_intersections00",
+    "type":"category",
+    "frames":[{"x":234,"y":277,"w":26,"h":26,"offset x":3072}],
+    "category":"$cat_transport00"
+  },
+
+  // Bus
+  {
+    "id":"$cat_bus00",
+    "type":"category",
+    "frames":[{"x":312,"y":527,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+
+  // Train
+  {
+    "id":"$cat_train00",
+    "type":"category",
+    "frames":[{"x": 193,"y": 926,"w": 26,"h": 26}],
+    "category":"$cat_transport00"
+  },
+  {
+    "id":"$cat_train00_parts00",
+    "type":"category",
+    "frames":[{"x":141,"y":926,"w":26,"h":26}],
+    "category":"$cat_train00",
+    "ordinal":10000,
+    "show new marker":false
+  },
+
+  // Elevated train
+  {
+    "id":"$cat_elevatedtrain00",
+    "type":"category",
+    "frames":[{"x":89,"y":926,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+
+  // Metro
+  {
+    "id":"$cat_metro00",
+    "type":"category",
+    "frames":[{"x":115,"y":926,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+
+  // Monorail
+  {
+    "id":"$cat_monorail00",
+    "type":"category",
+    "frames":[{"x":97,"y":951,"w":26,"h":26}],
+    "category":"$cat_transport00"
+  },
+  {
+    "id":"$cat_monorail00_parts00",
+    "title id": "draft_cat_train00_parts00_title",
+    "text id": "draft_cat_train00_parts00_text",
+    "type":"category",
+    "frames":[{"x":141,"y":926,"w":26,"h":26}],
+    "category":"$cat_monorail00",
+    "ordinal":10000,
+    "show new marker":false
+  },
+
+  // Airport
+  {
+    "id":"$cat_airport00",
+    "type":"category",
+    "frames":[{"x":208,"y":579,"w":26,"h":26}],
+    "title id":"draftselector_titleairport",
+    "category":"$cat_transport00"
+  },
+
+  {
+    "separator":true,
+    "id":"$cat_zone00",
+    "type":"category",
+    "frames":[{"x":156,"y":553,"w":26,"h":26}],
+    "title id":"draftselector_titlezone"
+  },
+
+  {
+    "id":"$cat_supply00",
+    "type":"category",
+    "frames":[{"x":312,"y":553,"w":26,"h":26}]
+  },
+  {
+    "separator":true,
+    "id":"$cat_energy00",
+    "type":"category",
+    "frames":[{"x":130,"y":553,"w":26,"h":26}],
+    "title id":"draftselector_titleenergy",
+    "category":"$cat_supply00"
+  },
+  {
+    "id": "$cat_water00",
+    "type": "category",
+    "frames":[{"x":104,"y":657,"w":26,"h":26}],
+    "title id":"draftselector_titlewater",
+    "category":"$cat_supply00"
+  },
+  {
+    "id":"$cat_wastedisposal00",
+    "type": "category",
+    "frames":[{"x":104,"y":527,"w":26,"h":26}],
+    "title id":"draftselector_titlewastedisposal",
+    "category":"$cat_supply00"//, "requirements":[{"type":"FEATURE", "id":"$feature_services00"}]
+  },
+  {
+    "id":"$cat_bodydisposal00",
+    "type": "category",
+    "frames":[{"x":286,"y":872,"w":26,"h":26}],
+    "title id":"draftselector_titlebodydisposal",
+    "category":"$cat_supply00"//, "requirements":[{"type":"FEATURE", "id":"$feature_services00"}]
+  },
+
+
+
+  {
+    "id":"$cat_public00",
+    "type":"category",
+    "frames":[{"x":78,"y":553,"w":26,"h":26}],
+    "title id":"draftselector_titlepublics"
+  },
+  {
+    "separator":true,
+    "id":"$cat_park00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":52,"y":605,"w":26,"h":26}],
+    "title id":"draftselector_titleparks"
+  },
+  {
+    "id":"$cat_sport00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":182,"y":709,"w":26,"h":26}],
+    "title id":"draftselector_titlesports"
+  },
+  {
+    "id":"$cat_management00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":78,"y":553,"w":26,"h":26}]
+  },
+  {
+    "id":"$cat_award00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":156,"y":657,"w":26,"h":26}],
+    "title id":"draftselector_titleaward"
+  },
+  {
+    "id":"$cat_religion00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":312,"y":709,"w":26,"h":26}],
+    "title id":"draftselector_titlereligion"
+  },
+  {
+    "separator":true,
+    "id":"$cat_decoration00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":130,"y":527,"w":26,"h":26}],
+    "title id":"draftselector_titledecoration"
+  },
+  {
+    "id":"$cat_fence00",
+    "type":"category",
+    "category":"$cat_decoration00",
+    "frames":[{"x":260,"y":277,"w":26,"h":26,"offset x": 3072}]
+  },
+  {
+    "id":"$category_wintertime00",
+    "alias":"$category_christmas00",
+    "title id":"draft_category_christmas00_title",
+    "text id":"draft_category_christmas00_text",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":234,"y":553,"w":26,"h":26}]
+  },
+  {
+    "id":"$category_firework00",
+    "type":"category",
+    "category":"$cat_public00",
+    "frames":[{"x":234,"y":527,"w":26,"h":26}]
+  },
+
+
+
+  {
+    "id":"$cat_service00",
+    "type":"category",
+    "frames":[{"x":312,"y":820,"w":26,"h":26}]
+  },
+  {
+    "separator":true,
+    "id":"$cat_firebrigade00",
+    "type":"category",
+    "category":"$cat_service00",
+    "frames":[{"x":130,"y":631,"w":26,"h":26}],
+    "title id":"draftselector_titlefiredepartment"
+  },
+  {
+    "id":"$cat_education00",
+    "type":"category",
+    "category":"$cat_service00",
+    "frames":[{"x":130,"y":657,"w":26,"h":26}],
+    "title id":"draftselector_titleschool"
+  },
+  {
+    "id":"$cat_medic00",
+    "type":"category",
+    "category":"$cat_service00",
+    "frames":[{"x":130,"y":579,"w":26,"h":26}],
+    "title id":"draftselector_titlehealth"
+  },
+  {
+    "id":"$cat_police00",
+    "type":"category",
+    "category":"$cat_service00",
+    "frames":[{"x":130,"y":605,"w":26,"h":26}],
+    "title id":"draftselector_titlepolice"
+  },
+  {
+    "id":"$cat_military00",
+    "type":"category",
+    "category":"$cat_service00",
+    "frames":[{"x":156,"y":527,"w":26,"h":26}],
+    "title id":"draftselector_titlemilitary"
+  },
+
+
+
+
+  {
+    "id":"$cat_landmark00",
+    "type":"category",
+    //"category":"$cat_public00",
+    "frames":[{"x":312,"y":605,"w":26,"h":26}],
+    "title id":"draftselector_titlelandmark"
+  },
+
+
+
+  {
+    "separator":true,
+    "id":"$cat_disaster00",
+    "type":"category",
+    "frames":[{"x":364,"y":709,"w":26,"h":26}],
+    "title id":"draftselector_titlecatastrophes"
+  },
+
+
+
+  {
+    "hidden":true,
+    "id":"$cat_recent00",
+    "type":"category",
+    "frames":[{"x":286,"y":657,"w":26,"h":26}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_plugins00",
+    "type":"category",
+    "frames":[{"x":182,"y":874,"w":26,"h":26}]
+  },
+
+
+  {
+    "hidden":true,
+    "id":"$cat_residential00",
+    "type":"category",
+    "frames":[{"x":0,"y":553,"w":26,"h":26}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_commercial00",
+    "type":"category",
+    "frames":[{"x":0,"y":579,"w":26,"h":26}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_industrial00",
+    "type":"category",
+    "frames":[{"x":0,"y":605,"w":26,"h":26}]
+  },
+
+  {
+    "hidden": true,
+    "id":"$cat_rci_parts00",
+    "type":"category",
+    "frames":[{"x":141,"y":926,"w":26,"h":26}],
+    "ordinal":10000,
+    "show new marker":false
+  },
+  {
+    "hidden":true,
+    "id":"$cat_level00",
+    "type":"category",
+    "frames":[{"x":286,"y":820,"w":26,"h":26}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_level01",
+    "type":"category",
+    "frames":[{"x":286,"y":846,"w":26,"h":26}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_level02",
+    "type":"category",
+    "frames":[{"x":312,"y":846,"w":26,"h":26}]
+  },
+
+  {
+    "hidden":true,
+    "id":"$cat_residential00_level00",
+    "type":"category",
+    "title id": "draft_cat_residential00_title",
+    "preview frames":[{"steal": "$cat_residential00"},{"steal": "$cat_level00"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_residential00_level01",
+    "type":"category",
+    "title id": "draft_cat_residential00_title",
+    "preview frames":[{"steal": "$cat_residential00"},{"steal": "$cat_level01"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_residential00_level02",
+    "type":"category",
+    "title id": "draft_cat_residential00_title",
+    "preview frames":[{"steal": "$cat_residential00"},{"steal": "$cat_level02"}]
+  },
+
+  {
+    "hidden":true,
+    "id":"$cat_commercial00_level00",
+    "type":"category",
+    "title id": "draft_cat_commercial00_title",
+    "preview frames":[{"steal": "$cat_commercial00"},{"steal": "$cat_level00"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_commercial00_level01",
+    "type":"category",
+    "title id": "draft_cat_commercial00_title",
+    "preview frames":[{"steal": "$cat_commercial00"},{"steal": "$cat_level01"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_commercial00_level02",
+    "type":"category",
+    "title id": "draft_cat_commercial00_title",
+    "preview frames":[{"steal": "$cat_commercial00"},{"steal": "$cat_level02"}]
+  },
+
+  {
+    "hidden":true,
+    "id":"$cat_industrial00_level00",
+    "type":"category",
+    "title id": "draft_cat_industrial00_title",
+    "preview frames":[{"steal": "$cat_industrial00"},{"steal": "$cat_level00"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_industrial00_level01",
+    "type":"category",
+    "title id": "draft_cat_industrial00_title",
+    "preview frames":[{"steal": "$cat_industrial00"},{"steal": "$cat_level01"}]
+  },
+  {
+    "hidden":true,
+    "id":"$cat_industrial00_level02",
+    "type":"category",
+    "title id": "draft_cat_industrial00_title",
+    "preview frames":[{"steal": "$cat_industrial00"},{"steal": "$cat_level02"}]
+  }
+]

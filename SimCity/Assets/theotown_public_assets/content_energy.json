@@ -1,0 +1,322 @@
+[
+  {
+    "id":"$wire00",
+    "type":"wire",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":1536,"y":1984,"w":32,"h":32,"count":16},
+      {"x":1536,"y":2016,"w":32,"h":32,"count":16}],
+    "spacing":3,
+    "max spacing":8,
+    "price":30,
+    "monthly price":0,
+    "preview frames":[{"x":448,"y":752,"w":64,"h":32}],
+    "connectable":false,
+    "level":0,
+    "power":-0.1,
+    "water":0,
+    "energy radius":5
+  },
+  {
+    "id":"$underground_wire00",
+    "type":"wire",
+    "level":-1,
+    "frames":[{"x":512,"y":256,"w":32,"h":16,"count":16,"offset x":1024,"offset y":3072}],
+    "preview frames":[{"x":512,"y":752,"w":64,"h":32}],
+    "power":-0.1,
+    "water":0,
+    "price":800,
+    "monthly price":8,
+    "requirement":{"requirements":[
+      {"type":"FEATURE", "data":{"id":"$feature_underground_wire00"}},
+      {"type":"RANK", "data":{"lvl":3}}
+    ]},
+    "energy radius":5
+  },
+  {
+    "id":"$wire01",
+    "type":"wire",
+    "width":1,
+    "height":1,
+    "frames":[
+      {"x":0,"y":838,"w":32,"h":78,"count":16,"offset x":3072,"offset y":1024},
+
+
+      {"x":0,"y":838,"w":32,"h":78,"count":5,"offset x":3072,"offset y":1024},
+      {"x":960,"y":434,"w":32,"h":78,"offset x":3072,"offset y":1024},
+      {"x":192,"y":838,"w":32,"h":78,"count":4,"offset x":3072,"offset y":1024},
+      {"x":992,"y":434,"w":32,"h":78,"offset x":3072,"offset y":1024},
+      {"x":352,"y":838,"w":32,"h":78,"count":5,"offset x":3072,"offset y":1024},
+
+      {"x":0,"y":838,"w":32,"h":43,"count":16,"offset x":3072,"offset y":1024, "handle y": 70}
+    ],
+    "spacing":8,
+    "max spacing":16,
+    "price":400,
+    "monthly price":5,
+    "water":0,
+    "preview frames":[{"x":896,"y":960,"w":128,"h":64,"target w":64,"target h":32,"offset x":3072}],
+    "connectable":true,
+    "level":1,
+    "requirement":{"requirements":[
+      {"type":"FEATURE", "data":{"id":"$feature_transmissionline00"}},
+      {"type":"RANK", "data":{"lvl":4}}
+    ]},
+    "energy radius":1
+  },
+  {
+    "id":"$transformator00",
+    "type":"energy",
+    "width":1,
+    "height":1,
+    "frames":[{"x":992,"y":902,"w":32,"h":42,"offset x":1024,"offset y":1024}],
+    "animation":[
+      {"id":"$animationblinkingredlight3x3","x":18,"y":-19},
+      {"id":"$animationblinkingredlight3x3","x":26,"y":-23},
+      {"id":"$animationblinkingredlight3x3","x":5,"y":-25},
+      {"id":"$animationblinkingredlight3x3","x":13,"y":-29}
+    ],
+    "price":1000,
+    "monthly price":50,
+    "water":0,
+    "needs road":false,
+    "super conductive":true,
+    "requirement":{"requirements":[
+      {"type":"FEATURE", "data":{"id":"$feature_transmissionline00"}},
+      {"type":"RANK", "data":{"lvl":3}}
+    ]}
+  },
+
+  {
+    "separator":true,
+    "id":"$solarpanels00",
+    "type":"energy",
+    "width":3,
+    "height":3,
+    "frames":[
+      {"x":1792,"y":1366,"w":96,"h":58},
+      {"x":1696,"y":1366,"w":96,"h":58}
+    ],
+    "animation":[{"id":"$animationblinkingredlight3x3","x":48,"y":18}],
+    "draw ground": true,
+    "price":800,
+    "monthly price":20,
+    "power":50,
+    "water":0,
+    "build height":2,
+    "needs road":false,
+    "free build time skip":true
+  },
+
+  {
+    "id":"$windturbine00",
+    "type":"energy",
+    "width":3,
+    "height":3,
+    "frames":[{"x":1792,"y":1264,"w":96,"h":96}],
+    "frames winter":[{"x":800,"y":226,"w":96,"h":96,"offset x":1024,"offset y":2048}],
+    "animation":[
+      {"id":"2x2l", "x":67, "y":-2},
+      {"id":"$animationblinkingredlight3x3","x":23,"y":-71},
+      {"id":"$animationfan00","x":7,"y":-94}],
+    "price":3200,
+    "monthly price":30,
+    "influence noise":3,
+    "power":200,
+    "water":0,
+    "needs road":false,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":1}}]},
+    "performance":true
+  },
+
+  {
+    "id":"$gasplant00",
+    "type":"energy",
+    "width":4,
+    "height":4,
+    "frames":[{"x":1024,"y":1732,"w":128,"h":180}],
+    "price":20000,
+    "monthly price":100,
+    "influence pollution":4,
+    "influence noise":8,
+    "power":1500,
+    "build height":12,
+    "water":0,
+    "smoke":[
+      {"id":"$watervapor00","x":96,"y":-148}
+    ],
+    "animation":[
+      {"id":"1x3l", "x":59, "y":11},
+      {"id":"$animationblinkingredlight3x3","x":108,"y":-138},
+      {"id":"$animationblinkingredlight3x3","x":108,"y":-122},
+      {"id":"$animationblinkingredlight3x3","x":108,"y":-106},
+      {"id":"$animationblinkingredlight3x3","x":38,"y":-75},
+      {"id":"$animationblinkingredlight3x3","x":49,"y":-70}
+    ],
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":4}}]},
+    "super conductive":true,
+    "performance":true
+  },
+   
+  {
+    "id":"$coalplant00",
+    "type":"energy",
+    "width":5,
+    "height":5,
+    "frames":[{"x":1536,"y":1536,"w":160,"h":240}],
+    "animation":[
+      {"id":"$animationblinkingredlight3x3","x":84,"y":-173}
+    ],
+    "smoke":[
+      {"id":"$smoke03","x":69,"y":-183},
+      {"id":"$smoke03","x":80,"y":-189},
+      {"id":"$smoke05","x":94,"y":-61},
+      {"id":"$smoke05","x":102,"y":-57}
+    ],
+    "price":70000,
+    "monthly price":1000,
+    "influence pollution":8,
+    "influence noise":8,
+    "power":10000,
+    "build height":12,
+    "water":0,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":7}}]},
+    "super conductive":true,
+    "performance":true
+  },
+
+
+
+  {
+    "id":"$anim_hydroplant00_00","type":"animation",
+    "frames":[
+      {"x":0,"y":753,"w":149,"h":85,"offset x":3072,"offset y":1024,"handle x":0,"handle y":57},
+      {"x":149,"y":753,"w":147,"h":85,"offset x":3072,"offset y":1024,"handle x":0,"handle y":34},
+      {"x":0,"y":668,"w":147,"h":85,"offset x":3072,"offset y":1024,"handle x":-45,"handle y":34},
+      {"x":147,"y":668,"w":149,"h":85,"offset x":3072,"offset y":1024,"handle x":-43,"handle y":57}
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$anim_hydroplant00_water00",
+    "type":"animation",
+    "frames":[{"x":928,"y":831,"w":12,"h":10,"count":4,"offset x":3072,"offset y":1024}]
+  },
+  {
+    "id":"$anim_hydroplant00_water01",
+    "type":"animation",
+    "frames":[{"x":976,"y":831,"w":12,"h":10,"count":4,"offset x":3072,"offset y":1024}]
+  },
+  {
+    "id":"$anim_hydroplant00_water02",
+    "type":"animation",
+    "frames":[{"x":964,"y":831,"w":12,"h":10,"count":4,"offset x":3072,"offset y":1024,"skip width factor":-1}]
+  },
+  {
+    "id":"$anim_hydroplant00_water03",
+    "type":"animation",
+    "frames":[{"x":1012,"y":831,"w":12,"h":10,"count":4,"offset x":3072,"offset y":1024,"skip width factor":-1}]
+  },
+  {
+    "id":"$hydroplant00",
+    "type":"energy",
+    "author":"22Alpha",
+    "width":6,
+    "height":6,
+    "water":0,
+    "power":50000,
+    "price":130000,
+    "monthly price":3000,
+    "influence noise":4,
+    "draw ground":true,
+    "needs road":false,
+    "needs land":true,
+    "needs water":true,
+    "rotation aware":true,
+    "frames":[{"x":0,"y":0,"w":0,"h":105,"count":4}],
+    "animation":[
+      {"id":"$anim_hydroplant00_00"},
+
+      {"id":"$anim_hydroplant00_water00","x":64,"y":6},
+      {"id":"$anim_hydroplant00_water00","x":70,"y":-7},
+      {"id":"$anim_hydroplant00_water00","x":80,"y":-2},
+      {"id":"$anim_hydroplant00_water00","x":86,"y":-15},
+      {"id":"$anim_hydroplant00_water00","x":96,"y":-10},
+      {"id":"$anim_hydroplant00_water00","x":112,"y":-17},
+
+      {"id":"$anim_hydroplant00_water01","x":72,"y":-16},
+      {"id":"$anim_hydroplant00_water01","x":88,"y":-8},
+      {"id":"$anim_hydroplant00_water01","x":104,"y":0},
+
+
+      {"id":"$anim_hydroplant00_water02","x":76,"y":0},
+      {"id":"$anim_hydroplant00_water02","x":92,"y":-8},
+      {"id":"$anim_hydroplant00_water02","x":108,"y":-16},
+
+      {"id":"$anim_hydroplant00_water03","x":116,"y":6},
+      {"id":"$anim_hydroplant00_water03","x":110,"y":-7},
+      {"id":"$anim_hydroplant00_water03","x":100,"y":-2},
+      {"id":"$anim_hydroplant00_water03","x":94,"y":-15},
+      {"id":"$anim_hydroplant00_water03","x":84,"y":-10},
+      {"id":"$anim_hydroplant00_water03","x":68,"y":-17}
+    ],
+    "frame animation indices":[
+      [0, 1,2,3,4,5,6],
+      [0, 7,8,9],
+      [0, 10,11,12],
+      [0, 13,14,15,16,17,18]
+    ],
+    "super conductive":true,
+    "meta":{
+      "water mask":[
+        false, false, false, false, false, false,
+        true,  true,  true,  true,  true,  true,
+        true,  true,  true,  true,  true,  true,
+        true,  true,  true,  true,  true,  true,
+        true,  true,  true,  true,  true,  true,
+        false, false, false, false, false, false
+      ],
+      "search tags":["water", "power"]
+    },
+    "requirements":[{"type":"RANK","lvl":9}],
+    "performance":true,
+    "supports terrain": false,
+    "draw water borders": false
+  },
+
+  {
+    "id":"$nuclearplant00",
+    "type":"energy",
+    "width":6,
+    "height":6,
+    "frames":[{"x":1344,"y":1872,"w":192,"h":176}],
+    "smoke":[
+      {"id":"$watervapor00","x":50,"y":-61},
+      {"id":"$watervapor00","x":90,"y":-81},
+      {"id":"$smoke06","x":70,"y":-34},
+      {"id":"$smoke06","x":80,"y":-39},
+      {"id":"$smoke05","x":143,"y":-125}
+    ],
+    "animation":[
+      {"id":"3x3_rtl", "x":53, "y":-6},
+      {"id":"3x3_rtl", "x":53, "y":12},
+      {"id":"3x3_rtl", "x":61, "y":16},
+      {"id":"$animationblinkingredlight3x3","x":147,"y":-124},
+      {"id":"$animationblinkingredlight3x3","x":147,"y":-106},
+      {"id":"$animationblinkingredlight3x3","x":147,"y":-87}
+    ],
+    "price":1000000,
+    "monthly price":5000,
+    "power":100000,
+    "water":-3000,
+    "influence noise":2,
+    "influence radioactive":60,
+    "requirement":{"requirements":[{"type":"RANK", "data":{"lvl":11}}]},
+    "explodes":true,
+    "explosion radius":24,
+    "nuclear":true,
+    "super conductive":true,
+    "performance":true
+  }
+]
