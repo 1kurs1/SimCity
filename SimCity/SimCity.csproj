@@ -55,31 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BuildingSelector.xaml.cs">
-      <DependentUpon>BuildingSelector.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="GameCanvas.xaml.cs">
-      <DependentUpon>GameCanvas.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Game\Camera.cs" />
-    <Compile Include="Game\EconomySystem.cs" />
-    <Compile Include="Game\GameController.cs" />
-    <Compile Include="Game\GameState.cs" />
-    <Compile Include="Game\WorldCoordinateSystem.cs" />
-    <Compile Include="Map\BuildingInfo.cs" />
-    <Compile Include="Map\LandscapeType.cs" />
-    <Compile Include="Map\TileSize.cs" />
-    <Compile Include="UI\MainViewModel.cs" />
-    <Compile Include="UI\OrthographicRenderer.cs" />
-    <Compile Include="UI\TileViewModel.cs" />
-    <Page Include="BuildingSelector.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="GameCanvas.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="BuildingPlaceholder.cs" />
+    <Compile Include="SimulationManager.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="Zone.cs" />
+    <Compile Include="ZoningManager.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -88,15 +68,16 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Building.cs" />
+    <Compile Include="Camera.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Map\GameMap.cs" />
-    <Compile Include="Map\Tile.cs" />
-    <Compile Include="Map\TileType.cs" />
+    <Compile Include="MapManager.cs" />
+    <Compile Include="PowerPlant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -114,7 +95,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Game\BuildingRegistry.cs" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -124,22 +104,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Sprites\empty.png" />
+    <Resource Include="Assets\building_commercial_1.png" />
+    <Resource Include="Assets\grass.png" />
+    <Resource Include="Assets\building_residential_1.png" />
+    <Resource Include="Assets\building_industrial_1.png" />
+    <Resource Include="Assets\residential.png" />
+    <Resource Include="Assets\road.png" />
+    <Resource Include="Assets\town_hall.png" />
+    <Resource Include="Assets\water.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Sprites\town_hall.png" />
+    <Resource Include="Assets\zone_commercial.png" />
+    <Resource Include="Assets\zone_industrial.png" />
+    <Resource Include="Assets\zone_residential.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Sprites\industrial.png" />
+    <Resource Include="Assets\powerplant.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Sprites\road.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Sprites\residential.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Sprites\house_small.png" />
+    <Resource Include="Assets\building_commercial_2.png" />
+    <Resource Include="Assets\building_residential_2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
